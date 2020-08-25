@@ -1,4 +1,25 @@
 ---
+usp:
+ - button: Wynagradzamy Cię za Twój czas
+   desc: Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji
+   icon: salary.png
+   id: usp-1
+ - button: Zero CV
+   desc: Nie tracisz czasu, poświęcasz go jedynie na uzupełnienie profilu, potem hiree załatwia sprawy za Ciebie – szybko, wygodnie, precyzyjnie.
+   icon: skills.svg
+   id: usp-2
+ - button: Praca znajduje Ciebie
+   desc: Hiree daje Ci znać, jeśli możesz oczekiwać większego wynagrodzenia, bo gramy w otwarte karty i zależy nam na Twojej przyszłości.
+   icon: salary.png
+   id: usp-3
+ - button: Twoja kariera pod opieką
+   desc: Gramy w otwarte karty i zależy nam na Twojej przyszłości, dlatego dzięki aplikacji jesteś na bieżąco z rynkiem pracy
+   icon: skills.svg
+   id: usp-4
+ - button: Eliminujesz rekrutacyjny bełkot
+   desc: Hiree zwalcza ocenę przez pryzmat ładnego CV, stawia na to co potrafisz i jak praca pasuje do Twoich oczekiwań
+   icon: salary.png
+   id: usp-5
 features:
  - desc: pracujesz w IT lub Service Deskach i chcesz zarabiać tyle, ile Twoi znajomi z branży
    icon: cash
@@ -40,7 +61,7 @@ features:
 
 <section class="bg-primary-light flex-column relative">
   <span class="circle absolute mobile-hide" style="top: -68%; right: -28%;"></span>
-  <span class="circle absolute" style="bottom: -7%; right: -22%;"></span>
+  <span class="circle absolute hide mobile-block" style="bottom: -7%; right: -22%;"></span>
   <header class="col-12 mobile-flex justify-center">
     <span class="icon icon__logo-white"></span>
   </header>
@@ -71,19 +92,27 @@ features:
   <div class="flex col-12 flex-column">
     <p class="font-p1 secondary animate fade-right">Znowu tracisz czas na przeszukiwanie ofert pracy, <br> które nie zbliżają Cię do pracy marzeń? <br> Zrobimy to za Ciebie, bez wysiłku.</p>
     <div class="flex col-12 relative">
-      <div class="col-10 mt3 animate fade-left">
-        <p class="font-p3 col-5 secondary-light">Hiree pomoże Ci w precyzyjnym dobraniu pracy do swoich potrzeb i kompetencji.</p>
-        <div class="usp__button mt7 usp__button--active">Wynagradzamy Cię za Twój czas</div>
-        <div class="usp__button">Zero CV</div>
-        <div class="usp__button">Praca znajduje Ciebie</div>
-        <div class="usp__button">Twoja kariera pod opieką</div>
-        <div class="usp__button">Eliminujesz rekrutacyjny bełkot</div>
-        <div class="mt4 pl5 col-5 relative">
+      <div class="col-10 mt3 animate fade-left mobile-col-12">
+        <p class="font-p3 mb7 col-5 secondary-light mobile-col-12">Hiree pomoże Ci w precyzyjnym dobraniu pracy do swoich potrzeb i kompetencji.</p>
+        <div class="usp">
+          {% for usp in page.usp %}
+            <div class="usp__container">
+              <div class="usp__button {% if forloop.first %}usp__button--active{% endif %}">{{ usp.button }}</div>
+              <div id="{{ usp.id }}"  class="usp__content hide mobile-block">
+                <p class="font-p2 mt2">{{ usp.desc }}</p>
+                <div class="col-12 my5">
+                  <img class="img-fit" src="{{ site.baseurl }}/assets/svg/{{ usp.icon }}" alt="">
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="mt4 pl5 col-5 relative mobile-hide">
           <p class="font-p2 usp__text usp__text--hidden">Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji</p>
           <p class="font-p2 usp__text usp__text--shown">Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji</p>
         </div>
       </div>
-      <div class="usp__outer">
+      <div class="usp__outer mobile-hide">
         <div class="usp__inner">
           <img src="{{ site.baseurl }}/assets/svg/salary.png" class="usp__preview usp__preview--hidden" alt="">
           <img src="{{ site.baseurl }}/assets/svg/salary.png" class="usp__preview usp__preview--shown" alt="">

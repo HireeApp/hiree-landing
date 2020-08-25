@@ -46,6 +46,35 @@ const setButtonActive = (button, index) => {
     togglePreview(visibleImg);
     togglePreview(hiddenImg);
   }
+
+  toggleAccordion(button.parentElement.querySelector('.usp__content').id);
 }
 
 if (uspButtons) uspButtons.forEach((button, index) => button.addEventListener('click', () => setButtonActive(button, index)));
+
+let originalHeights;
+let accordions;
+
+window.onload = () => {
+  accordions = Array.from(document.getElementsByClassName('usp__content'));
+  if (accordions) {
+    originalHeights = accordions.map(accordion => ({ id: accordion.id, accordionHeight: accordion.offsetHeight }));
+    accordions.forEach((accordion, index) => {
+      if (index > 0) accordion.style.height = '0';
+    });
+  }
+}
+
+const toggleAccordion = (id) => {
+  const accordion = document.getElementById(id);
+  const accordionData = originalHeights.find(el => el.id === id);
+  accordions.forEach(el => {
+    if (el.id !== id && el.offsetHeight > 0) {
+      el.style.height = '0';
+    }
+  })
+  if (accordion && accordionData) {
+    if (accordion.offsetHeight === 0) accordion.style.height = accordionData.accordionHeight + 'px';
+    else accordion.style.height = '0';
+  }
+}
