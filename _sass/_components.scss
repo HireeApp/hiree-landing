@@ -75,7 +75,12 @@
 
 
 .features {
+  overflow: scroll;
+  max-width: 100vw;
+
   &__container {
+    min-width: 240px;
+
     &:nth-child(2) {
       left: -$space-2;
       transition-delay: .25s;

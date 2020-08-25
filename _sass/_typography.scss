@@ -6,6 +6,10 @@ html, body {
 h1 {
   font-weight: $fw-medium;
   font-size: $h1;
+
+  @include mobile() {
+    font-size: $h2;
+  }
 }
 
 h2 {
@@ -15,10 +19,18 @@ h2 {
 
 .font-p1 {
   font-size: $p1;
+
+  @include mobile() {
+    font-size: $p2;
+  }
 }
 
 .font-p2 {
   font-size: $p2;
+
+  @include mobile() {
+    font-size: $p3;
+  }
 }
 
 .font-p3 {
@@ -68,3 +80,10 @@ h2 {
 .center {
   text-align: center;
 }
+
+@include mobile() {
+  .mobile-center {
+    text-align: center;
+  }
+}
+

@@ -30,6 +30,20 @@ section {
   &:last-of-type {
     padding: 256px 64px $space-3;
   }
+
+  @include mobile() {
+    &:not(:first-of-type):not(:last-of-type):not(.section--sm) {
+      padding: 128px $space-4;
+    }
+
+    &:last-of-type {
+      padding: 164px $space-4 $space-3;
+    }
+
+    &:first-of-type {
+      padding: $space-7 $space-4;
+    }
+  }
 }
 
 .icon-bg {
@@ -45,11 +59,19 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @include mobile() {
+      background-position: right;
+    }
   }
 }
 
 header {
   margin-bottom: 96px;
+
+  @include mobile() {
+    margin-bottom: $space-5;
+  }
 }
 
 .bg-primary-light {

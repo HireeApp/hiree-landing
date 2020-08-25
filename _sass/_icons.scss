@@ -17,24 +17,45 @@
     width: 168px;
     height: 56px;
     background-image: url($baseurl + "/assets/svg/app-store.svg");
+
+    @include mobile {
+      width: 126px;
+      height: 42px;
+    }
   }
 
   &__google-play {
     width: 188px;
     height: 56px;
     background-image: url($baseurl + "/assets/svg/google-play.svg");
+
+    @include mobile {
+      width: 141px;
+      height: 42px;
+    }
   }
 
   &__loup-bg {
     width: 40vw;
     height: 40vw;
     background-image: url($baseurl + "/assets/svg/loup-gray.svg");
+
+    @include mobile() {
+      width: 80vw;
+      height: 80vw;
+      transform: rotate(90deg);
+    }
   }
 
   &__skills {
     width: 350px;
     height: 175px;
     background-image: url($baseurl + "/assets/svg/skills.svg");
+
+    @include mobile() {
+      width: 262px;
+      height: 131px;
+    }
   }
 }
 
@@ -43,6 +64,10 @@
   height: 80vw;
   border-radius: 50%;
   border: 75px solid $primary;
+
+  @include mobile() {
+    border-width: 35px;
+  }
 }
 
 .rectangle {

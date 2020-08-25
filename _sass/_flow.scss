@@ -80,8 +80,20 @@
     display: none;
   }
 
+  .mobile-flex {
+    display: flex;
+  }
+
   .mobile-flex-column {
     flex-direction: column;
+  }
+
+  .mobile-items-center {
+    align-items: center;
+  }
+
+  .mobile-justify-center {
+    justify-content: center;
   }
 
   .mobile-flex-column-reverse {
