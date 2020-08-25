@@ -3,7 +3,7 @@
 const uspButtons = Array.from(document.getElementsByClassName('usp__button'));
 const uspText = document.getElementById('usp__text');
 
-const icons = ['salary.png', 'skills.svg', 'salary.png', 'skills.svg', 'salary.png'];
+const icons = ['salary.png', 'skills-big.png', 'offers-preview.png', 'career.png', 'recrutation.png'];
 const texts = [
   'Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji',
   'Nie tracisz czasu, poświęcasz go jedynie na uzupełnienie profilu, potem hiree załatwia sprawy za Ciebie – szybko, wygodnie, precyzyjnie.',

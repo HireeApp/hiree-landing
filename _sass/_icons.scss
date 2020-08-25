@@ -48,13 +48,13 @@
   }
 
   &__skills {
-    width: 350px;
-    height: 175px;
+    width: 526px;
+    height: 291px;
     background-image: url($baseurl + "/assets/svg/skills.svg");
 
     @include mobile() {
-      width: 262px;
-      height: 131px;
+      width: 360px;
+      height: 200px;
     }
   }
 }
