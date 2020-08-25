@@ -1,0 +1,70 @@
+html, body {
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: $fw-medium;
+  font-size: $h1;
+}
+
+h2 {
+  font-weight: $fw-medium;
+  font-size: $h2;
+}
+
+.font-p1 {
+  font-size: $p1;
+}
+
+.font-p2 {
+  font-size: $p2;
+}
+
+.font-p3 {
+  font-size: $p3;
+}
+
+.font-p4 {
+  font-size: $p4;
+}
+
+.font-sm {
+  font-size: $sm;
+}
+
+.fw-medium {
+  font-weight: $fw-medium;
+}
+
+.fw-semi {
+  font-weight: $fw-semi;
+}
+
+.fw-bold {
+  font-weight: $fw-bold;
+}
+
+.white {
+  color: $white;
+}
+
+.gray {
+  color: $gray;
+}
+
+.primary {
+  color: $primary;
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.secondary-light {
+  color: $secondary-light;
+}
+
+.center {
+  text-align: center;
+}

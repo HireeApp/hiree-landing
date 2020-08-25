@@ -1,0 +1,96 @@
+.usp {
+  &__button {
+    background-color: $white;
+    box-shadow: $shadow-symmetric;
+    border-radius: $radius;
+    font-size: $p2;
+    color: $secondary;
+    margin-bottom: $space-3;
+    padding: $space-inner $space-5;
+    cursor: pointer;
+    transition: .3s ease-out;
+
+    &:hover:not(&--active) {
+      box-shadow: $shadow-symmetric-hover;
+      transform: translateX(-$space-4);
+    }
+
+    &--active {
+      background-color: $primary;
+      box-shadow: $shadow-small;
+      color: $white;
+    }
+  }
+
+  &__outer {
+    right: 0;
+    position: absolute;
+    border-radius: 50%;
+    background-color: $primary;
+    width: 45vw;
+    height: 45vw;
+  }
+
+  &__inner {
+    position: absolute;
+    background-color: $white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__preview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    opacity: 1;
+    transition: .25s .15s ease-out;
+
+    &--hidden {
+      opacity: 0;
+      transform: translate(-25%, -50%);
+      transition: .25s ease-out;
+    }
+  }
+
+  &__text {
+    opacity: 1;
+    transition: .25s .15s ease-out;
+
+    &--hidden {
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      transform: translateX(-$space-6);
+      transition: .25s ease-out;
+    }
+  }
+}
+
+
+.features {
+  &__container {
+    &:nth-child(2) {
+      left: -$space-2;
+      transition-delay: .25s;
+    }
+    &:nth-child(3) {
+      left: -$space-3;
+      transition-delay: .45s;
+    }
+    &:nth-child(4) {
+      left: -$space-4;
+      transition-delay: .65s;
+    }
+    &:nth-child(5) {
+      left: -$space-4;
+      transition-delay: .85s;
+    }
+  }
+}

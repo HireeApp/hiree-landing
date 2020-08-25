@@ -1,0 +1,52 @@
+.icon {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: cover;
+
+  &__logo-white {
+    width: 108px;
+    height: 60px;
+    background-image: url($baseurl + "/assets/svg/logo-white.svg");
+  }
+
+  &__app-store {
+    width: 168px;
+    height: 56px;
+    background-image: url($baseurl + "/assets/svg/app-store.svg");
+  }
+
+  &__google-play {
+    width: 188px;
+    height: 56px;
+    background-image: url($baseurl + "/assets/svg/google-play.svg");
+  }
+
+  &__loup-bg {
+    width: 40vw;
+    height: 40vw;
+    background-image: url($baseurl + "/assets/svg/loup-gray.svg");
+  }
+
+  &__skills {
+    width: 350px;
+    height: 175px;
+    background-image: url($baseurl + "/assets/svg/skills.svg");
+  }
+}
+
+.circle {
+  width: 80vw;
+  height: 80vw;
+  border-radius: 50%;
+  border: 75px solid $primary;
+}
+
+.rectangle {
+  width: 424px;
+  height: 424px;
+  background-color: rgba($tertiary, 0.15);
+}
