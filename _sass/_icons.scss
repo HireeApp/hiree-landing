@@ -50,7 +50,7 @@
   &__skills {
     width: 526px;
     height: 291px;
-    background-image: url($baseurl + "/assets/svg/skills.svg");
+    background-image: url($baseurl + "/assets/svg/skills.png");
 
     @include mobile() {
       width: 360px;
