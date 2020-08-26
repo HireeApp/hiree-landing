@@ -1,4 +1,26 @@
 ---
+header_label: Idealna praca bez wysiłku
+header: Koniec przeglądania ofert. <br> To praca znajduje Ciebie.
+header_paragraph: Pobierz hiree i sprawdź jak szybko praca marzeń znajdzie Ciebie. Adekwatne zarobki, precyzyjne oczekiwania i jasny proces rekrutacji.
+download_text: Pobierz za darmo
+usp_title: Znowu tracisz czas na przeszukiwanie ofert pracy, <br> które nie zbliżają Cię do pracy marzeń? <br> Zrobimy to za Ciebie, bez wysiłku.
+usp_label: Hiree pomoże Ci w precyzyjnym dobraniu pracy do swoich potrzeb i kompetencji.
+text_1_title: Hiree nie ma job boardu
+text_1_content: ", nie przeglądasz ofert, nie budujesz obszernego CV, bo apka uczy się Ciebie i sama proponuje rozwiązania. Otrzymujesz tylko kilka ofert idealnie dopasowanych do Twoich potrzeb, decydujesz czy je przyjmujesz, jeśli nie – zaawansowana Sztuczna Inteligencja wyciągnie wnioski i wrzuci kolejne propozycje. Tak się Ciebie nauczy, by działać jeszcze lepiej!"
+text_2_title: Hiree to błyskawiczny czas reakcji
+text_2_content:  "-  masz 7 dni na reakcje. Jeśli akceptujesz naszą propozycję powiadomienie ląduje u pracodawcy,  a on zaprasza Cię na rozmowę. Dzięki temu Twój proces weryfikacji odbywa się dosłownie w kilka dni, a sama rekrutacja nie rozciąga w nieskończoność."
+divider_text: Szukanie pracy w Krakowie i Katowicach bez CV i bez obawy o szufladkowanie - praca zgłasza się do Ciebie, obiektywnie szybciej, dokładniej i z korzyścią dla Twojej kariery. <br> <br> Branża IT i świadczenie nowoczesnych usług biznesowych jeszcze nigdy nie były tak dostępne.
+text_3_title: Hiree bazuje na Twoich umiejętnościach
+text_3_content: ", nie przeglądasz ofert, nie budujesz obszernego CV, bo apka uczy się Ciebie i sama proponuje rozwiązania. Otrzymujesz tylko kilka ofert idealnie dopasowanych do Twoich potrzeb, decydujesz czy je przyjmujesz, jeśli nie – zaawansowana Sztuczna Inteligencja wyciągnie wnioski i wrzuci kolejne propozycje. Tak się Ciebie nauczy, by działać jeszcze lepiej!"
+text_4_title: Hiree pokazuje nową, etyczną kulturę rekrutowania
+text_4_content: "-  masz 7 dni na reakcje. Jeśli akceptujesz naszą propozycję powiadomienie ląduje u pracodawcy,  a on zaprasza Cię na rozmowę. Dzięki temu Twój proces weryfikacji odbywa się dosłownie w kilka dni, a sama rekrutacja nie rozciąga w nieskończoność."
+mission_title: Pobierając hiree wspierasz rekrutacyjną rewolucję
+mission_paragraph_1: Tworząc hiree doszliśmy do wniosku, że <span class="fw-bold">w rekrutacji od 100 lat nic się nie zmieniło</span>. Weszliśmy w erę digitalu, ale dalej mamy do czynienia ze słupami ogłoszeniowymi i prasowymi rubrykami „praca”, tylko w formie online.
+mission_paragraph_2: <span class="fw-bold">Jakość procesów rekrutacyjnych spadła na rzecz ilości</span>, a doświadczenie rozmów o pracę jest szorstkie i nieprzyjemne. Za czas poświęcony na rekrutację nikt Ci do tej pory nie płacił. <span class="fw-bold">Kandydaci oceniani są po jakości CV</span>, a nie swoich kompetencjach, umiejętnościach i doświadczeniu. <span class="fw-bold">CV stało się festiwalem</span> kolorów, pomysłowości i kreatywności.
+mission_paragraph_3: Co gorsza, zbyt wiele miejsc z ogłoszeniami o pracę i tak prosi o <span class="fw-bold">wypełnianie dokładnie tych samych danych w formularzach online. Dalej nie wiadomo w jakim momencie utknęło CV</span>, nie ma informacji o rynku, wynagrodzeniu, a kandydat jest pozostawiony sam sobie.<br> <span class="fw-bold">Brzmi znajomo? Postanowiliśmy przełamać te schematy!</span>
+mission_paragraph_4: Sprawdź na własnej skórze
+summary_title: Hiree to darmowa aplikacja rekrutacyjna, która szuka Ci pracy.
+feature_title: "Skorzystaj, jeśli:"
 usp:
  - button: Wynagradzamy Cię za Twój czas
    desc: Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji
@@ -68,19 +90,19 @@ features:
   </header>
   <div class="flex items-center mobile-flex-column">
     <div class="col-7 animate fade-right mobile-col-12">
-      <p class="font-p2 gray mobile-center">Idealna praca bez wysiłku</p>
-      <h1 class="white mobile-center">Koniec przeglądania ofert. <br> To praca znajduje Ciebie.</h1>
+      <p class="font-p2 gray mobile-center">{{ page.header_label }}</p>
+      <h1 class="white mobile-center">{{ page.header }}</h1>
 
       <div class="col-12 animate fade-left hide mobile-block my5">
         <img class="img-fit" src="{{ site.baseurl }}/assets/svg/header-side.png" alt="">
       </div>
 
-      <p class="font-p1 mt2 mobile-center">Pobierz hiree i sprawdź jak szybko praca marzeń znajdzie Ciebie. Adekwatne zarobki, precyzyjne oczekiwania i jasny proces rekrutacji.</p>
+      <p class="font-p1 mt2 mobile-center">{{ page.header_paragraph }}</p>
       <div class="flex mt5 mobile-justify-center">
         <span class="icon icon__app-store"></span>
         <span class="icon icon__google-play ml3 mobile-ml2"></span>
       </div>
-      <p class="font-sm mt1 mobile-center">Pobierz za darmo</p>
+      <p class="font-sm mt1 mobile-center">{{ page.download_text }}</p>
     </div>
 
     <div class="col-6 ml2 animate fade-left mobile-hide">
@@ -91,10 +113,10 @@ features:
 
 <section>
   <div class="flex col-12 flex-column">
-    <p class="font-p1 secondary animate fade-right">Znowu tracisz czas na przeszukiwanie ofert pracy, <br> które nie zbliżają Cię do pracy marzeń? <br> Zrobimy to za Ciebie, bez wysiłku.</p>
+    <p class="font-p1 secondary animate fade-right">{{ page.usp_title }}</p>
     <div class="flex col-12 relative">
       <div class="col-10 mt3 animate fade-left mobile-col-12">
-        <p class="font-p3 mb7 col-5 secondary-light mobile-col-12">Hiree pomoże Ci w precyzyjnym dobraniu pracy do swoich potrzeb i kompetencji.</p>
+        <p class="font-p3 mb7 col-5 secondary-light mobile-col-12">{{ page.usp_label }}</p>
         <div class="usp">
           {% for usp in page.usp %}
             <div class="usp__container">
@@ -109,8 +131,8 @@ features:
           {% endfor %}
         </div>
         <div class="mt4 pl5 col-5 relative mobile-hide">
-          <p class="font-p2 usp__text usp__text--hidden">Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji</p>
-          <p class="font-p2 usp__text usp__text--shown">Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji</p>
+          <p class="font-p2 usp__text usp__text--hidden">{{ page.usp[0].desc }}</p>
+          <p class="font-p2 usp__text usp__text--shown">{{ page.usp[0].desc }}</p>
         </div>
       </div>
       <div class="usp__outer mobile-hide">
@@ -139,16 +161,15 @@ features:
     </div>
 
     <div class="flex flex-column justify-center col-6 pl4 mobile-col-12 mobile-pl0">
-      <p class="font-p2 secondary animate fade-left"><span class="font-p1 fw-semi primary">Hiree nie ma job boardu</span>, nie przeglądasz ofert, nie budujesz obszernego CV, bo apka uczy się Ciebie i sama proponuje rozwiązania. Otrzymujesz tylko kilka ofert idealnie dopasowanych do Twoich potrzeb, decydujesz czy je przyjmujesz, jeśli nie – zaawansowana Sztuczna Inteligencja wyciągnie wnioski i wrzuci kolejne propozycje. Tak się Ciebie nauczy, by działać jeszcze lepiej!</p>
-      <p class="font-p2 secondary mt7 animate fade-left"><span class="font-p1 fw-semi primary">Hiree to błyskawiczny czas reakcji</span> -  masz 7 dni na reakcje. Jeśli akceptujesz naszą propozycję powiadomienie ląduje u pracodawcy,  a on zaprasza Cię na rozmowę. Dzięki temu Twój proces weryfikacji odbywa się dosłownie w kilka dni, a sama rekrutacja nie rozciąga w nieskończoność. </p>
+      <p class="font-p2 secondary animate fade-left"><span class="font-p1 fw-semi primary">{{ page.text_1_title }}</span>{{ page.text_1_content }}</p>
+      <p class="font-p2 secondary mt7 animate fade-left"><span class="font-p1 fw-semi primary">{{ page.text_2_title }}</span>{{ page.text_2_content }}</p>
     </div>
   </div>
 </section>
 
 <section class="bg-primary-light section--sm icon-bg">
   <div class="flex flex-column items-center justify-center col-12">
-    <p class="font-p1 fw-medium white center col-8 mobile-col-12">Szukanie pracy w Krakowie i Katowicach bez CV i bez obawy o szufladkowanie - praca zgłasza się do Ciebie, obiektywnie szybciej, dokładniej i z korzyścią dla Twojej kariery.
-      <br> <br> Branża IT i świadczenie nowoczesnych usług biznesowych jeszcze nigdy nie były tak dostępne.</p>
+    <p class="font-p1 fw-medium white center col-8 mobile-col-12">{{ page.divider_text }}</p>
     <div class="flex mt5">
       <span class="icon icon__app-store"></span>
       <span class="icon icon__google-play ml3"></span>
@@ -162,8 +183,8 @@ features:
   <span class="icon icon__loup-bg absolute hide mobile-block" style="bottom: -8%; right: -20%;"></span>
   <div class="flex mobile-flex-column-reverse">
     <div class="flex flex-column justify-center col-6 pr4 mobile-col-12 mobile-pr0">
-      <p class="font-p2 secondary animate fade-right"><span class="font-p1 fw-semi primary">Hiree bazuje na Twoich umiejętnościach</span>, nie przeglądasz ofert, nie budujesz obszernego CV, bo apka uczy się Ciebie i sama proponuje rozwiązania. Otrzymujesz tylko kilka ofert idealnie dopasowanych do Twoich potrzeb, decydujesz czy je przyjmujesz, jeśli nie – zaawansowana Sztuczna Inteligencja wyciągnie wnioski i wrzuci kolejne propozycje. Tak się Ciebie nauczy, by działać jeszcze lepiej!</p>
-      <p class="font-p2 secondary mt7 animate fade-right"><span class="font-p1 fw-semi primary">Hiree pokazuje nową, etyczną kulturę rekrutowania</span> -  masz 7 dni na reakcje. Jeśli akceptujesz naszą propozycję powiadomienie ląduje u pracodawcy,  a on zaprasza Cię na rozmowę. Dzięki temu Twój proces weryfikacji odbywa się dosłownie w kilka dni, a sama rekrutacja nie rozciąga w nieskończoność. </p>
+      <p class="font-p2 secondary animate fade-right"><span class="font-p1 fw-semi primary">{{ page.text_3_title }}</span>{{ page.text_3_content }}</p>
+      <p class="font-p2 secondary mt7 animate fade-right"><span class="font-p1 fw-semi primary">{{ page.text_4_title }}</span>{{ page.text_4_content }}</p>
     </div>
     <div class="col-6 overlay-primary mobile-col-12 mobile-mb8">
       <img src="{{ site.baseurl }}/assets/img/second-side-photo.jpg" alt="" class="img-fit box-shadow-small">
@@ -182,18 +203,16 @@ features:
       <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
     </div>
     <div class="col-7 pl5 fw-medium flex flex-column justify-center mobile-col-12 mobile-pl0 mobile-items-center">
-      <h1 class="animate fade-up mobile-center">Pobierając hiree wspierasz rekrutacyjną rewolucję</h1>
+      <h1 class="animate fade-up mobile-center">{{ page.mission_title }}</h1>
 
       <div class="col-8 animate fade-right hide mobile-block mt5">
         <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
       </div>
 
-      <p class="font-p3 white mt6">Tworząc hiree doszliśmy do wniosku, że <span class="fw-bold">w rekrutacji od 100 lat nic się nie zmieniło</span>. Weszliśmy w erę digitalu, ale dalej mamy do czynienia ze słupami ogłoszeniowymi i prasowymi rubrykami „praca”, tylko w formie online.</p>
-      <p class="font-p3 white mt3"><span class="fw-bold">Jakość procesów rekrutacyjnych spadła na rzecz ilości</span>, a doświadczenie rozmów o pracę jest szorstkie i nieprzyjemne. Za czas poświęcony na rekrutację nikt Ci do tej pory nie płacił. <span class="fw-bold">Kandydaci oceniani są po jakości CV</span>, a nie swoich kompetencjach, umiejętnościach i doświadczeniu. <span class="fw-bold">CV stało się festiwalem</span> kolorów, pomysłowości i kreatywności.</p>
-      <p class="font-p3 white mt3">Co gorsza, zbyt wiele miejsc z ogłoszeniami o pracę i tak prosi o <span class="fw-bold">wypełnianie dokładnie tych samych danych w formularzach online. Dalej nie wiadomo w jakim momencie utknęło CV</span>, nie ma informacji o rynku, wynagrodzeniu, a kandydat jest pozostawiony sam sobie.<br>
-        <span class="fw-bold">Brzmi znajomo? Postanowiliśmy przełamać te schematy!</span>
-      </p>
-      <p class="font-p3 white mt3 fw-bold">Sprawdź na własnej skórze</p>
+      <p class="font-p3 white mt6">{{ page.mission_paragraph_1 }}</p>
+      <p class="font-p3 white mt3">{{ page.mission_paragraph_2 }}</p>
+      <p class="font-p3 white mt3">{{ page.mission_paragraph_3 }}</p>
+      <p class="font-p3 white mt3 fw-bold">{{ page.mission_paragraph_4 }}</p>
       <div class="flex mt5">
         <span class="icon icon__app-store"></span>
         <span class="icon icon__google-play ml3"></span>
@@ -206,11 +225,11 @@ features:
   <span class="circle absolute mobile-hide" style="bottom: -40%; right: -35%;"></span>
   <span class="circle absolute hide mobile-block" style="top: -20%; left: -25%;"></span>
   <div class="col-12 mb6 mobile-mb0">
-    <h1 class="col-9 mobile-col-12 mobile-center">Hiree to darmowa aplikacja rekrutacyjna, która szuka Ci pracy.</h1>
+    <h1 class="col-9 mobile-col-12 mobile-center">{{ page.summary_title }}</h1>
   </div>
   <div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width mt8">
     <div class="mt4 custom-width flex flex-column items-center">
-      <h2 class="white mb4 custom-width-col-12 mobile-center">Skorzystaj, jeśli:</h2>
+      <h2 class="white mb4 custom-width-col-12 mobile-center"></h2>
       <div class="flex mb5 mx3 custom-width features">
         {% for feature in page.features %}
           <div class="radius bg-white flex flex-column items-center col-5 p6 mx2 box-shadow-small features__container animate fade-down mobile-col-8">
