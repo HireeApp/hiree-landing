@@ -74,6 +74,10 @@ header {
   }
 }
 
+.custom-width-col-12 {
+  width: calc(100vw - 128px);
+}
+
 .bg-primary-light {
   background-color: $primary-light;
 }
