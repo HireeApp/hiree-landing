@@ -1,0 +1,96 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: header_label
+  label: header_label
+- type: text
+  name: header
+  label: header
+- type: textarea
+  name: header_paragraph
+  label: header_paragraph
+- type: text
+  name: download_text
+  label: download_text
+- type: textarea
+  name: usp_title
+  label: usp_title
+- type: text
+  name: usp_label
+  label: usp_label
+- type: text
+  name: text_1_title
+  label: text_1_title
+- type: textarea
+  name: text_1_content
+  label: text_1_content
+- type: text
+  name: text_2_title
+  label: text_2_title
+- type: textarea
+  name: text_2_content
+  label: text_2_content
+- type: textarea
+  name: divider_text
+  label: divider_text
+- type: text
+  name: text_3_title
+  label: text_3_title
+- type: textarea
+  name: text_3_content
+  label: text_3_content
+- type: text
+  name: text_4_title
+  label: text_4_title
+- type: textarea
+  name: text_4_content
+  label: text_4_content
+- type: text
+  name: mission_title
+  label: mission_title
+- type: textarea
+  name: mission_paragraph_1
+  label: mission_paragraph_1
+- type: textarea
+  name: mission_paragraph_2
+  label: mission_paragraph_2
+- type: textarea
+  name: mission_paragraph_3
+  label: mission_paragraph_3
+- type: text
+  name: mission_paragraph_4
+  label: mission_paragraph_4
+- type: text
+  name: summary_title
+  label: summary_title
+- type: text
+  name: feature_title
+  label: feature_title
+- type: field_group_list
+  name: usp
+  label: usp
+  fields:
+  - type: text
+    name: button
+    label: button
+  - type: text
+    name: desc
+    label: desc
+  - type: file
+    name: icon
+    label: icon
+  - type: text
+    name: id
+    label: id
+- type: field_group_list
+  name: features
+  label: features
+  fields:
+  - type: text
+    name: desc
+    label: desc
+  - type: text
+    name: icon
+    label: icon
