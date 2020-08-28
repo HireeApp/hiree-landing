@@ -94,3 +94,5 @@ fields:
   - type: text
     name: icon
     label: icon
+pages:
+- index.html
