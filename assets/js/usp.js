@@ -4,13 +4,12 @@ const uspButtons = Array.from(document.getElementsByClassName('usp__button'));
 const uspText = document.getElementById('usp__text');
 
 const icons = ['salary.png', 'skills-big.png', 'offers-preview.png', 'career.png', 'recrutation.png'];
-const texts = [
-  'Hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji',
-  'Nie tracisz czasu, poświęcasz go jedynie na uzupełnienie profilu, potem hiree załatwia sprawy za Ciebie – szybko, wygodnie, precyzyjnie.',
-  'Hiree daje Ci znać, jeśli możesz oczekiwać większego wynagrodzenia, bo gramy w otwarte karty i zależy nam na Twojej przyszłości.',
-  'Gramy w otwarte karty i zależy nam na Twojej przyszłości, dlatego dzięki aplikacji jesteś na bieżąco z rynkiem pracy',
-  'Hiree zwalcza ocenę przez pryzmat ładnego CV, stawia na to co potrafisz i jak praca pasuje do Twoich oczekiwań'
-];
+
+let texts = [];
+const texts_list = document.querySelectorAll('.usp_good__text');
+for (let text_item of texts_list) {
+  texts.push(text_item.innerText);
+}
 
 const togglePreview = (preview) => {
   preview.classList.toggle('usp__preview--shown');
