@@ -24,3 +24,6 @@ document.addEventListener('scroll', () => {
 });
 
 detectBounding();
+
+const form = document.getElementById('form');
+const scrollToForm = () => form.scrollIntoView({behavior: 'smooth'});

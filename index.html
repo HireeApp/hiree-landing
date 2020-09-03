@@ -146,7 +146,7 @@ features:
       </div>
 
       <p class="font-p1 mt2 mobile-center">{{ page.header_paragraph }}</p>
-      <a href="#form" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
+      <a onclick="scrollToForm()" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
 
       <!--      <div class="flex mt5 mobile-justify-center">-->
 <!--        <span class="icon icon__app-store"></span>-->
@@ -220,7 +220,7 @@ features:
 <section class="bg-primary-light section--sm icon-bg">
   <div class="flex flex-column items-center justify-center col-12">
     <p class="font-p1 fw-medium white center col-8 mobile-col-12">{{ page.divider_text }}</p>
-    <a href="#form" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
+    <a onclick="scrollToForm()" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
 <!--    <div class="flex mt5">-->
 <!--      <span class="icon icon__app-store"></span>-->
 <!--      <span class="icon icon__google-play ml3"></span>-->
@@ -264,7 +264,7 @@ features:
       <p class="font-p3 white mt3">{{ page.mission_paragraph_2 }}</p>
       <p class="font-p3 white mt3">{{ page.mission_paragraph_3 }}</p>
       <p class="font-p3 white mt3 fw-bold">{{ page.mission_paragraph_4 }}</p>
-      <a href="#form" class="btn btn--tertiary self-start mobile-self-center mt3">Zapisz się!</a>
+      <a onclick="scrollToForm()" class="btn btn--tertiary self-start mobile-self-center mt3">Zapisz się!</a>
 <!--      <div class="flex mt5">-->
 <!--        <span class="icon icon__app-store"></span>-->
 <!--        <span class="icon icon__google-play ml3"></span>-->
@@ -303,6 +303,7 @@ features:
 
 <script src="{{ site.baseurl }}/assets/js/usp.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
+<script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
 <script>
   {% for usp in page.usp %}
     texts.push('{{ usp.desc }}')
