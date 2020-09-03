@@ -42,6 +42,10 @@
   align-self: flex-start;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .grow-1 {
   flex-grow: 1;
 }
@@ -110,5 +114,9 @@
 
   .mobile-block {
     display: block;
+  }
+
+  .mobile-self-center {
+    align-self: center;
   }
 }

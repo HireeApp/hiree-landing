@@ -84,6 +84,8 @@
 }
 
 
+
+
 .features {
   overflow: scroll;
   max-width: 100vw;
@@ -113,5 +115,39 @@
 
    &::-webkit-scrollbar {
     display: none;
+  }
+}
+
+
+
+
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: $space-inner $space-3;
+  border-radius: $radius;
+  box-shadow: $shadow-small;
+  cursor: pointer;
+  font-weight: $fw-medium;
+  font-size: $p4;
+  transition: .2s ease-out;
+
+  &--tertiary {
+    background-color: $tertiary;
+    color: $white;
+
+    &:hover {
+      background-color: #56826a;
+    }
+  }
+
+  &--primary {
+    background-color: $primary;
+    color: $white;
+
+    &:hover {
+      background-color: $primary-light;
+    }
   }
 }

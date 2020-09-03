@@ -118,8 +118,10 @@ features:
   <link rel="stylesheet" href="https://use.typekit.net/nyu6dbg.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
 
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
 <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <script async defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -135,7 +137,7 @@ features:
     <span class="icon icon__logo-white"></span>
   </header>
   <div class="flex items-center mobile-flex-column">
-    <div class="col-7 animate fade-right mobile-col-12">
+    <div class="col-7 animate fade-right mobile-flex mobile-flex-column mobile-justify-center mobile-col-12">
       <p class="font-p2 gray mobile-center">{{ page.header_label }}</p>
       <h1 class="white mobile-center">{{ page.header }}</h1>
 
@@ -144,11 +146,13 @@ features:
       </div>
 
       <p class="font-p1 mt2 mobile-center">{{ page.header_paragraph }}</p>
-      <div class="flex mt5 mobile-justify-center">
-        <span class="icon icon__app-store"></span>
-        <span class="icon icon__google-play ml3 mobile-ml2"></span>
-      </div>
-      <p class="font-sm mt1 mobile-center">{{ page.download_text }}</p>
+      <a href="#form" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
+
+      <!--      <div class="flex mt5 mobile-justify-center">-->
+<!--        <span class="icon icon__app-store"></span>-->
+<!--        <span class="icon icon__google-play ml3 mobile-ml2"></span>-->
+<!--      </div>-->
+<!--      <p class="font-sm mt1 mobile-center">{{ page.download_text }}</p>-->
     </div>
 
     <div class="col-6 ml2 animate fade-left mobile-hide">
@@ -216,11 +220,12 @@ features:
 <section class="bg-primary-light section--sm icon-bg">
   <div class="flex flex-column items-center justify-center col-12">
     <p class="font-p1 fw-medium white center col-8 mobile-col-12">{{ page.divider_text }}</p>
-    <div class="flex mt5">
-      <span class="icon icon__app-store"></span>
-      <span class="icon icon__google-play ml3"></span>
-    </div>
-    <p class="font-p3 mt3">Pobierz za darmo</p>
+    <a href="#form" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
+<!--    <div class="flex mt5">-->
+<!--      <span class="icon icon__app-store"></span>-->
+<!--      <span class="icon icon__google-play ml3"></span>-->
+<!--    </div>-->
+<!--    <p class="font-p3 mt3">Pobierz za darmo</p>-->
   </div>
 </section>
 
@@ -259,19 +264,23 @@ features:
       <p class="font-p3 white mt3">{{ page.mission_paragraph_2 }}</p>
       <p class="font-p3 white mt3">{{ page.mission_paragraph_3 }}</p>
       <p class="font-p3 white mt3 fw-bold">{{ page.mission_paragraph_4 }}</p>
-      <div class="flex mt5">
-        <span class="icon icon__app-store"></span>
-        <span class="icon icon__google-play ml3"></span>
-      </div>
+      <a href="#form" class="btn btn--tertiary self-start mobile-self-center mt3">Zapisz się!</a>
+<!--      <div class="flex mt5">-->
+<!--        <span class="icon icon__app-store"></span>-->
+<!--        <span class="icon icon__google-play ml3"></span>-->
+<!--      </div>-->
     </div>
   </div>
 </section>
 
 <section class="justify-start flex-column relative">
-  <span class="circle absolute mobile-hide" style="bottom: -40%; right: -35%;"></span>
+  <span class="circle absolute mobile-hide" style="bottom: -45%; right: -35%;"></span>
   <span class="circle absolute hide mobile-block" style="top: -20%; left: -25%;"></span>
-  <div class="col-12 mb6 mobile-mb0">
-    <h1 class="col-9 mobile-col-12 mobile-center">{{ page.summary_title }}</h1>
+  <div class="col-12 mb6 mobile-mb0 flex mobile-flex-column">
+    <h1 class="col-6 mobile-col-12 flex items-center mobile-center">{{ page.summary_title }}</h1>
+    <div class="col-6 mobile-col-12">
+      {% include components/form.html %}
+    </div>
   </div>
   <div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width mt8">
     <div class="mt4 custom-width flex flex-column items-center">
@@ -299,6 +308,21 @@ features:
     texts.push('{{ usp.desc }}')
     previews.push('{{ usp.icon }}')
   {% endfor %}
+</script>
+
+<script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
+  window.REQUIRED_ERROR_MESSAGE = "To pole nie może pozostać puste. ";
+  window.GENERIC_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
+  window.translation = {
+    common: {
+      selectedList: '{quantity} list selected',
+      selectedLists: '{quantity} lists selected'
+    }
+  };
+</script>
+<script src="https://sibforms.com/forms/end-form/build/main.js">
 </script>
 
 <!-- Google Tag Manager (noscript) -->
