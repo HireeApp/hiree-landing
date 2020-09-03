@@ -168,7 +168,7 @@ features:
             <div class="usp__container">
               <div class="usp__button {% if forloop.first %}usp__button--active{% endif %}">{{ usp.button }}</div>
               <div id="{{ usp.id }}"  class="usp__content hide mobile-block">
-                <p class="usp_good__text font-p2 mt2">{{ usp.desc }}</p>
+                <p class="font-p2 mt2">{{ usp.desc }}</p>
                 <div class="col-12 my5">
                   <img class="img-fit" src="{{ site.baseurl }}/assets/svg/{{ usp.icon }}" alt="">
                 </div>
@@ -178,13 +178,13 @@ features:
         </div>
         <div class="mt4 pl5 col-5 relative mobile-hide">
           <p class="font-p2 usp__text usp__text--hidden">{{ page.usp[0].desc }}</p>
-          <p class="font-p2 usp__text usp__text--shown">{{ page.usp[0].desc }}</p>
+          <p class="font-p2 usp__text">{{ page.usp[0].desc }}</p>
         </div>
       </div>
       <div class="usp__outer mobile-hide">
         <div class="usp__inner">
           <img src="{{ site.baseurl }}/assets/svg/salary.png" class="usp__preview usp__preview--hidden" alt="">
-          <img src="{{ site.baseurl }}/assets/svg/salary.png" class="usp__preview usp__preview--shown" alt="">
+          <img src="{{ site.baseurl }}/assets/svg/salary.png" class="usp__preview" alt="">
         </div>
       </div>
     </div>
@@ -294,6 +294,13 @@ features:
 
 <script src="{{ site.baseurl }}/assets/js/usp.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
+<script>
+  {% for usp in page.usp %}
+    texts.push('{{ usp.desc }}')
+    previews.push('{{ usp.icon }}')
+  {% endfor %}
+</script>
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7T33G3"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
