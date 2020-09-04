@@ -10,7 +10,7 @@ section {
   min-height: 100vh;
   overflow: hidden;
 
-  *:not(.custom-width) {
+  *:not(.custom-width):not(.circle) {
     max-width: 1210px;
   }
 
