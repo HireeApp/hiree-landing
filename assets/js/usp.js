@@ -1,7 +1,6 @@
 ---
 ---
 const previews = [];
-const texts = [];
 const uspButtons = Array.from(document.getElementsByClassName('usp__button'));
 
 class DynamicElement {
@@ -20,17 +19,14 @@ class DynamicElement {
   }
 }
 
-const dynamicElements = [
-  new DynamicElement('usp__text', (text, index) => text.innerText = texts[index]),
-  new DynamicElement('usp__preview', (preview, index) => preview.src = '{{ site.baseurl }}/assets/svg/' + previews[index])
-]
+const preview = new DynamicElement('usp__preview', (preview, index) => preview.src = '{{ site.baseurl }}/assets/svg/' + previews[index]);
 
 const setButtonActive = (button, index) => {
   const activeButton = document.querySelector('.usp__button--active');
   if (activeButton) activeButton.classList.remove('usp__button--active');
   button.classList.add('usp__button--active');
 
-  dynamicElements.forEach(el => el.toggle(index));
+  preview.toggle(index);
   toggleAccordion(button.parentElement.querySelector('.usp__content').id);
 }
 

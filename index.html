@@ -64,18 +64,15 @@ usp:
   icon: skills-big.png
   id: usp-2
 - button: Twoja kariera pod opieką
-  desc: hiree gra w otwarte karty. Zależy nam na Twojej przyszłości, dlatego dzięki
-    aplikacji jesteś na bieżąco z rynkiem pracy.
+  desc: Zależy nam na Twojej karierze, dlatego ciągle Cię poznajemy, by lepiej dopasować oferty pracy.
   icon: career.png
   id: usp-4
 - button: Praca znajduje Ciebie
-  desc: " hiree załatwia sprawy za Ciebie – szybko, wygodnie, precyzyjnie. A Ty nie
-    tracisz czasu i poświęcasz go jedynie na odpowiadanie asystentowi."
+  desc: Proponujemy jedynie oferty, które spełnią Twoje oczekiwania. Ty jedynie czekasz i decydujesz jednym kliknięciem.
   icon: offers-preview.png
   id: usp-3
 - button: Eliminujesz rekrutacyjny bełkot
-  desc: hiree daje Ci oferty które nie mijają się z prawdą, nie zawierają frazesów
-    ani rozbieżnych oczekiwań – a jedynie czyste dane o wymaganych umiejętnościach
+  desc: Z hiree omija Cię długotrwałe skanowanie ofert, a rekruter weryfikuje Twoje skille, nie estetyke CV.
   icon: recrutation.png
   id: usp-5
 features:
@@ -146,8 +143,11 @@ features:
         <img class="img-fit" src="{{ site.baseurl }}/assets/svg/header-side.png" alt="">
       </div>
 
-      <p class="font-p1 mt2 mobile-center">{{ page.header_paragraph }}</p>
-      <a onclick="scrollToForm()" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
+      <p class="font-p1 mt2 mobile-center gray-dark">{{ page.header_paragraph }}</p>
+
+      <div class="mt6">
+        {% include components/form.html %}
+      </div>
 
       <!--      <div class="flex mt5 mobile-justify-center">-->
 <!--        <span class="icon icon__app-store"></span>-->
@@ -172,18 +172,14 @@ features:
           {% for usp in page.usp %}
             <div class="usp__container">
               <div class="usp__button {% if forloop.first %}usp__button--active{% endif %}">{{ usp.button }}</div>
-              <div id="{{ usp.id }}"  class="usp__content hide mobile-block">
-                <p class="font-p2 mt2">{{ usp.desc }}</p>
-                <div class="col-12 my5">
+              <div id="{{ usp.id }}" class="usp__content">
+                <p class="font-p2 gray-dark mb4 mobile-mb2 pl3 mobile-pl0 mobile-center col-5 mobile-col-12">{{ usp.desc }}</p>
+                <div class="col-12 my5 hide mobile-block">
                   <img class="img-fit" src="{{ site.baseurl }}/assets/svg/{{ usp.icon }}" alt="">
                 </div>
               </div>
             </div>
           {% endfor %}
-        </div>
-        <div class="mt4 pl5 col-5 relative mobile-hide">
-          <p class="font-p2 usp__text usp__text--hidden">{{ page.usp[0].desc }}</p>
-          <p class="font-p2 usp__text">{{ page.usp[0].desc }}</p>
         </div>
       </div>
       <div class="usp__outer mobile-hide">
@@ -221,7 +217,7 @@ features:
 <section class="bg-primary-light section--sm icon-bg">
   <div class="flex flex-column items-center justify-center col-12">
     <p class="font-p1 fw-medium white center col-8 mobile-col-12">{{ page.divider_text }}</p>
-    <a onclick="scrollToForm()" class="btn btn--tertiary self-center mt3">Zapisz się!</a>
+    <a onclick="scrollToForm()" class="btn btn--gray-dark self-center mt5">Zapisz się!</a>
 <!--    <div class="flex mt5">-->
 <!--      <span class="icon icon__app-store"></span>-->
 <!--      <span class="icon icon__google-play ml3"></span>-->
@@ -255,7 +251,7 @@ features:
       <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
     </div>
     <div class="col-7 pl5 fw-medium flex flex-column justify-center mobile-col-12 mobile-pl0 mobile-items-center">
-      <h1 class="animate fade-up mobile-center">{{ page.mission_title }}</h1>
+      <h1 class="animate fade-up gray-dark mobile-center">{{ page.mission_title }}</h1>
 
       <div class="col-8 animate fade-right hide mobile-block mt5">
         <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
@@ -265,7 +261,7 @@ features:
       <p class="font-p3 white mt3">{{ page.mission_paragraph_2 }}</p>
       <p class="font-p3 white mt3">{{ page.mission_paragraph_3 }}</p>
       <p class="font-p3 white mt3 fw-bold">{{ page.mission_paragraph_4 }}</p>
-      <a onclick="scrollToForm()" class="btn btn--tertiary self-start mobile-self-center mt3">Zapisz się!</a>
+      <a onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt5">Zapisz się!</a>
 <!--      <div class="flex mt5">-->
 <!--        <span class="icon icon__app-store"></span>-->
 <!--        <span class="icon icon__google-play ml3"></span>-->
@@ -278,8 +274,8 @@ features:
   <span class="circle absolute mobile-hide" style="bottom: -45%; right: -35%;"></span>
   <span class="circle absolute hide mobile-block" style="top: -11%; left: -25%;"></span>
   <div class="col-12 mb6 mobile-mb0 flex mobile-flex-column">
-    <h1 class="col-6 mobile-col-12 flex items-center mobile-center">{{ page.summary_title }}</h1>
-    <div class="col-6 mobile-col-12">
+    <h1 class="col-6 mobile-col-12 flex gray-dark items-center mobile-center">{{ page.summary_title }}</h1>
+    <div class="col-6 mobile-col-12 mobile-mt4">
       {% include components/form.html %}
     </div>
   </div>
@@ -307,7 +303,6 @@ features:
 <script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
 <script>
   {% for usp in page.usp %}
-    texts.push('{{ usp.desc }}')
     previews.push('{{ usp.icon }}')
   {% endfor %}
 </script>
