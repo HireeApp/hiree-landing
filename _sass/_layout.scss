@@ -14,8 +14,8 @@ section {
     max-width: 1210px;
   }
 
-  &:not(:first-of-type):not(:last-of-type):not(.section--sm) {
-    padding: 256px 64px;
+  &:not(:first-of-type):not(:last-of-type):not(.section--sm):not(.section--lg) {
+    padding: 196px 64px;
   }
 
   &.section--sm {
@@ -23,8 +23,12 @@ section {
     padding: 160px 64px;
   }
 
+  &.section--lg {
+    padding: 0 64px 312px;
+  }
+
   &:first-of-type {
-    padding: 96px 64px 256px;
+    padding: 0 64px;
   }
 
   &:last-of-type {
@@ -32,7 +36,11 @@ section {
   }
 
   @include mobile() {
-    &:not(:first-of-type):not(:last-of-type):not(.section--sm) {
+    &:not(:first-of-type):not(:last-of-type):not(.section--sm):not(.section--lg) {
+      padding: 128px $space-4;
+    }
+
+    &.section--lg {
       padding: 128px $space-4;
     }
 
@@ -80,6 +88,15 @@ header {
 
 .bg-primary-light {
   background-color: $primary-light;
+}
+
+.bg-half-primary {
+  background: $primary-light;
+  background: linear-gradient(180deg, rgba($primary-light,1) 65%, rgba($white,1) 65%);
+
+  @include mobile() {
+    background: $primary-light;
+  }
 }
 
 .bg-gray-dark {

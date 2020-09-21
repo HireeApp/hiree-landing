@@ -1,12 +1,10 @@
 ---
-header_label: Idealna praca bez wysiłku
 header: Koniec przeglądania ofert. <br> To praca znajduje Ciebie.
 header_paragraph: Zapisz się do naszej listy, aby zostać poinformowanym o starcie
   aplikacji. Ponadto otrzymasz od nas finansowy bonus za samo znalezienie pracy!
 download_text: Pobierz za darmo
 usp_title: Znowu tracisz czas na przeszukiwanie ofert pracy, <br> które nie zbliżają
-  Cię do pracy marzeń? <br> Zrobimy to za Ciebie, bez wysiłku.
-usp_label: hiree pomoże Ci w precyzyjnym dobraniu pracy do swoich potrzeb i kompetencji.
+  Cię do pracy marzeń? <br> <span class="fw-bold"><span class="primary">hiree</span> zrobi to za Ciebie.</span>
 text_1_title: 'hiree nie ma job boardu '
 text_1_content: '- czyli nie przeglądasz ofert, ani nie budujesz obszernego CV, bo
   aplikacja uczy się Ciebie i sama proponuje rozwiązania. Otrzymujesz tylko kilka
@@ -52,7 +50,7 @@ mission_paragraph_3: Co gorsza, zbyt wiele miejsc z ogłoszeniami o pracę i tak
   znajomo? Postanowiliśmy przełamać te schematy!</span>
 mission_paragraph_4: Sprawdź na własnej skórze
 summary_title: Hiree to darmowa aplikacja rekrutacyjna, która szuka Ci pracy.
-feature_title: 'Skorzystaj, jeśli:'
+feature_title: '<span class="primary">hiree</span> jest dla Ciebie, jeśli'
 usp:
 - button: Wynagradzamy Cię za Twój czas
   desc: hiree zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej aplikacji.
@@ -130,7 +128,7 @@ features:
 </head>
 <body>
 
-<section class="bg-primary-light flex-column relative">
+<section class="bg-half-primary flex-column relative">
   <span class="circle absolute mobile-hide" style="top: -70%; right: -30%;"></span>
   <span class="circle absolute hide mobile-block" style="bottom: -7%; right: -22%;"></span>
   <header class="col-12 mobile-flex justify-center">
@@ -138,7 +136,6 @@ features:
   </header>
   <div class="flex items-center mobile-flex-column">
     <div class="col-7 animate fade-right mobile-flex mobile-flex-column mobile-justify-center mobile-col-12">
-      <p class="font-p2 gray mobile-center">{{ page.header_label }}</p>
       <h1 class="white mobile-center">{{ page.header }}</h1>
 
       <div class="col-12 animate fade-left hide mobile-block my5">
@@ -147,11 +144,9 @@ features:
 
       <p class="font-p1 mt2 mobile-center gray-dark">{{ page.header_paragraph }}</p>
 
-      <a onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt3">Zapisz się!</a>
-
-<!--      <div class="mt6">-->
-<!--        {% include components/form.html %}-->
-<!--      </div>-->
+      <div class="mt6">
+        {% include components/form.html %}
+      </div>
 
       <!--      <div class="flex mt5 mobile-justify-center">-->
 <!--        <span class="icon icon__app-store"></span>-->
@@ -166,7 +161,7 @@ features:
   </div>
 </section>
 
-<section>
+<section class="section--lg">
   <div class="flex col-12 flex-column">
     <p class="font-p1 secondary animate fade-right">{{ page.usp_title }}</p>
     <div class="flex col-12 relative">
@@ -218,18 +213,6 @@ features:
   </div>
 </section>
 
-<section class="bg-primary-light section--sm icon-bg">
-  <div class="flex flex-column items-center justify-center col-12">
-    <p class="font-p1 fw-medium white center col-8 mobile-col-12">{{ page.divider_text }}</p>
-    <a onclick="scrollToForm()" class="btn btn--gray-dark self-center mt5">Zapisz się!</a>
-<!--    <div class="flex mt5">-->
-<!--      <span class="icon icon__app-store"></span>-->
-<!--      <span class="icon icon__google-play ml3"></span>-->
-<!--    </div>-->
-<!--    <p class="font-p3 mt3">Pobierz za darmo</p>-->
-  </div>
-</section>
-
 <section class="relative">
   <span class="icon icon__loup-bg absolute mobile-hide" style="bottom: 0; right: -5%;"></span>
   <span class="icon icon__loup-bg absolute hide mobile-block" style="bottom: -8%; right: -20%;"></span>
@@ -246,59 +229,62 @@ features:
   </div>
 </section>
 
-<section class="bg-primary-light relative">
-  <span class="circle absolute mobile-hide" style="bottom: -45%; left: -25%;"></span>
-  <span class="circle absolute hide mobile-block" style="top: 10%; left: -30%;"></span>
-
-  <div class="flex mobile-flex-column">
-    <div class="col-4 animate fade-right mobile-hide">
-      <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
-    </div>
-    <div class="col-7 pl5 fw-medium flex flex-column justify-center mobile-col-12 mobile-pl0 mobile-items-center">
-      <h1 class="animate fade-up gray-dark mobile-center">{{ page.mission_title }}</h1>
-
-      <div class="col-8 animate fade-right hide mobile-block mt5">
-        <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
+<div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width mt5">
+  <div class="mt4 custom-width flex flex-column items-center">
+    <h2 class="white mb4 custom-width-col-12 mobile-center">{{ page.feature_title }}</h2>
+    <div class="flex mb5 mx3 custom-width features">
+      {% for feature in page.features %}
+      <div class="radius bg-white flex flex-column items-center col-5 p6 mx2 box-shadow-small features__container animate fade-down mobile-col-8">
+        <img src="{{ site.baseurl }}/assets/svg/{{ feature.icon }}.svg" alt="">
+        <p class="font-p4 center mt3 secondary">{{ feature.desc }}</p>
       </div>
-
-      <p class="font-p3 white mt6">{{ page.mission_paragraph_1 }}</p>
-      <p class="font-p3 white mt3">{{ page.mission_paragraph_2 }}</p>
-      <p class="font-p3 white mt3">{{ page.mission_paragraph_3 }}</p>
-      <p class="font-p3 white mt3 fw-bold">{{ page.mission_paragraph_4 }}</p>
-      <a onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt5">Zapisz się!</a>
-<!--      <div class="flex mt5">-->
-<!--        <span class="icon icon__app-store"></span>-->
-<!--        <span class="icon icon__google-play ml3"></span>-->
-<!--      </div>-->
+      {% endfor %}
     </div>
   </div>
-</section>
+</div>
 
-<section class="justify-start flex-column relative">
+<section class="justify-start section--sm flex-column relative">
   <span class="circle absolute mobile-hide" style="bottom: -45%; right: -35%;"></span>
   <span class="circle absolute hide mobile-block" style="top: -11%; left: -25%;"></span>
   <div class="col-12 mb6 mobile-mb0 flex mobile-flex-column">
     <h1 class="col-6 mobile-col-12 flex gray-dark items-center mobile-center">{{ page.summary_title }}</h1>
-    <div class="col-6 mobile-col-12 mobile-mt4">
-      {% include components/form.html %}
-    </div>
   </div>
-  <div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width mt8">
-    <div class="mt4 custom-width flex flex-column items-center">
-      <h2 class="white mb4 custom-width-col-12 mobile-center">{{ page.feature_title }}</h2>
-      <div class="flex mb5 mx3 custom-width features">
-        {% for feature in page.features %}
-          <div class="radius bg-white flex flex-column items-center col-5 p6 mx2 box-shadow-small features__container animate fade-down mobile-col-8">
-            <img src="{{ site.baseurl }}/assets/svg/{{ feature.icon }}.svg" alt="">
-            <p class="font-p4 center mt3 secondary">{{ feature.desc }}</p>
-          </div>
-        {% endfor %}
+</section>
+
+<section class="bg-primary-light relative flex-column">
+  <div class="flex">
+    <span class="circle absolute mobile-hide" style="bottom: -65%; left: -25%;"></span>
+    <span class="circle absolute hide mobile-block" style="top: 10%; left: -30%;"></span>
+
+    <div class="flex mobile-flex-column">
+      <div class="col-4 animate fade-right mobile-hide">
+        <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
+      </div>
+      <div class="col-7 pl5 fw-medium flex flex-column justify-center mobile-col-12 mobile-pl0 mobile-items-center">
+        <h1 class="animate fade-up gray-dark mobile-center">{{ page.mission_title }}</h1>
+
+        <div class="col-8 animate fade-right hide mobile-block mt5">
+          <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
+        </div>
+
+        <p class="font-p3 white mt6">{{ page.mission_paragraph_1 }}</p>
+        <p class="font-p3 white mt3">{{ page.mission_paragraph_2 }}</p>
+        <p class="font-p3 white mt3">{{ page.mission_paragraph_3 }}</p>
+        <p class="font-p3 white mt3 fw-bold">{{ page.mission_paragraph_4 }}</p>
+        <a onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt5">Zapisz się!</a>
+  <!--      <div class="flex mt5">-->
+  <!--        <span class="icon icon__app-store"></span>-->
+  <!--        <span class="icon icon__google-play ml3"></span>-->
+  <!--      </div>-->
       </div>
     </div>
   </div>
-
-  <footer class="mt8 custom-width col-12 mobile-mt6">
-    <p class="font-p2">© Hiree 2020</p>
+  <footer class="mt8 custom-width col-12 mobile-mt6 flex space-between mobile-flex-column mobile-center">
+    <p class="font-p3">© Hiree 2020</p>
+    <div class="flex mobile-flex-column">
+      <a href="https://blog.hiree.app/polityka-prywatnosci/?_ga=2.154840575.638973115.1600715883-2057711388.1600187161" class="font-p3 white">Polityka Prywatności</a>
+      <a href="https://blog.hiree.app/test/" class="font-p3 white ml3 mobile-ml0">Polityka Cookies</a>
+    </div>
   </footer>
 </section>
 
