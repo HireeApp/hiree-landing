@@ -74,14 +74,6 @@ section {
   }
 }
 
-header {
-  margin-bottom: 96px;
-
-  @include mobile() {
-    margin-bottom: $space-5;
-  }
-}
-
 .custom-width-col-12 {
   width: calc(100vw - 128px);
 }
