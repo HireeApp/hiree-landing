@@ -7,7 +7,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   overflow: hidden;
 
   *:not(.custom-width):not(.circle) {
@@ -29,6 +28,7 @@ section {
 
   &:first-of-type {
     padding: 0 64px;
+    min-height: 100vh;
   }
 
   &:last-of-type {
