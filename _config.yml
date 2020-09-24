@@ -9,4 +9,5 @@ github_username: jekyll
 plugins:
 - jekyll-feed
 collections:
-  - pages
+  pages:
+    output: true
