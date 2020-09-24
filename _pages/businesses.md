@@ -97,5 +97,6 @@ about:
   show: true
 permalink: /b2b
 title: Hiree
+layout: default
 
 ---
