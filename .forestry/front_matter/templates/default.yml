@@ -64,7 +64,7 @@ fields:
     label: show
 - type: field_group_list
   name: main_content
-  label: main_content
+  label: Main Text Sections
   fields:
   - type: field_group_list
     name: row
