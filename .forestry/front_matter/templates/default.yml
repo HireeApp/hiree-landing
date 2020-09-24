@@ -14,9 +14,6 @@ fields:
   label: permalink
   description: Link to the page, has to start with /<br>Should be empty for the main
     page
-- type: text
-  name: download_text
-  label: download_text
 - type: field_group
   name: header
   label: header
@@ -137,5 +134,8 @@ fields:
   label: layout
   default: default
   hidden: true
+- type: text
+  name: download_text
+  label: download_text
 pages:
 - index.md
