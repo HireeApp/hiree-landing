@@ -16,7 +16,7 @@ fields:
     page
 - type: field_group
   name: header
-  label: header
+  label: Header
   fields:
   - type: text
     name: title
@@ -30,7 +30,7 @@ fields:
         format: html
 - type: field_group
   name: usp
-  label: usp
+  label: USP
   fields:
   - type: textarea
     name: title
@@ -88,7 +88,7 @@ fields:
     label: show
 - type: field_group
   name: features
-  label: features
+  label: Feature Cards
   fields:
   - type: text
     name: title
@@ -108,7 +108,7 @@ fields:
     label: show
 - type: field_group
   name: about
-  label: about
+  label: About
   fields:
   - type: text
     name: title
