@@ -1,0 +1,100 @@
+---
+label: Default
+hide_body: false
+fields:
+- type: text
+  name: download_text
+  label: download_text
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+- type: field_group
+  name: usp
+  label: usp
+  fields:
+  - type: textarea
+    name: title
+    label: title
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: text
+      name: button
+      label: button
+    - type: textarea
+      name: desc
+      label: desc
+    - type: file
+      name: icon
+      label: icon
+    - type: text
+      name: id
+      label: id
+  - type: boolean
+    name: show
+    label: show
+- type: field_group_list
+  name: main_content
+  label: main_content
+  fields:
+  - type: field_group_list
+    name: row
+    label: row
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: text
+      label: text
+  - type: file
+    name: img
+    label: img
+  - type: boolean
+    name: show
+    label: show
+- type: field_group
+  name: features
+  label: features
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: cards
+    label: cards
+    fields:
+    - type: text
+      name: desc
+      label: desc
+    - type: text
+      name: icon
+      label: icon
+  - type: boolean
+    name: show
+    label: show
+- type: field_group
+  name: about
+  label: about
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: paragraphs
+    label: paragraphs
+    fields:
+    - type: textarea
+      name: text
+      label: text
+  - type: boolean
+    name: show
+    label: show
