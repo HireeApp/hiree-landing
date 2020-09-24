@@ -2,6 +2,18 @@
 label: Default
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  description: Link to the page, has to start with /<br>Should be empty for the main
+    page
 - type: text
   name: download_text
   label: download_text
@@ -118,18 +130,10 @@ fields:
   - type: boolean
     name: show
     label: show
-- name: template
+- name: layout
   type: text
   config:
     required: false
-  label: template
+  label: layout
   default: default
   hidden: true
-- name: permalink
-  type: text
-  config:
-    required: false
-  label: permalink
-  description: Link to the page, has to start with /
-pages:
-- index.html
