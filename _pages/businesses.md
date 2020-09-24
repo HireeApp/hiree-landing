@@ -95,7 +95,7 @@ about:
       zmieni!</strong>
   - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
   show: true
-permalink: "/b2b"
+permalink: /b2b
 title: Hiree
 
 ---
