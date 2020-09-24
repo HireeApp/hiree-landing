@@ -98,3 +98,5 @@ fields:
   - type: boolean
     name: show
     label: show
+pages:
+- index.html
