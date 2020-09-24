@@ -1,7 +1,7 @@
 const animatedElements = document.getElementsByClassName('animate');
 const scrollButtonEl = document.querySelector('.scroll-button');
 const about = document.getElementById('about');
-const SHOW_ON_DISTANCE_FROM_BOTTOM = 64;
+const SHOW_ON_DISTANCE_FROM_BOTTOM = 128;
 
 function detectBounding() {
   Array.from(animatedElements).forEach(el => {
