@@ -44,23 +44,17 @@
   </header>
   <div class="flex items-center mobile-flex-column mnt7 mb-auto mobile-mb0 mobile-mt0">
     <div class="col-7 animate fade-right flex flex-column justify-center mobile-col-12">
-      <h1 class="white mobile-center">{{ page.header }}</h1>
+      <h1 class="white mobile-center">{{ page.header.title }}</h1>
 
       <div class="col-12 animate fade-left hide mobile-block my5">
         <img class="img-fit" src="{{ site.baseurl }}/assets/svg/header-side.png" alt="">
       </div>
 
-      <p class="font-p1 mt2 mobile-center gray-dark">{{ page.header_paragraph }}</p>
+      <p class="font-p1 mt2 mobile-center gray-dark">{{ page.header.subtitle }}</p>
 
       <div class="mt6">
         {% include components/form.html %}
       </div>
-
-      <!--      <div class="flex mt5 mobile-justify-center">-->
-      <!--        <span class="icon icon__app-store"></span>-->
-      <!--        <span class="icon icon__google-play ml3 mobile-ml2"></span>-->
-      <!--      </div>-->
-      <!--      <p class="font-sm mt1 mobile-center">{{ page.download_text }}</p>-->
     </div>
 
     <div class="col-6 ml2 animate fade-left mobile-hide">
@@ -73,14 +67,14 @@
   <span class="scroll-button__down gray-40 flex items-center"><span class="icon icon__arrow-down mr3"></span>przejdź niżej</span>
 </div>
 
+{% if page.usp.show %}
 <section class="section--lg">
   <div class="flex col-12 flex-column">
-    <p class="font-p1 secondary animate fade-right">{{ page.usp_title }}</p>
+    <p class="font-p1 secondary animate fade-right">{{ page.usp.title }}</p>
     <div class="flex col-12 relative">
       <div class="col-10 mt3 animate fade-left mobile-col-12">
-        <p class="font-p3 mb7 col-5 secondary-light mobile-col-12">{{ page.usp_label }}</p>
-        <div class="usp">
-          {% for usp in page.usp %}
+        <div class="usp mt7">
+          {% for usp in page.usp.items %}
           <div class="usp__container">
             <div class="usp__button {% if forloop.first %}usp__button--active{% endif %}">{{ usp.button }}</div>
             <div id="{{ usp.id }}" class="usp__content">
@@ -102,59 +96,59 @@
     </div>
   </div>
 </section>
+{% endif %}
 
-<section>
-  <div class="flex mb8 mobile-mb0 mobile-flex-column">
+{% for section in page.main_content %}
+{% if section.show %}
+<section class="relative">
+  {% if forloop.first %}
+
+  {% else %}
+  <span class="icon icon__loup-bg absolute mobile-hide" style="bottom: 0; right: -5%;"></span>
+  <span class="icon icon__loup-bg absolute hide mobile-block" style="bottom: -8%; right: -20%;"></span>
+  {% endif %}
+
+  <div class="flex mb8 mobile-mb0 {% if forloop.last %} flex-reverse {% endif %} mobile-flex-column">
     <div class="col-6 overlay-primary mobile-col-12 mobile-mb7">
-      <img src="{{ site.baseurl }}/assets/img/first-side-photo.jpg" alt="" class="img-fit box-shadow-small">
+      <img src="{{ site.baseurl }}/assets/img/{{ section.img }}" alt="" class="img-fit box-shadow-small">
+      {% if forloop.first %}
       <span class="rectangle absolute mobile-hide" style="bottom: -200px; right: -175px;"></span>
       <div class="absolute col-9 animate fade-up mobile-hide" style="right: -36px; bottom: -150px;">
         <img src="{{ site.baseurl }}/assets/svg/offer.png" alt="" class="img-fit box-shadow-small radius">
       </div>
-
-      <span class="rectangle absolute hide mobile-block" style="bottom: -32px; left: -175px;"></span>
-      <div class="absolute col-9 animate fade-up hide mobile-block" style="right: -16px; bottom: -48px;">
-        <img src="{{ site.baseurl }}/assets/svg/offer.png" alt="" class="img-fit box-shadow-small radius">
-      </div>
-    </div>
-
-    <div class="flex flex-column justify-center col-6 pl4 mobile-col-12 mobile-pl0">
-      <p class="font-p2 secondary animate fade-left"><span class="font-p1 fw-semi primary">{{ page.text_1_title }}</span>{{ page.text_1_content }}</p>
-      <p class="font-p2 secondary mt7 animate fade-left"><span class="font-p1 fw-semi primary">{{ page.text_2_title }}</span>{{ page.text_2_content }}</p>
-    </div>
-  </div>
-</section>
-
-<section class="relative">
-  <span class="icon icon__loup-bg absolute mobile-hide" style="bottom: 0; right: -5%;"></span>
-  <span class="icon icon__loup-bg absolute hide mobile-block" style="bottom: -8%; right: -20%;"></span>
-  <div class="flex mobile-flex-column-reverse">
-    <div class="flex flex-column justify-center col-6 pr4 mobile-col-12 mobile-pr0">
-      <p class="font-p2 secondary animate fade-right"><span class="font-p1 fw-semi primary">{{ page.text_3_title }}</span>{{ page.text_3_content }}</p>
-      <p class="font-p2 secondary mt7 animate fade-right"><span class="font-p1 fw-semi primary">{{ page.text_4_title }}</span>{{ page.text_4_content }}</p>
-    </div>
-    <div class="col-6 overlay-primary mobile-col-12 mobile-mb8">
-      <img src="{{ site.baseurl }}/assets/img/second-side-photo.jpg" alt="" class="img-fit box-shadow-small">
+      {% else %}
       <span class="icon icon__skills absolute animate fade-up mobile-hide" style="bottom: -150px; left: -150px;"></span>
       <span class="icon icon__skills absolute animate fade-up hide mobile-block" style="bottom: -100px; left: 50px;"></span>
+      {% endif %}
+    </div>
+
+    <div class="flex flex-column justify-center col-6 {% if forloop.first %} pl4 {% else %} pr4 {% endif %} mobile-col-12 mobile-pl0">
+      {% for row in section.row %}
+      <p class="font-p2 secondary {% if forloop.last %} mt7 {% endif %} animate fade-left"><span class="font-p1 fw-semi primary">{{ row.title }}</span>{{ row.text }}</p>
+      {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
+{% endfor %}
 
+{% if page.features.show %}
 <div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width mt5">
   <div class="mt4 custom-width flex flex-column items-center">
-    <h2 class="white mb4 custom-width-col-12 mobile-center">{{ page.feature_title }}</h2>
+    <h2 class="white mb4 custom-width-col-12 mobile-center">{{ page.features.title }}</h2>
     <div class="flex mb5 mx3 custom-width features">
-      {% for feature in page.features %}
+      {% for card in page.features.cards %}
       <div class="radius bg-white flex flex-column items-center col-5 p6 mx2 box-shadow-small features__container animate fade-down mobile-col-8">
-        <img src="{{ site.baseurl }}/assets/svg/{{ feature.icon }}.svg" alt="">
-        <p class="font-p4 center mt3 secondary">{{ feature.desc }}</p>
+        <img src="{{ site.baseurl }}/assets/svg/{{ card.icon }}.svg" alt="">
+        <p class="font-p4 center mt3 secondary">{{ card.desc }}</p>
       </div>
       {% endfor %}
     </div>
   </div>
 </div>
+{% endif %}
 
+{% if page.about.show %}
 <section id="about" class="bg-primary-light relative flex-column">
   <div class="flex">
     <span class="circle absolute mobile-hide" style="bottom: -65%; left: -25%;"></span>
@@ -165,21 +159,16 @@
         <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
       </div>
       <div class="col-7 pl5 fw-medium flex flex-column justify-center mobile-col-12 mobile-pl0 mobile-items-center">
-        <h1 class="animate fade-up gray-dark mobile-center">{{ page.mission_title }}</h1>
+        <h1 class="animate fade-up mb5 gray-dark mobile-center">{{ page.about.title }}</h1>
 
-        <div class="col-8 animate fade-right hide mobile-block mt5">
+        <div class="col-8 animate fade-right hide mobile-block mb2">
           <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
         </div>
 
-        <p class="font-p3 white mt6">{{ page.mission_paragraph_1 }}</p>
-        <p class="font-p3 white mt3">{{ page.mission_paragraph_2 }}</p>
-        <p class="font-p3 white mt3">{{ page.mission_paragraph_3 }}</p>
-        <p class="font-p3 white mt3 fw-bold">{{ page.mission_paragraph_4 }}</p>
+        {% for paragraph in page.about.paragraphs %}
+        <p class="font-p3 white mt3">{{ paragraph.text }}</p>
+        {% endfor %}
         <a onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt5">Zapisz się!</a>
-        <!--      <div class="flex mt5">-->
-        <!--        <span class="icon icon__app-store"></span>-->
-        <!--        <span class="icon icon__google-play ml3"></span>-->
-        <!--      </div>-->
       </div>
     </div>
   </div>
@@ -191,6 +180,7 @@
     </div>
   </footer>
 </section>
+{% endif %}
 
 <script src="{{ site.baseurl }}/assets/js/usp.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
