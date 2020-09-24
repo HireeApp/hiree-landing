@@ -118,5 +118,18 @@ fields:
   - type: boolean
     name: show
     label: show
+- name: template
+  type: text
+  config:
+    required: false
+  label: template
+  default: default
+  hidden: true
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  description: Link to the page, has to start with /
 pages:
 - index.html
