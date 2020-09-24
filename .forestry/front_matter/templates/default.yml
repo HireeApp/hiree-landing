@@ -137,3 +137,5 @@ fields:
   label: layout
   default: default
   hidden: true
+pages:
+- index.md
