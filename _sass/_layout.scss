@@ -8,6 +8,7 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  max-height: 1200px !important;
 
   *:not(.custom-width):not(.circle) {
     max-width: 1210px;
@@ -28,7 +29,8 @@ section {
 
   &:first-of-type {
     padding: 0 64px;
-    min-height: 100vh;
+    height: 100vh;
+    max-height: 1200px;
   }
 
   &:last-of-type {
@@ -50,6 +52,7 @@ section {
 
     &:first-of-type {
       padding: $space-7 $space-4;
+      height: auto;
     }
   }
 }
