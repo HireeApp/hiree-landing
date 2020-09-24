@@ -12,7 +12,7 @@ sections:
   templates:
   - default
 - type: document
-  path: index.html
+  path: index.md
   label: Home
 upload_dir: uploads
 public_path: "/uploads"
