@@ -8,7 +8,7 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  max-height: 1200px !important;
+  max-height: 1200px;
 
   *:not(.custom-width):not(.circle) {
     max-width: 1210px;
@@ -38,6 +38,8 @@ section {
   }
 
   @include mobile() {
+    max-height: none;
+
     &:not(:first-of-type):not(:last-of-type):not(.section--sm):not(.section--lg) {
       padding: 128px $space-4;
     }
