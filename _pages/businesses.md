@@ -88,7 +88,7 @@ about:
   - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
   show: true
 permalink: "/b2b"
-title: Hiree
+title: Hiree - Dla Pracodawcy
 layout: default
 published: false
 
