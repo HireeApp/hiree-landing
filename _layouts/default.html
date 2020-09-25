@@ -186,7 +186,7 @@
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
 <script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
 <script>
-  {% for usp in page.usp %}
+  {% for usp in page.usp.items %}
   previews.push('{{ usp.icon }}')
   {% endfor %}
 </script>
