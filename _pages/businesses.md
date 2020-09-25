@@ -32,10 +32,11 @@ main_content:
     title: 5. Przyjazność
 - row:
   - title: '6. Minimum formalności '
-    text: Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja regulaminu.</strong>
-  - title: 'Skontaktuj się ze mną:'
-    text: "<strong>Mateusz Stasica</strong><br> <strong>m:</strong> <em>m.stasica@hiree.app</em><br>
-      <strong>t:</strong> +48 518 217 052"
+    text: "<br>Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja
+      regulaminu.</strong>"
+  - title: 'Skontaktuj się ze mną: '
+    text: "<strong><br>Mateusz Stasica</strong><br><strong>m:</strong> <em>m.stasica@hiree.app</em><br><strong>t:</strong>
+      +48 518 217 052"
   show: true
 features:
   title: "<em>hiree</em> jest dla Ciebie, jeśli"
