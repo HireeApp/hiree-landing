@@ -20,15 +20,24 @@ main_content:
       które idą w parze z kolejnym punktem...
   show: true
 - row:
-  - text: "<strong>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
+  - title: '2. Oszczędność czasu '
+    text: "<br>Zaawansowana Sztuczna Inteligencja zapozna się z setkami kandydatów,<strong>
+      wyłaniając w obiektywny sposób tylko najlepszych i najbardziej dopasowanych!
+      </strong>Cały dział HR zyska wiele dodatkowych godzin i energii!"
+  - title: '3. Employer Branding '
+    text: "<br>Wspomagamy <strong>starania o najlepsze doświadczenia naszych klientów</strong>.
+      Tak pracodawca jak i kandydat mogą liczyć na feedback po zakończonym procesie
+      rekrutacyjnym."
+- row:
+  - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
       ogłoszenie nie zawiśnie na żadnym słupie ogłoszeniowym - wirtualnym, czy też
       nie!"
     title: 4. Anonimowość
-  - text: Tworzymy system w którym to <strong>praca znajduje kandydata w oparciu o
-      jego faktyczne umiejętności.</strong> Kandydat nie musi tworzyć topornego CV,
-      ani wypełniać długich formularzy. Przed rozmową kwalifikacyjną będzie można
-      automatycznie wygenerować CV prosto z aplikacji.
+  - text: "<br>Tworzymy system w którym to <strong>praca znajduje kandydata w oparciu
+      o jego faktyczne umiejętności.</strong> Kandydat nie musi tworzyć topornego
+      CV, ani wypełniać długich formularzy. Przed rozmową kwalifikacyjną będzie można
+      automatycznie wygenerować CV prosto z aplikacji."
     title: 5. Przyjazność
 - row:
   - title: '6. Minimum formalności '
