@@ -90,6 +90,5 @@ about:
 permalink: "/b2b"
 title: Hiree - Dla Pracodawcy
 layout: default
-published: false
 
 ---
