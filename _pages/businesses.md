@@ -70,7 +70,7 @@ about:
       jesteś pozostawiony sam sobie.<br><strong>Brzmi znajomo? Już niedługo się to
       zmieni!</strong>
   - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
-  show: true
+  show: false
 permalink: "/b2b"
 title: Hiree - Dla Pracodawcy
 layout: default
