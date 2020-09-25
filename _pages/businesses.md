@@ -9,6 +9,9 @@ usp:
   show: false
 main_content:
 - row:
+  - {}
+  - {}
+- row:
   - text: To punkt zero, czyli nasza główna wizja, a zarazem ogromna wartość. Jako
       jedyni <strong>zapłacimy kandydatom za sam fakt znalezienia pracy</strong>.
       Po przepracowaniu 3 miesięcy mogą oni liczyć od nas na bonus pieniężny! Na pracodawcy
@@ -18,26 +21,6 @@ main_content:
     text: Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
       zatrudnienia</strong>! Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych,
       które idą w parze z kolejnym punktem...
-  - title: 2. Oszczędność czasu
-    text: Zaawansowana Sztuczna Inteligencja zapozna się z setkami kandydatów,<strong>
-      wyłaniając w obiektywny sposób tylko najlepszych i najbardziej dopasowanych!
-      </strong>Cały dział HR zyska wiele dodatkowych godzin i energii!
-  - title: 3. Employer Branding
-    text: Wspomagamy <strong>starania o najlepsze doświadczenia naszych klientów</strong>.
-      Tak pracodawca jak i kandydat mogą liczyć na feedback po zakończonym procesie
-      rekrutacyjnym.
-  - title: 4. Anonimowość
-    text: "<strong>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
-      kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
-      ogłoszenie nie zawiśnie na żadnym słupie ogłoszeniowym - wirtualnym, czy też
-      nie!"
-  - title: '5. Przyjazność '
-    text: Tworzymy system w którym to <strong>praca znajduje kandydata w oparciu o
-      jego faktyczne umiejętności.</strong> Kandydat nie musi tworzyć topornego CV,
-      ani wypełniać długich formularzy. Przed rozmową kwalifikacyjną będzie można
-      automatycznie wygenerować CV prosto z aplikacji.
-  - title: '6. Minimum formalności '
-    text: Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja regulaminu.</strong>
   show: true
 - row:
   - title: 'Skontaktuj się ze mną:'
