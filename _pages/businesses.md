@@ -5,34 +5,15 @@ header:
   subtitle: Skontaktuj się ze mną:<br><strong>Mateusz Stasica</strong><br><strong>m:</strong>
     <em>m.stasica@hiree.app</em><br><strong>t:</strong> +48 518 217 052<br>
 usp:
-  title: Znowu tracisz czas na przeszukiwanie ofert pracy, <br>które nie zbliżają
-    Cię do pracy marzeń? <br><strong><em>hiree</em> zrobi to za Ciebie.</strong>
+  title: "<strong>Sześć korzyści, które daje tylko <em>hiree</em>!</strong>"
   items:
-  - button: Wynagradzamy Cię za Twój czas
-    desc: "<strong>hiree</strong> zapłaci Ci, jeśli znajdziesz pracę przy pomocy naszej
-      aplikacji i kontynuujesz ją po okresie próbnym."
-    icon: salary.png
-    id: usp-1
-  - button: Zero CV
-    desc: "<strong>hiree</strong> zwalcza ocenę przez pryzmat ładnego CV i stawia
-      na to, co potrafisz oraz jak praca pasuje do Twoich oczekiwań."
-    icon: skills-big.png
-    id: usp-2
-  - button: Twoja kariera pod opieką
-    desc: W <strong>hiree</strong> zależy nam na Twojej karierze, dlatego ciągle Cię
-      poznajemy, by lepiej dopasować oferty pracy.
-    icon: career.png
-    id: usp-4
-  - button: Praca znajduje Ciebie
-    desc: "<strong>hiree</strong> zaproponuje jedynie oferty, które spełnią Twoje
-      oczekiwania. Ty tylko czekasz i decydujesz jednym kliknięciem."
-    icon: offers-preview.png
-    id: usp-3
-  - button: Eliminujesz rekrutacyjny bełkot
-    desc: Z <strong>hiree</strong> omija Cię długotrwałe skanowanie ofert - rekruter
-      weryfikuje Twoje skille, a nie estetykę CV.
-    icon: recrutation.png
-    id: usp-5
+  - desc: '<strong>0. <span style="text-decoration: underline;">Weźmiesz udział w
+      prawdziwej rekrutacyjnej rewolucji</span></strong> <br>To punkt zero, czyli
+      nasza główna wizja, a zarazem ogromna wartość. Jako jedyni <strong>zapłacimy
+      kandydatom za sam fakt znalezienia pracy</strong>. Po przepracowaniu 3 miesięcy
+      mogą oni liczyć od nas na bonus pieniężny! Na pracodawcy nie ciążą w związku
+      z tym żadne niedogodności - tylko korzyści wizerunkowe!'
+    id: '0. Weźmiesz udział w prawdziwej rekrutacyjnej rewolucji '
   show: true
 main_content:
 - row:
