@@ -1,58 +1,13 @@
 ---
-download_text: Pobierz za darmo
+download_text: ''
 header:
-  title: Jesteś pracodawcą i chcesz wystawić ogłoszenie w naszej aplikacji?
-  subtitle: Skontaktuj się ze mną:<br><strong>Mateusz Stasica</strong><br><strong>m:</strong>
-    <em>m.stasica@hiree.app</em><br><strong>t:</strong> +48 518 217 052<br>
+  title: Jesteś pracodawcą...
+  subtitle: "<strong>... i chcesz wystawić ogłoszenie w naszej aplikacji?</strong><br>"
 usp:
   title: "<strong>Sześć korzyści, które daje tylko <em>hiree</em>!</strong>"
-  items:
-  - desc: '<strong>0. <span style="text-decoration: underline;">Weźmiesz udział w
-      prawdziwej rekrutacyjnej rewolucji</span></strong> <br>To punkt zero, czyli
-      nasza główna wizja, a zarazem ogromna wartość. Jako jedyni <strong>zapłacimy
-      kandydatom za sam fakt znalezienia pracy</strong>. Po przepracowaniu 3 miesięcy
-      mogą oni liczyć od nas na bonus pieniężny! Na pracodawcy nie ciążą w związku
-      z tym żadne niedogodności - tylko korzyści wizerunkowe!'
-    id: '0. Weźmiesz udział w prawdziwej rekrutacyjnej rewolucji '
-    button: button
-  - button: b 2
-    desc: '<strong>1. <span style="text-decoration: underline;">Oszczędność pieniędzy</span></strong><br>Działamy
-      w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku zatrudnienia</strong>!
-      Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych, które idą w parze
-      z kolejnym punktem...'
-  - {}
-  - {}
-  - {}
-  - {}
-  - {}
-  show: true
-main_content:
-- row:
-  - title: 'hiree nie ma job boardu '
-    text: "- czyli nie przeglądasz rozwlekłych ofert, ani nie budujesz obszernego
-      CV, bo aplikacja uczy się Ciebie i sama proponuje rozwiązania. Otrzymujesz tylko
-      kilka ofert idealnie dopasowanych do Twoich potrzeb. Potem decydujesz czy je
-      przyjmujesz, a jeśli nie – zaawansowana <strong>Sztuczna Inteligencja wyciągnie
-      wnioski</strong> i wrzuci kolejne propozycje - właśnie tak się Ciebie uczy!"
-  - title: 'hiree to błyskawiczna odpowiedź '
-    text: "- masz 7 dni na reakcję. Jeśli akceptujesz naszą propozycję, to powiadomienie
-      ląduje u pracodawcy. Następnie zaprosi Cię na rozmowę. Dzięki temu Twój proces
-      weryfikacji odbywa się <strong>dosłownie w kilka dni</strong>!"
-  img: first-side-photo.jpg
-  show: true
-- row:
-  - title: 'hiree pokazuje nową, etyczną kulturę rekrutowania '
-    text: "- masz 7 dni na reakcję? W takim razie Twój potencjalny pracodawca również.
-      Powiadomienie ląduje u pracodawcy, rozmowa i zatrudnienie! Dzięki temu <strong>Twój
-      proces weryfikacji nie przeciąga się w nieskończoność</strong>, a Ty nie denerwujesz
-      się brakiem odpowiedzi. Po całym procesie, bez względu na wynik rozmów, możesz
-      liczyć na informację zwrotną!"
-  - title: 'hiree bazuje na Twoich umiejętnościach '
-    text: "- koniec z dziwnymi nazwami stanowisk, które oznaczają to samo i potrzebują
-      tych samych kompetencji do wykonywania tych samych zadań. <strong>U nas nie
-      liczy się nazwa</strong>. Liczą się umiejętności."
-  img: second-side-photo.jpg
-  show: true
+  items: []
+  show: false
+main_content: []
 features:
   title: "<em>hiree</em> jest dla Ciebie, jeśli"
   cards:
@@ -68,7 +23,7 @@ features:
   - desc: nie ruszają Cię owocowe czwartki i nie chcesz kolejnych przekolorowanych
       ofert pracy
     icon: fruits
-  show: true
+  show: false
 about:
   title: Pobierając hiree wspierasz rekrutacyjną rewolucję
   paragraphs:
