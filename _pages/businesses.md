@@ -14,6 +14,17 @@ usp:
       mogą oni liczyć od nas na bonus pieniężny! Na pracodawcy nie ciążą w związku
       z tym żadne niedogodności - tylko korzyści wizerunkowe!'
     id: '0. Weźmiesz udział w prawdziwej rekrutacyjnej rewolucji '
+    button: button
+  - button: b 2
+    desc: '<strong>1. <span style="text-decoration: underline;">Oszczędność pieniędzy</span></strong><br>Działamy
+      w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku zatrudnienia</strong>!
+      Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych, które idą w parze
+      z kolejnym punktem...'
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
   show: true
 main_content:
 - row:
