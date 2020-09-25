@@ -1,9 +1,9 @@
 ---
 download_text: Pobierz za darmo
 header:
-  title: To praca znajduje Ciebie.
-  subtitle: A do tego masz od nas bonus finansowy po zatrudnieniu. Brzmi dobrze? Zapisz
-    się do naszej listy, a my damy Ci znać o starcie aplikacji.
+  title: Jesteś pracodawcą i chcesz wystawić ogłoszenie w naszej aplikacji?
+  subtitle: Skontaktuj się ze mną:<br><strong>Mateusz Stasica</strong><br><strong>m:</strong>
+    <em>m.stasica@hiree.app</em><br><strong>t:</strong> +48 518 217 052<br>
 usp:
   title: Znowu tracisz czas na przeszukiwanie ofert pracy, <br>które nie zbliżają
     Cię do pracy marzeń? <br><strong><em>hiree</em> zrobi to za Ciebie.</strong>
