@@ -138,4 +138,5 @@ fields:
   name: download_text
   label: download_text
 pages:
+- _pages/hiree-dla-pracodawcy.md
 - index.md
