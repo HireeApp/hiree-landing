@@ -19,6 +19,7 @@ main_content:
       zatrudnienia</strong>! Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych,
       które idą w parze z kolejnym punktem...
   show: true
+  img: "/uploads/revolution.png"
 - row:
   - title: '2. Oszczędność czasu '
     text: "<br>Zaawansowana Sztuczna Inteligencja zapozna się z setkami kandydatów,<strong>
