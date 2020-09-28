@@ -28,6 +28,7 @@ main_content:
     text: "<br>Wspomagamy <strong>starania o najlepsze doświadczenia naszych klientów</strong>.
       Tak pracodawca jak i kandydat mogą liczyć na feedback po zakończonym procesie
       rekrutacyjnym."
+  show: true
 - row:
   - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
@@ -39,6 +40,7 @@ main_content:
       CV, ani wypełniać długich formularzy. Przed rozmową kwalifikacyjną będzie można
       automatycznie wygenerować CV prosto z aplikacji."
     title: 5. Przyjazność
+  show: true
 - row:
   - title: '6. Minimum formalności '
     text: "<br>Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja
