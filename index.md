@@ -45,7 +45,7 @@ main_content:
       przyjmujesz, a jeśli nie – zaawansowana <strong>Sztuczna Inteligencja wyciągnie
       wnioski</strong> i wrzuci kolejne propozycje - właśnie tak się Ciebie uczy!"
   - title: 'hiree to błyskawiczna odpowiedź '
-    text: "- masz 7 dni na reakcję. Jeśli akceptujesz naszą propozycję powiadomienie
+    text: "- masz 7 dni na reakcję. Jeśli akceptujesz naszą propozycję, powiadomienie
       ląduje u pracodawcy, a on zaprasza Cię na rozmowę. Dzięki temu Twój proces weryfikacji
       odbywa się <strong>dosłownie w kilka dni</strong>!"
   img: first-side-photo.jpg
