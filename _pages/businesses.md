@@ -21,6 +21,7 @@ main_content:
     text: "<br>Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
       zatrudnienia</strong>! Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych,
       które idą w parze z kolejnym punktem..."
+  show: true
 - row:
   - title: '2. Oszczędność czasu '
     text: "<br>Zaawansowana Sztuczna Inteligencja zapozna się z setkami kandydatów,<strong>
@@ -34,6 +35,7 @@ main_content:
       pracowników nie mogła zostawić feedback'u - choć chciała! Wspomagamy <strong>starania
       o najlepsze doświadczenia naszych klientów</strong>. Tak pracodawca jak i kandydat
       mogą liczyć na opinię po zakończonym procesie rekrutacyjnym."
+  show: true
 - row:
   - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
@@ -48,6 +50,7 @@ main_content:
       znajduje kandydata w oparciu o jego faktyczne umiejętności.</strong> Kandydat
       nie  tworzy topornego CV, ani nie wypełnia długich formularzy. Mimo wszystko,
       CV można wygenerować automatycznie - prosto z naszej aplikacji.  "
+  show: true
 - row:
   - title: '6. Minimum formalności '
     text: "<br>Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja
@@ -58,6 +61,7 @@ main_content:
     text: "<strong><br>Mateusz Stasica</strong><br><strong>m:</strong> <em>m.stasica@hiree.app</em><br><strong>t:</strong>
       +48 518 217 052 <br><br>Hiree Sp. z o.o. Sp. k. – ul. Będzińska 5/8, 31-403
       Kraków<br>KRS: 0000844894, NIP: 6762581458, REGON: 386247313"
+  show: true
 features:
   title: "<em>hiree</em> jest dla Ciebie, jeśli"
   cards:
