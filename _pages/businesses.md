@@ -21,6 +21,11 @@ main_content:
   show: true
   img: "/uploads/revolution.png"
 - row:
+  - title: '1. Oszczędność pieniędzy '
+    text: Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
+      zatrudnienia</strong>! Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych,
+      które idą w parze z kolejnym punktem...
+- row:
   - title: '2. Oszczędność czasu '
     text: "<br>Zaawansowana Sztuczna Inteligencja zapozna się z setkami kandydatów,<strong>
       wyłaniając w obiektywny sposób tylko najlepszych i najbardziej dopasowanych!
@@ -30,6 +35,7 @@ main_content:
       Tak pracodawca jak i kandydat mogą liczyć na feedback po zakończonym procesie
       rekrutacyjnym."
   show: true
+- {}
 - row:
   - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
@@ -42,6 +48,8 @@ main_content:
       automatycznie wygenerować CV prosto z aplikacji."
     title: 5. Przyjazność
   show: true
+- {}
+- {}
 - row:
   - title: '6. Minimum formalności '
     text: "<br>Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja
