@@ -45,11 +45,11 @@ main_content:
   show: true
 - row:
   - title: 5. Przyjazność
-    text: "<br>Wg. InterviewMe aż 44% rekruterów odrzuca kandydatów podczas screeningu
-      jedynie z powodu nieprofesjonalnego adresu email lub zdjęcia. U nas <strong>praca
-      znajduje kandydata w oparciu o jego faktyczne umiejętności.</strong> Kandydat
-      nie  tworzy topornego CV, ani nie wypełnia długich formularzy. Mimo wszystko,
-      CV można wygenerować automatycznie - prosto z naszej aplikacji.  "
+    text: "<br>44%*** rekruterów odrzuca kandydatów podczas screeningu jedynie z powodu
+      nieprofesjonalnego adresu email lub zdjęcia. U nas <strong>praca znajduje kandydata
+      w oparciu o jego faktyczne umiejętności.</strong> Kandydat nie tworzy topornego
+      CV, ani nie wypełnia długich formularzy. Mimo wszystko, CV można wygenerować
+      automatycznie - prosto z naszej aplikacji."
   show: true
 - row:
   - title: '6. Minimum formalności '
@@ -81,21 +81,8 @@ features:
 about:
   title: Pobierając hiree wspierasz rekrutacyjną rewolucję
   paragraphs:
-  - text: Tworząc hiree doszliśmy do wniosku, że <strong>w rekrutacji od 100 lat nic
-      się nie zmieniło</strong>. Weszliśmy w erę digitalu, ale dalej mamy do czynienia
-      ze słupami ogłoszeniowymi i prasowymi rubrykami „praca”, tylko w formie online.
-  - text: "<strong>Jakość procesów rekrutacyjnych spadła na rzecz ilości</strong>,
-      a doświadczenie rozmów o pracę jest szorstkie i nieprzyjemne. Za czas poświęcony
-      na rekrutację nikt Ci nie płaci. <strong>Często oceniają Cię po wyglądzie CV</strong>,
-      a nie po kompetencjach, umiejętnościach i doświadczeniu. <strong>CV stało się
-      festiwalem</strong> kolorów, pomysłowości i kreatywności."
-  - text: Co gorsza, zbyt wiele miejsc z ogłoszeniami o pracę i tak prosi o<strong>
-      wypełnianie dokładnie tych samych danych w formularzach online. Dalej nie wiadomo
-      w jakim momencie utknęło CV</strong>, nie ma informacji o wynagrodzeniu, a Ty
-      jesteś pozostawiony sam sobie.<br><strong>Brzmi znajomo? Już niedługo się to
-      zmieni!</strong>
-  - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
-  show: false
+  - text: "<strong>*</strong>HRM institute, <strong>**</strong>No Fluff Jobs, <strong>***</strong>interviewme"
+  show: true
 permalink: "/b2b"
 title: Hiree - Dla Pracodawcy
 layout: default
