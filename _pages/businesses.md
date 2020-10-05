@@ -35,7 +35,12 @@ main_content:
       Tak pracodawca jak i kandydat mogą liczyć na feedback po zakończonym procesie
       rekrutacyjnym."
   show: true
-- {}
+- row:
+  - title: '3. Employer Branding '
+    text: "<strong>49%</strong> pracodawców wg. HRM Institute uważa, że Employer Branding
+      jest odpowiedzialny za lepsze dopasowanie kandydatów. Wspomagamy <strong>starania
+      o najlepsze doświadczenia naszych klientów</strong>. Tak pracodawca jak i kandydat
+      mogą liczyć na feedback po zakończonym procesie rekrutacyjnym.  "
 - row:
   - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
