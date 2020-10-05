@@ -45,7 +45,13 @@ main_content:
       automatycznie wygenerować CV prosto z aplikacji."
     title: 5. Przyjazność
   show: true
-- {}
+- row:
+  - title: 5. Przyjazność
+    text: "<br>Wg. InterviewMe aż 44% rekruterów odrzuca kandydatów podczas screeningu
+      jedynie z powodu nieprofesjonalnego adresu email lub zdjęcia. U nas <strong>praca
+      znajduje kandydata w oparciu o jego faktyczne umiejętności.</strong> Kandydat
+      nie  tworzy topornego CV, ani nie wypełnia długich formularzy. Mimo wszystko,
+      CV można wygenerować automatycznie - prosto z naszej aplikacji.  "
 - {}
 - row:
   - title: '6. Minimum formalności '
