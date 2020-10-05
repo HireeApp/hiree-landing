@@ -18,9 +18,9 @@ main_content:
   img: "/uploads/revolution.png"
 - row:
   - title: '1. Oszczędność pieniędzy '
-    text: Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
+    text: "<br>Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
       zatrudnienia</strong>! Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych,
-      które idą w parze z kolejnym punktem...
+      które idą w parze z kolejnym punktem..."
 - row:
   - title: '2. Oszczędność czasu '
     text: "<br>Zaawansowana Sztuczna Inteligencja zapozna się z setkami kandydatów,<strong>
