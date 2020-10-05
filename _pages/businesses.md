@@ -30,10 +30,10 @@ main_content:
   show: true
 - row:
   - title: '3. Employer Branding '
-    text: "<strong><br>49%</strong> pracodawców wg. HRM Institute uważa, że Employer
-      Branding jest odpowiedzialny za lepsze dopasowanie kandydatów, a <strong>81%</strong>
-      pracowników nie mogła zostawić feedback'u - choć chciała! Wspomagamy <strong>starania
-      o najlepsze doświadczenia naszych klientów</strong>. Tak pracodawca jak i kandydat
+    text: "<strong><br>49%*</strong> pracodawców uważa, że Employer Branding jest
+      odpowiedzialny za lepsze dopasowanie kandydatów, a <strong>81%**</strong> pracowników
+      nie mogła zostawić feedback'u - choć chciała! Wspomagamy <strong>starania o
+      najlepsze doświadczenia naszych klientów</strong>. Tak pracodawca jak i kandydat
       mogą liczyć na opinię po zakończonym procesie rekrutacyjnym."
   show: true
 - row:
