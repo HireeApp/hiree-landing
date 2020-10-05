@@ -30,20 +30,16 @@ main_content:
 - row:
   - title: '3. Employer Branding '
     text: "<strong><br>49%</strong> pracodawców wg. HRM Institute uważa, że Employer
-      Branding jest odpowiedzialny za lepsze dopasowanie kandydatów. Wspomagamy <strong>starania
+      Branding jest odpowiedzialny za lepsze dopasowanie kandydatów, a <strong>81%</strong>
+      pracowników nie mogła zostawić feedback'u - choć chciała! Wspomagamy <strong>starania
       o najlepsze doświadczenia naszych klientów</strong>. Tak pracodawca jak i kandydat
-      mogą liczyć na feedback po zakończonym procesie rekrutacyjnym."
+      mogą liczyć na opinię po zakończonym procesie rekrutacyjnym."
 - row:
   - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
       ogłoszenie nie zawiśnie na żadnym słupie ogłoszeniowym - wirtualnym, czy też
       nie!"
     title: 4. Anonimowość
-  - text: "<br>Tworzymy system w którym to <strong>praca znajduje kandydata w oparciu
-      o jego faktyczne umiejętności.</strong> Kandydat nie musi tworzyć topornego
-      CV, ani wypełniać długich formularzy. Przed rozmową kwalifikacyjną będzie można
-      automatycznie wygenerować CV prosto z aplikacji."
-    title: 5. Przyjazność
   show: true
 - row:
   - title: 5. Przyjazność
