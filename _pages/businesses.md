@@ -9,15 +9,11 @@ usp:
   show: false
 main_content:
 - row:
-  - text: To punkt zero, czyli nasza główna wizja, a zarazem ogromna wartość. Jako
-      jedyni <strong>zapłacimy kandydatom za sam fakt znalezienia pracy</strong>.
+  - text: "<br>To punkt zero, czyli nasza główna wizja, a zarazem ogromna wartość.
+      Jako jedyni <strong>zapłacimy kandydatom za sam fakt znalezienia pracy</strong>.
       Po przepracowaniu 3 miesięcy mogą oni liczyć od nas na bonus pieniężny! Na pracodawcy
-      nie ciążą w związku z tym żadne niedogodności - tylko korzyści wizerunkowe!
+      nie ciążą w związku z tym żadne niedogodności - tylko korzyści wizerunkowe!"
     title: 0. Weźmiesz udział w prawdziwej rekrutacyjnej rewolucji
-  - title: '1. Oszczędność pieniędzy '
-    text: Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
-      zatrudnienia</strong>! Należy wziąć też pod uwagę zmniejszenie kosztów operacyjnych,
-      które idą w parze z kolejnym punktem...
   show: true
   img: "/uploads/revolution.png"
 - row:
@@ -30,10 +26,6 @@ main_content:
     text: "<br>Zaawansowana Sztuczna Inteligencja zapozna się z setkami kandydatów,<strong>
       wyłaniając w obiektywny sposób tylko najlepszych i najbardziej dopasowanych!
       </strong>Cały dział HR zyska wiele dodatkowych godzin i energii!"
-  - title: '3. Employer Branding '
-    text: "<br>Wspomagamy <strong>starania o najlepsze doświadczenia naszych klientów</strong>.
-      Tak pracodawca jak i kandydat mogą liczyć na feedback po zakończonym procesie
-      rekrutacyjnym."
   show: true
 - row:
   - title: '3. Employer Branding '
