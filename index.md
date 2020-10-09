@@ -49,7 +49,7 @@ main_content:
     text: "- masz 7 dni na reakcję. Jeśli akceptujesz naszą propozycję, powiadomienie
       ląduje u pracodawcy, a on zaprasza Cię na rozmowę. Dzięki temu Twój proces weryfikacji
       odbywa się <strong>dosłownie w kilka dni</strong>!"
-  img: first-side-photo.jpg
+  img: /assets/img/first-side-photo.jpg
   show: true
   joboffer_graphic: true
   loup_graphic: false
@@ -65,7 +65,7 @@ main_content:
     text: "- koniec z dziwnymi nazwami stanowisk, które oznaczają to samo i potrzebują
       tych samych kompetencji do wykonywania tych samych zadań. <strong>U nas nie
       liczy się nazwa</strong>. Liczą się umiejętności."
-  img: second-side-photo.jpg
+  img: /assets/img/second-side-photo.jpg
   show: true
   joboffer_graphic: false
   loup_graphic: true
@@ -104,5 +104,4 @@ about:
       zmieni!</strong>
   - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
   show: true
-
 ---
