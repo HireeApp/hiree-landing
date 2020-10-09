@@ -63,6 +63,7 @@ section {
   &__container {
     display: flex;
     margin-bottom: $space-8;
+    width: 100%;
 
     @include mobile() {
       margin-bottom: 0;
