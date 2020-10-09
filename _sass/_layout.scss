@@ -59,6 +59,49 @@ section {
   }
 }
 
+.content-section {
+  &__container {
+    display: flex;
+    margin-bottom: $space-8;
+
+    @include mobile() {
+      margin-bottom: 0;
+      flex-direction: column;
+    }
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: $space-4;
+
+    @include mobile() {
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+
+  &:nth-of-type(even) {
+    .content-section__container {
+      flex-direction: row-reverse;
+    }
+
+    .content-section__row {
+      padding-right: $space-4;
+
+      @include mobile() {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.custom-width {
+  max-width: 100vw;
+}
+
 .icon-bg {
   position: relative;
   &:before {

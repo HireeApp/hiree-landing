@@ -1,6 +1,7 @@
 ---
 layout: default
 title: hiree
+form: true
 download_text: Pobierz za darmo
 header:
   title: To praca znajduje Ciebie.
@@ -50,6 +51,9 @@ main_content:
       odbywa się <strong>dosłownie w kilka dni</strong>!"
   img: first-side-photo.jpg
   show: true
+  joboffer_graphic: true
+  loup_graphic: false
+  skills_graphic: false
 - row:
   - title: 'hiree pokazuje nową, etyczną kulturę rekrutowania '
     text: "- masz 7 dni na reakcję? W takim razie Twój potencjalny pracodawca również.
@@ -63,6 +67,9 @@ main_content:
       liczy się nazwa</strong>. Liczą się umiejętności."
   img: second-side-photo.jpg
   show: true
+  joboffer_graphic: false
+  loup_graphic: true
+  skills_graphic: true
 features:
   title: "<em>hiree</em> jest dla Ciebie, jeśli"
   cards:

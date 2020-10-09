@@ -10,7 +10,7 @@
   <meta name="description" content="To praca znajduje Ciebie - bez CV, bez przeglądania setek ofert. Hiree rozumie Twoje potrzeby i dobiera idealne stanowiska - szybko i z korzyścią dla Twoich zarobków.">
 
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="assets/head/favicon.ico?v1">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/head/favicon.ico?v1">
 
   <meta property="og:title" content="Hiree">
   <meta property="og:description" content="To praca znajduje Ciebie - bez CV, bez przeglądania setek ofert. Hiree rozumie Twoje potrzeby i dobiera idealne stanowiska - szybko i z korzyścią dla Twoich zarobków.">
@@ -52,9 +52,11 @@
 
       <p class="font-p1 mt2 mobile-center gray-dark">{{ page.header.subtitle }}</p>
 
-      <div class="mt6">
-        {% include components/form.html %}
-      </div>
+      {% if page.form %}
+        <div class="mt6">
+          {% include components/form.html %}
+        </div>
+      {% endif %}
     </div>
 
     <div class="col-6 ml2 animate fade-left mobile-hide">
@@ -63,10 +65,10 @@
   </div>
 </section>
 
-<div class="scroll-button">	
-  <span class="scroll-button__down gray-40 flex items-center"><span class="icon icon__arrow-down mr3"></span></span>	
+<div class="scroll-button">
+  <span class="scroll-button__down gray-40 flex items-center"><span class="icon icon__arrow-down mr3"></span></span>
 </div>
-  
+
 {% if page.usp.show %}
 <section class="section--lg">
   <div class="flex col-12 flex-column">
@@ -100,31 +102,30 @@
 
 {% for section in page.main_content %}
 {% if section.show %}
-<section class="relative">
-  {% if forloop.first %}
-
-  {% else %}
+<section class="relative content-section">
+  {% if section.loup_graphic %}
   <span class="icon icon__loup-bg absolute mobile-hide" style="bottom: 0; right: -5%;"></span>
   <span class="icon icon__loup-bg absolute hide mobile-block" style="bottom: -8%; right: -20%;"></span>
   {% endif %}
 
-  <div class="flex mb8 mobile-mb0 {% if forloop.last %} flex-reverse {% endif %} mobile-flex-column">
+  <div class="content-section__container">
     <div class="col-6 overlay-primary mobile-col-12 mobile-mb7">
       <img src="{{ site.baseurl }}/assets/img/{{ section.img }}" alt="" class="img-fit box-shadow-small">
-      {% if forloop.first %}
-      <span class="rectangle absolute mobile-hide" style="bottom: -200px; right: -175px;"></span>
-      <div class="absolute col-9 animate fade-up mobile-hide" style="right: -36px; bottom: -150px;">
-        <img src="{{ site.baseurl }}/assets/svg/offer.png" alt="" class="img-fit box-shadow-small radius">
-      </div>
-      {% else %}
-      <span class="icon icon__skills absolute animate fade-up mobile-hide" style="bottom: -150px; left: -150px;"></span>
-      <span class="icon icon__skills absolute animate fade-up hide mobile-block" style="bottom: -100px; left: 50px;"></span>
+      {% if section.joboffer_graphic %}
+        <span class="rectangle absolute mobile-hide" style="bottom: -200px; right: -175px;"></span>
+        <div class="absolute col-9 animate fade-up mobile-hide" style="right: -36px; bottom: -150px;">
+          <img src="{{ site.baseurl }}/assets/svg/offer.png" alt="" class="img-fit box-shadow-small radius">
+        </div>
+      {% endif %}
+      {% if section.skills_graphic %}
+        <span class="icon icon__skills absolute animate fade-up mobile-hide" style="bottom: -150px; left: -150px;"></span>
+        <span class="icon icon__skills absolute animate fade-up hide mobile-block" style="bottom: -100px; left: 50px;"></span>
       {% endif %}
     </div>
 
-    <div class="flex flex-column justify-center col-6 {% if forloop.first %} pl4 {% else %} pr4 {% endif %} mobile-col-12 mobile-pl0">
+    <div class="content-section__row">
       {% for row in section.row %}
-      <p class="font-p2 secondary {% if forloop.last %} mt7 {% endif %} animate fade-left"><span class="font-p1 fw-semi primary">{{ row.title }}</span>{{ row.text }}</p>
+        <p class="font-p2 secondary {% if forloop.last %} mt7 {% endif %} animate fade-left"><span class="font-p1 fw-semi primary">{{ row.title }}</span>{{ row.text }}</p>
       {% endfor %}
     </div>
   </div>
@@ -168,7 +169,7 @@
         {% for paragraph in page.about.paragraphs %}
         <p class="font-p3 white mt3">{{ paragraph.text }}</p>
         {% endfor %}
-        <a onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt5">Zapisz się!</a>
+        <button onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt5">Zapisz się!</button>
       </div>
     </div>
   </div>
