@@ -87,6 +87,10 @@ section {
   &:nth-of-type(even) {
     .content-section__container {
       flex-direction: row-reverse;
+
+      @include mobile() {
+        flex-direction: column;
+      }
     }
 
     .content-section__row {
