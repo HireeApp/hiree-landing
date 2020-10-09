@@ -86,6 +86,15 @@ fields:
   - type: boolean
     name: show
     label: show
+  - name: joboffer_graphic
+    type: boolean
+    label: Job Offer Graphic
+  - name: loup_graphic
+    type: boolean
+    label: Loup Graphic
+  - name: skills_graphic
+    type: boolean
+    label: Skills Graphic
 - type: field_group
   name: features
   label: Feature Cards
