@@ -15,7 +15,8 @@ main_content:
       nie ciążą w związku z tym żadne niedogodności - tylko korzyści wizerunkowe!"
     title: 0. Weźmiesz udział w prawdziwej rekrutacyjnej rewolucji
   show: true
-  img: "/uploads/revolution.png"
+  img: "/uploads/revolution-1.png"
+  loup_graphic: false
 - row:
   - title: '1. Oszczędność pieniędzy '
     text: "<br>Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
@@ -62,6 +63,10 @@ main_content:
       +48 518 217 052 <br><br>Hiree Sp. z o.o. Sp. k. – ul. Będzińska 5/8, 31-403
       Kraków<br>KRS: 0000844894, NIP: 6762581458, REGON: 386247313"
   show: true
+- row:
+  - text: "<strong>*</strong>HRM institute, <strong>**</strong>No Fluff Jobs, <strong>***</strong>interviewme
+      \ "
+  show: true
 features:
   title: "<em>hiree</em> jest dla Ciebie, jeśli"
   cards:
@@ -81,8 +86,8 @@ features:
 about:
   title: Pobierając hiree wspierasz rekrutacyjną rewolucję
   paragraphs:
-  - text: "<strong>*</strong>HRM institute, <strong>**</strong>No Fluff Jobs, <strong>***</strong>interviewme"
-  show: true
+  - text: ''
+  show: false
 permalink: "/b2b"
 title: Hiree - Dla Pracodawcy
 layout: default
