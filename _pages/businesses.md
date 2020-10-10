@@ -16,7 +16,9 @@ main_content:
     title: 0. Weźmiesz udział w prawdziwej rekrutacyjnej rewolucji
   show: true
   img: "/uploads/revolution-1.png"
-  loup_graphic: false
+  loup_graphic: true
+  skills_graphic: true
+  joboffer_graphic: true
 - row:
   - title: '1. Oszczędność pieniędzy '
     text: "<br>Działamy w modelu Success Fee, czyli <strong>zapłacisz jedynie w przypadku
