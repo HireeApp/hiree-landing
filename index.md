@@ -1,6 +1,6 @@
 ---
 layout: default
-title: hiree
+title: hiree - praca znajduje Ciebie
 form: true
 download_text: Pobierz za darmo
 header:
