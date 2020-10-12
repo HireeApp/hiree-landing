@@ -32,7 +32,7 @@ main_content:
       wyłaniając w obiektywny sposób tylko najlepszych i najbardziej dopasowanych!
       </strong>Cały dział HR zyska wiele dodatkowych godzin i energii!"
   show: true
-  img: "/uploads/save-time.png"
+  img: "/uploads/save-time-1.png"
 - row:
   - title: '3. Employer Branding '
     text: "<strong><br>49%*</strong> pracodawców uważa, że Employer Branding jest
@@ -41,7 +41,7 @@ main_content:
       najlepsze doświadczenia naszych klientów</strong>. Tak pracodawca jak i kandydat
       mogą liczyć na opinię po zakończonym procesie rekrutacyjnym."
   show: true
-  img: "/uploads/employment.png"
+  img: "/uploads/employment-1.png"
 - row:
   - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
@@ -49,7 +49,7 @@ main_content:
       nie!"
     title: 4. Anonimowość
   show: true
-  img: "/uploads/incognito.png"
+  img: "/uploads/incognito-1.png"
 - row:
   - title: 5. Przyjazność
     text: "<br>44%*** rekruterów odrzuca kandydatów podczas screeningu jedynie z powodu
@@ -58,20 +58,20 @@ main_content:
       CV, ani nie wypełnia długich formularzy. Mimo wszystko, CV można wygenerować
       automatycznie - prosto z naszej aplikacji."
   show: true
-  img: "/uploads/friend.png"
+  img: "/uploads/friend-1.png"
 - row:
   - title: '6. Minimum formalności '
     text: "<br>Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja
       regulaminu.</strong>"
   show: true
-  img: "/uploads/paper-cut.png"
+  img: "/uploads/paper-cut-1.png"
 - row:
   - title: 'Skontaktuj się ze mną:'
     text: "<strong><br>Mateusz Stasica</strong><br><strong>m:</strong> <em>m.stasica@hiree.app</em><br><strong>t:</strong>
       +48 518 217 052 <br><br>Hiree Sp. z o.o. Sp. k. – ul. Będzińska 5/8, 31-403
       Kraków<br>KRS: 0000844894, NIP: 6762581458, REGON: 386247313"
   show: true
-  img: "/uploads/mateusz_stasica_hiree-1.png"
+  img: "/uploads/mateusz_stasica_hiree-2.png"
 - row:
   - text: "<strong>*</strong>HRM institute, <strong>**</strong>No Fluff Jobs, <strong>***</strong>interviewme
       \ "
