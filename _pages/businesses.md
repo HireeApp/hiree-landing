@@ -15,7 +15,7 @@ main_content:
       nie ciążą w związku z tym żadne niedogodności - tylko korzyści wizerunkowe!"
     title: 0. Weźmiesz udział w prawdziwej rekrutacyjnej rewolucji
   show: true
-  img: ''
+  img: "/uploads/revolution-1.png"
   loup_graphic: false
   skills_graphic: false
   joboffer_graphic: false
