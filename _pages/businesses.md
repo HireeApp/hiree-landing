@@ -46,6 +46,7 @@ main_content:
       nie!"
     title: 4. Anonimowość
   show: true
+  img: "/uploads/incognito.png"
 - row:
   - title: 5. Przyjazność
     text: "<br>44%*** rekruterów odrzuca kandydatów podczas screeningu jedynie z powodu
