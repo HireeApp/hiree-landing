@@ -59,6 +59,7 @@ main_content:
     text: "<br>Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja
       regulaminu.</strong>"
   show: true
+  img: "/uploads/paper-cut.png"
 - row:
   - title: 'Skontaktuj się ze mną:'
     text: "<strong><br>Mateusz Stasica</strong><br><strong>m:</strong> <em>m.stasica@hiree.app</em><br><strong>t:</strong>
