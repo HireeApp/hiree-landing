@@ -184,6 +184,56 @@
 </section>
 {% endif %}
 
+{% if page.contact.show %}
+<section class="relative content-section">
+  <div class="content-section__container">
+    <div class="col-3 mobile-hide"></div>
+    <div class="col-3 mobile-hide">
+      <img src="{{ site.baseurl }}{{ page.contact.img }}" alt="" class="img-fit">
+    </div>
+
+    <div class="content-section__row">
+      <p class="font-p2 secondary mt7 animate fade-left"><span class="font-p1 fw-semi primary">{{ page.contact.title }}</span>{{ page.contact.text }}</p>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+
+{% if page.business_footer.show %}
+<section id="about" class="bg-primary-light relative flex-column">
+  <div class="flex">
+    <span class="circle absolute mobile-hide" style="bottom: -65%; left: -25%;"></span>
+    <span class="circle absolute hide mobile-block" style="top: 10%; left: -30%;"></span>
+
+    <div class="flex mobile-flex-column">
+      <div class="col-4 animate fade-right mobile-hide">
+        <img class="img-85" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
+      </div>
+      <div class="col-7 pl5 fw-medium flex flex-column justify-center mobile-col-12 mobile-pl0 mobile-items-center">
+        <h1 class="animate fade-up mb5 gray-dark mobile-center">{{ page.business_footer.title }}</h1>
+
+        <div class="col-8 animate fade-right hide mobile-block mb2">
+          <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
+        </div>
+
+        {% for paragraph in page.business_footer.paragraphs %}
+        <p class="font-p3 white mt3">{{ paragraph.text }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <footer class="mt8 custom-width col-12 mobile-mt7 flex space-between mobile-flex-column-reverse mobile-p3">
+    <p class="font-p4 mobile-mt2">© Hiree sp. z o.o. sp. k. - ul. Będzińska 5/8, 31-403
+      Kraków<br>KRS: 0000844894, NIP: 6762581458, REGON: 386247313</p>
+    <div class="flex mobile-flex-column mobile-mt2">
+      <a href="https://blog.hiree.app/cookies/" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">Polityka Cookies</a>
+      <a href="https://blog.hiree.app/polityka-prywatnosci/" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">Polityka Prywatności</a>
+    </div>
+  </footer>
+</section>
+{% endif %}
+
 <script src="{{ site.baseurl }}/assets/js/usp.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
 <script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
