@@ -31,6 +31,7 @@ main_content:
       wyłaniając w obiektywny sposób tylko najlepszych i najbardziej dopasowanych!
       </strong>Cały dział HR zyska wiele dodatkowych godzin i energii!"
   show: true
+  img: "/uploads/save-time.png"
 - row:
   - title: '3. Employer Branding '
     text: "<strong><br>49%*</strong> pracodawców uważa, że Employer Branding jest
