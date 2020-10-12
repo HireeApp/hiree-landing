@@ -54,6 +54,7 @@ main_content:
       CV, ani nie wypełnia długich formularzy. Mimo wszystko, CV można wygenerować
       automatycznie - prosto z naszej aplikacji."
   show: true
+  img: "/uploads/friend.png"
 - row:
   - title: '6. Minimum formalności '
     text: "<br>Aby korzystać z aplikacji potrzebna<strong> jest jedynie akceptacja
