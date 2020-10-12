@@ -65,7 +65,7 @@ main_content:
       +48 518 217 052 <br><br>Hiree Sp. z o.o. Sp. k. – ul. Będzińska 5/8, 31-403
       Kraków<br>KRS: 0000844894, NIP: 6762581458, REGON: 386247313"
   show: true
-  img: "/uploads/mateusz_stasica_hiree.png"
+  img: ''
 - row:
   - text: "<strong>*</strong>HRM institute, <strong>**</strong>No Fluff Jobs, <strong>***</strong>interviewme
       \ "
