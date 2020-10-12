@@ -39,6 +39,7 @@ main_content:
       najlepsze doświadczenia naszych klientów</strong>. Tak pracodawca jak i kandydat
       mogą liczyć na opinię po zakończonym procesie rekrutacyjnym."
   show: true
+  img: "/uploads/employment.png"
 - row:
   - text: "<strong><br>Nikt nie zna widełek poza Sztuczną Inteligencją, która dopasuje
       kandydata do oferty</strong> - i tylko kandydat będzie mógł ją odczytać. Twoje
