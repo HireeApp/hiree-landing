@@ -73,8 +73,9 @@ main_content:
   show: true
   img: "/uploads/mateusz_stasica_hiree-2.png"
 - row:
-  - text: "<strong>*</strong>HRM institute, <strong>**</strong>No Fluff Jobs, <strong>***</strong>interviewme
-      \ "
+  - text: "<strong>*</strong>HRM institute, <br><strong>**</strong>No Fluff Jobs,
+      <br><strong>***</strong>interviewme<br><br><em>Icons made by Freepik and Eucalyp
+      from flaticon.com</em>"
   show: true
 features:
   title: "<em>hiree</em> jest dla Ciebie, jeśli"
