@@ -32,6 +32,8 @@
     background-color: $primary;
     width: 40vw;
     height: 40vw;
+    max-width: 780px;
+    max-height: 780px;
 
     @include laptop() {
       width: 50vw;

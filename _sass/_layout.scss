@@ -10,7 +10,7 @@ section {
   overflow: hidden;
   max-height: 1200px;
 
-  *:not(.custom-width):not(.circle) {
+  *:not(.custom-width):not(.circle):not(.usp__outer) {
     max-width: 1210px;
   }
 
