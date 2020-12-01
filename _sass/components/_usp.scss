@@ -1,0 +1,84 @@
+.usp {
+  &__content {
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+
+  &__button {
+    background-color: $gray-dark;
+    box-shadow: $shadow-small;
+    border-radius: $radius;
+    font-size: $p2;
+    color: $white;
+    margin-bottom: $space-3;
+    padding: $space-inner $space-5;
+    cursor: pointer;
+    transition: .3s ease-out;
+
+    &:hover:not(&--active) {
+      box-shadow: $shadow-small-hover;
+      transform: translateX(-$space-4);
+    }
+
+    &--active {
+      background-color: $primary;
+    }
+  }
+
+  &__outer {
+    right: 0;
+    position: absolute;
+    border-radius: 50%;
+    background-color: $primary;
+    width: 40vw;
+    height: 40vw;
+    max-width: 780px;
+    max-height: 780px;
+
+    @include laptop() {
+      width: 50vw;
+      height: 50vw;
+    }
+  }
+
+  &__inner {
+    position: absolute;
+    background-color: $white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__preview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    opacity: 1;
+    transition: .25s .15s ease-out;
+
+    &--hidden {
+      opacity: 0;
+      transform: translate(-25%, -50%);
+      transition: .25s ease-out;
+    }
+  }
+
+  &__text {
+    opacity: 1;
+    transition: .25s .15s ease-out;
+
+    &--hidden {
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      transform: translateX(-$space-6);
+      transition: .25s ease-out;
+    }
+  }
+}

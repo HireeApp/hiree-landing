@@ -1,0 +1,39 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  padding: $space-inner $space-5;
+  border-radius: $radius;
+  box-shadow: $shadow-small;
+  cursor: pointer;
+  font-weight: $fw-medium;
+  font-size: $p3;
+  transition: .2s ease-out;
+
+  &--tertiary {
+    background-color: $tertiary;
+    color: $white;
+
+    &:hover {
+      background-color: #56826a;
+    }
+  }
+
+  &--gray-dark {
+    background-color: $gray-dark;
+    color: $white;
+
+    &:hover {
+      background-color: $gray;
+    }
+  }
+
+  &--primary {
+    background-color: $primary;
+    color: $white;
+
+    &:hover {
+      background-color: $primary-light;
+    }
+  }
+}

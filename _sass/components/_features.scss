@@ -1,0 +1,31 @@
+.features {
+  overflow: scroll;
+  max-width: 100vw;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &__container {
+    min-width: 240px;
+
+    &:nth-child(2) {
+      left: -$space-2;
+      transition-delay: .25s;
+    }
+    &:nth-child(3) {
+      left: -$space-3;
+      transition-delay: .45s;
+    }
+    &:nth-child(4) {
+      left: -$space-4;
+      transition-delay: .65s;
+    }
+    &:nth-child(5) {
+      left: -$space-4;
+      transition-delay: .85s;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

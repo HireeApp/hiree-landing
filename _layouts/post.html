@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+<header class="blog__header">
+    <div>
+        <a href="{{ site.baseurl }}/"><span class="icon icon__logo-white"></span></a>
+        <a class="white font-p3 fw-semi" href="https://blog.hiree.app">BLOG</a>
+    </div>
+</header>
+
+<div class="blog__content">
+    <article class="blog">
+        <div>
+            {{ content }}
+        </div>
+    </article>
+
+    {% if page.articles.show %}
+    <section class="section--xs flex-column">
+        <h2 class="mb3">{{ page.articles.title }}</h2>
+        <div class="flex mobile-flex-column">
+            {% for post in page.articles.posts %}
+            <a class="col-4 mobile-col-12 mx3 mobile-mx0 mobile-mb4" href="{{ post.link }}">
+                <div>
+                    <div class="col-12 blog-post__img-container">
+                        <img src="{{ site.baseurl }}{{ post.img }}" alt="{{ post.title }}">
+                    </div>
+                    <h3 class="mt2 gray-dark">{{ post.title }}</h3>
+                    <p class="mt2 gray-dark">{{ post.desc }}</p>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+    {% if page.contact.show %}
+    <section class="section--xs team-card__container">
+        <div class="flex flex-wrap space-between mobile-flex-column">
+            {% for member in page.contact.team %}
+                <div class="team-card mt4">
+                    <div class="flex">
+                        <div class="team-card__img"><img src="{{ member.img }}" alt="{{ member.name }}"></div>
+                        <div class="ml3 flex flex-column justify-center">
+                            <h3 class="team-card__name">{{ member.name }}</h3>
+                            <h4 class="team-card__role">{{ member.role }}</h4>
+                        </div>
+                    </div>
+                    <p class="team-card__desc">{{ member.desc }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+</div>
+
+<footer class="mt4 mobile-mt0 p4 custom-width col-12 flex space-between mobile-flex-column-reverse">
+    <p class="font-p4 mobile-mt2">© Hiree 2020</p>
+    <div class="flex mobile-flex-column mobile-mt2">
+        <a href="https://hiree.app" target="_blank" class="font-p4 primary">Home</a>
+        <a href="https://blog.hiree.app" target="_blank" class="font-p4 ml3 mobile-ml0 mobile-mt2 primary">Blog</a>
+        <a href="{{ site.basseurl }}/kontakt" target="_blank" class="font-p4 ml3 mobile-ml0 mobile-mt2 primary">Kontakt</a>
+        <a href="{{ site.baseurl }}/cookies" target="_blank" class="font-p4 primary ml3 mobile-ml0 mobile-mt2">Polityka Cookies</a>
+        <a href="{{ site.basseurl }}/polityka-prywatnosci" target="_blank" class="font-p4 primary ml3 mobile-ml0 mobile-mt2">Polityka Prywatności</a>
+    </div>
+</footer>
+
+</body>
+</html>

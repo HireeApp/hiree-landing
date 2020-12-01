@@ -1,0 +1,31 @@
+.scroll-button {
+  color: $gray;
+  position: fixed;
+  height: 16px;
+  bottom: 48px;
+  left: $space-6;
+  z-index: 40;
+  transition: .2s ease-out;
+
+  @include mobile() {
+    left: $space-4;
+    bottom: $space-4;
+  }
+
+  > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 124px;
+  }
+
+  &__top {
+    opacity: 0;
+    transition: opacity .3s;
+    cursor: default;
+  }
+
+  &--hidden {
+    opacity: 0;
+  }
+}
