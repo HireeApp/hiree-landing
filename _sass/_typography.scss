@@ -66,6 +66,10 @@ h3 {
   font-weight: $fw-bold;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .white {
   color: $white;
 }
@@ -90,6 +94,10 @@ h3 {
   color: $secondary-light;
 }
 
+.purple {
+  color: $purple;
+}
+
 .center {
   text-align: center;
 }
@@ -102,5 +110,48 @@ h3 {
   .mobile-right {
     text-align: right;
   }
+
+  .mobile-white {
+    color: $white;
+  }
+
+  .mobile-dark {
+    color: $gray-dark;
+  }
 }
 
+.h1n {
+  font-size: $h1n;
+
+  @include mobile() {
+    font-size: $h2n;
+  }
+}
+
+.h2n {
+  font-size: $h2n;
+}
+
+.h3n {
+  font-size: $h3n;
+}
+
+.p1n {
+  font-size: $p1n;
+}
+
+.p2n {
+  font-size: $p2n;
+
+  @include mobile() {
+    font-size: $p3n;
+  }
+}
+
+.p3n {
+  font-size: $p3n;
+}
+
+label, .label {
+  font-size: $label;
+}

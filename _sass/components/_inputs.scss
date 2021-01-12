@@ -1,0 +1,50 @@
+.input-with-btn {
+  background-color: $gray-lighter;
+  border-radius: $radius;
+  padding: $space-2  92px $space-2 $space-3;
+  position: relative;
+  display: inline-block;
+
+  input {
+    background-color: transparent;
+    border: none;
+    font-size: $p3n;
+    color: $black;
+
+    @include mobile() {
+      font-size: $label;
+    }
+
+    &::placeholder {
+      font-size: $p3n;
+      color: $gray-light;
+
+      @include mobile() {
+        font-size: $label;
+      }
+    }
+  }
+
+  &__button {
+    background-color: $primary;
+    color: $white;
+    font-weight: $fw-medium;
+    font-size: $p3n;
+    border-radius: $radius;
+    height: 100%;
+    padding: $space-2 $space-3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  &--negative-left {
+    margin-left: -#{$space-3};
+
+    @include mobile() {
+      margin-left: 0;
+    }
+  }
+}

@@ -1,3 +1,8 @@
+.ml-auto {
+  margin-left: auto;
+}
+
+
 .mx1 {
   margin-right: $space-1;
   margin-left: $space-1;
@@ -26,6 +31,14 @@
 .mx6 {
   margin-right: $space-6;
   margin-left: $space-6;
+}
+
+
+
+
+.mxn5 {
+  margin-right: -#{$space-5};
+  margin-left: -#{$space-5};
 }
 
 
@@ -449,6 +462,12 @@
 
 
 
+  .mobile-mr0 {
+    margin-right: 0;
+  }
+
+
+
 
   .mobile-mb0 {
     margin-bottom: 0;
@@ -497,6 +516,9 @@
 
 
 
+  .mobile-p0 {
+    padding: 0;
+  }
 
   .mobile-p1 {
     padding: $space-1;

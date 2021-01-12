@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicon/safari-pinned-tab.svg" color="#ff3000">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/img/og.png">
+    <meta property="og:url" content="{{ site.baseurl }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ site.baseurl }}/assets/img/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png">
+
+    <title>{{ page.title }}</title>
+
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+
+    <!-- Google Tag Manager -->
+    <script async defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T7T33G3');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+
+<section class="b2b">
+    <div class="flex flex-column col-12">
+        <header class="flex space-between relative mobile-items-center z-index-2 mb7">
+            <span class="icon icon__logo mobile-hide"></span>
+            <span class="icon icon__logo-white hide mobile-block"></span>
+            <a class="p3n underline white fw-medium" href="{{ page.header.link.anchor }}">{{ page.header.link.text }}</a>
+        </header>
+
+        <div class="flex mobile-flex-column">
+            <div class="col-6 mobile-col-12">
+                <h1 class="animate fade-right h1n mobile-white">{{ page.header.title }}</h1>
+                <p class="animate fade-right p1n purple mt2 mobile-dark">{{ page.header.subtitle }}</p>
+                <div class="flex flex-column">
+
+                    <div class="hide mobile-block col-6 mobile-col-12 my4">
+                        <img class="animate fade-down img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/b2b/app.png" alt="">
+                    </div>
+
+                    <label class="label mt3 mobile-ml3" for="form-input">{{ page.header.form.label }}</label>
+                    <div class="input-with-btn input-with-btn--negative-left self-start mt2 mobile-col-12">
+                        <input id="form-input" placeholder="{{ page.header.form.placeholder }}" type="text">
+                        <button class="input-with-btn__button">{{ page.header.form.button }}</button>
+                    </div>
+                    <label class="label mt2 mobile-ml3">{{ page.header.form.sublabel }}</label>
+                </div>
+            </div>
+
+            <div class="mobile-hide col-6 mobile-col-12">
+                <img class="animate fade-down img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/b2b/app.png" alt="">
+            </div>
+
+            <img class="splash-bg" src="{{ site.baseurl }}/assets/svg/b2b/splash.svg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="bg-gray-lightest">
+    <div class="flex flex-column items-center">
+        <h3 class="h3n center secondary-light mb7">{{ page.info.header }}</h3>
+
+        {% for usp in page.info.usp_1 %}
+        <div class="animate {% if forloop.first %}fade-down{% else %}fade-right{% endif %} every-other-row-reversed items-center col-12">
+            <div class="col-6 mobile-col-12">
+                <img class="img-fit" src="{{ site.baseurl }}{{ usp.img }}" alt="">
+            </div>
+
+            <div class="animate {% if forloop.first %}fade-left{% else %}fade-up{% endif %} col-6 mobile-col-12 mobile-mt4">
+                <h2 class="h2n">{{ usp.title }}</h2>
+                <hr class="redline ml0 my3">
+                <p class="p2n">{{ usp.paragraph }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section>
+    <div class="flex flex-column">
+        {% for usp in page.info.usp_2 %}
+        <div class="animate {% if forloop.first %}fade-right{% else %}fade-left{% endif %} every-other-row-reversed items-center col-12">
+            <div class="col-6 mobile-col-12">
+                <img class="img-fit" src="{{ site.baseurl }}{{ usp.img }}" alt="">
+            </div>
+
+            <div class="animate {% if forloop.first %}fade-up{% else %}fade-down{% endif %} col-6 mobile-col-12 mobile-mt4">
+                <h2 class="h2n">{{ usp.title }}</h2>
+                <hr class="redline ml0 my3">
+                <p class="p2n">{{ usp.paragraph }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<div class="bg-stats default-max-width flex justify-center p5 mobile-p4">
+    <div class="flex mobile-flex-column col-12">
+        <div class="col-7 mobile-col-12 mobile-mr0 mr6 relative">
+            <h2 class="h2n white">{{ page.stats.header }}</h2>
+            <div class="stats-img mobile-mt5">
+                <img class="animate fade-up img-fit" src="{{ site.baseurl }}/assets/img/b2b/screen.png" alt="">
+            </div>
+        </div>
+
+        <div class="animate fade-down col-5 mobile-col-12 mobile-ml0 ml6">
+            {% for line in page.stats.lines %}
+                <div class="flex items-center mobile-mt2">
+                    <h2 class="h2n primary mr2">{{ line.value }}</h2>
+                    <p class="p2n white">{{ line.text }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="default-max-width flex justify-center mt5 mb8 mobile-mb0">
+    <div class="col-12 flex mobile-ml0 ml6 mobile-p4">
+        <p class="col-5 mobile-col-12 p2n mobile-ml0 ml-auto">{{ page.stats.paragraph }}</p>
+    </div>
+</div>
+
+<section>
+    <div class="flex flex-column">
+        {% for usp in page.info.usp_3 %}
+        <div class="animate {% if forloop.first %}fade-up{% else %}fade-right{% endif %} every-other-row-reversed-odd items-center col-12">
+            <div class="col-6 mobile-col-12">
+                <img class="img-fit" src="{{ site.baseurl }}{{ usp.img }}" alt="">
+            </div>
+
+            <div class="animate {% if forloop.first %}fade-left{% else %}fade-down{% endif %} col-6 mobile-col-12 mobile-mt4">
+                <h2 class="h2n">{{ usp.title }}</h2>
+                <hr class="redline ml0 my3">
+                <p class="p2n">{{ usp.paragraph }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="bg-gray-lightest">
+    <div class="flex flex-column">
+        <div class="group-button mb6">
+            {% for summary in page.summary %}
+            <button class="group-button__button {% if forloop.first %}group-button__button--active{% endif %}">{{ summary.title }}</button>
+            {% endfor %}
+        </div>
+
+        <div class="flex relative mobile-flex-column">
+            <div class="flex items-center opacity-0">
+                <p class="p2n col-6 mr6 mobile-col-12 mobile-mr0">{{ page.summary[0].text }}</p>
+                <div class="col-6 p7 mobile-col-12 mobile-mt5 mobile-p0">
+                    <img class="img-fit" src="{{ site.baseurl }}{{ page.summary[0].img }}" alt="">
+                </div>
+            </div>
+            {% for summary in page.summary %}
+                <div class="group-button__content {% if forloop.first %}group-button__content--active{% endif %}">
+                    <p class="animate fade-down p2n col-6 mr6 mobile-col-12 mobile-mr0">{{ summary.text }}</p>
+                    <div class="animate fade-down col-6 p7 mobile-col-12 mobile-mt5 mobile-p0">
+                        <img class="animate fade-left img-fit" src="{{ site.baseurl }}{{ summary.img }}" alt="">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="flex flex-column items-center col-12 pb6">
+        <h1 class="h1n col-9 center">{{ page.footer.title }}</h1>
+        <div class="flex mobile-flex-column justify-center  items-center mt4">
+            <button onclick="scrollToForm()" class="btn btn--asymmetric btn--primary">zostaw maila</button>
+            <label class="secondary-light mx3 center mobile-mt2">lub</label>
+            <a href="mailto:m.stasica@hiree.app" class="btn btn--asymmetric--reversed btn--primary mobile-mt2">napisz do nas</a>
+        </div>
+        <p class="p1n col-9 center mt4">{{ page.footer.subtitle }}</p>
+    </div>
+</section>
+
+<script src="{{ site.baseurl }}/assets/js/b2bSwitch.js"></script>
+<script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
+<script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
+
+</body>
+</html>

@@ -10,15 +10,19 @@ $space-8: 128px;
 $space-inner: 12px;
 
 $white: #fff;
-$black: #000;
-$primary: #EB4526;
-$primary-light: #EC6340;
+$black: #000000;
+$primary: #FF3000;
+$primary-light: #FF7252;
 $secondary: #3D4059;
 $secondary-light: #70738C;
 $tertiary: #65997D;
 $tertiary-dark: #56826a;
 $gray: #292A31;
 $gray-dark: #011627;
+$gray-light: #606060;
+$gray-lighter: #F4F4F4;
+$gray-lightest: #FBFBFB;
+$purple: #566397;
 
 $fw-medium: 500;
 $fw-semi: 600;
@@ -36,5 +40,14 @@ $shadow-symmetric: 0 0 10px 5px rgba($black, 0.03);
 $shadow-symmetric-hover: 0 0 10px 5px rgba($black, 0.05);
 $shadow-small: 5px 5px 15px 5px rgba($black, 0.03);
 $shadow-small-hover: 5px 5px 15px 5px rgba($black, 0.05);
+$shadow-stronger: 5px 5px 20px 10px rgba($black, 0.1);
 
 $radius: 20px;
+
+$h1n: 50px;
+$h2n: 34px;
+$h3n: 24px;
+$p1n: 26px;
+$p2n: 22px;
+$p3n: 18px;
+$label: 16px;

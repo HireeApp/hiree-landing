@@ -39,6 +39,12 @@
   -moz-box-shadow: $shadow-small;
 }
 
+.box-shadow-stronger {
+  box-shadow: $shadow-stronger;
+  -webkit-box-shadow: $shadow-stronger;
+  -moz-box-shadow: $shadow-stronger;
+}
+
 .overlay-primary {
   position: relative;
 
@@ -55,4 +61,8 @@
 
 .radius {
   border-radius: $radius;
+}
+
+.opacity-0 {
+  opacity: 0;
 }

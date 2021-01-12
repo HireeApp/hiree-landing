@@ -36,4 +36,63 @@
       background-color: $primary-light;
     }
   }
+
+  &--asymmetric {
+    border-radius: $radius 0 $radius 0;
+
+    &--reversed {
+      border-radius: 0 $radius 0 $radius;
+    }
+  }
+}
+
+.group-button {
+  border-radius: $radius;
+  width: 100%;
+  box-shadow: $shadow-small;
+  font-weight: $fw-semi;
+  font-size: $p3;
+  display: flex;
+  overflow: hidden;
+
+  &__button {
+    margin: 0;
+    padding: $space-inner;
+    text-decoration: none;
+    border: none;
+    width: 50%;
+    text-align: center;
+    font-size: $p1n;
+    transition: .2s ease-out;
+    background-color: $white;
+    color: $black;
+    cursor: pointer;
+
+    @include mobile() {
+      font-size: $p3n;
+    }
+
+    &--active {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: .3s 0s ease-in;
+
+    @include mobile() {
+      flex-direction: column;
+    }
+
+    &--active {
+      opacity: 1;
+      transition: .3s .2s ease-in;
+    }
+  }
 }

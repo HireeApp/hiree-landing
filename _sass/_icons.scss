@@ -7,6 +7,12 @@
   mask-repeat: no-repeat;
   mask-size: cover;
 
+  &__logo {
+    width: 107px;
+    height: 59px;
+    background-image: url($baseurl + "/assets/svg/b2b/logo.svg");
+  }
+
   &__logo-white {
     width: 108px;
     height: 60px;

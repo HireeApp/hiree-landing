@@ -31,14 +31,14 @@ document.addEventListener('scroll', () => {
   let waiting = false;
   if (!waiting) {
     detectBounding();
-    scrollTopAboveFooter();
+    if (about) scrollTopAboveFooter();
     waiting = true;
     setTimeout(() => waiting = false, 500)
   }
 });
 
 detectBounding();
-scrollTopAboveFooter();
+if (about) scrollTopAboveFooter();
 
 const header = document.querySelector('header');
 const scrollToForm = () => header.scrollIntoView({behavior: 'smooth'});
