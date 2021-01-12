@@ -319,10 +319,14 @@ section {
 
 .splash-bg {
   position: absolute;
-  top: -5%;
   right: 0;
+  top: -25%;
   z-index: -1;
   width: 52%;
+
+  @include laptop() {
+    top: -5%;
+  }
 
   @include mobile() {
     width: 200%;
@@ -330,11 +334,13 @@ section {
     right: -52%;
     height: 100%;
     transform: rotate(-80deg);
+    max-width: 1210px;
   }
 
   @include mobile-sm() {
     width: 250%;
     right: -80%;
+    max-width: 1210px;
   }
 }
 
