@@ -20,7 +20,7 @@ r. Prawo telekomunikacyjne (t.j. Dz. U. z 2018 r., poz. 1954 z późn.
 zm.).
 
 Właścicielem i prowadzącym serwis internetowy
-[<u>www.hiree.app</u>](http://www.hiree.com) jest Hiree Sp. z o.o. Sp.
+[<u>www.hiree.app</u>](https://hiree.app) jest Hiree Sp. z o.o. Sp.
 k. z siedzibą ul. Będzińska 5/8, 31-403 Kraków, wpisana do Rejestru
 Przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd
 Rejonowy dla Krakowa – Śródmieścia w Krakowie Wydział XI Gospodarczy
@@ -67,9 +67,9 @@ należy je rozumieć w sposób następujący:
 
 14. **Aplikacja HireeApp** – aplikacja mobilna będąca oprogramowaniem instalowanym na urządzeniach przenośnych umożliwiającym rejestrację oraz korzystanie z Usług elektronicznych przez Kandydata;
 
-15. **Serwis** – całość infrastruktury techniczno – informatycznej oraz wszelkie narzędzia umożliwiające świadczenie usług drogą elektroniczną dostępne za pośrednictwem strony internetowej [<u>www.hiree.app</u>](http://www.hiree.com) lub aplikacji HireeApp;
+15. **Serwis** – całość infrastruktury techniczno – informatycznej oraz wszelkie narzędzia umożliwiające świadczenie usług drogą elektroniczną dostępne za pośrednictwem strony internetowej [<u>www.hiree.app</u>](https://hiree.app) lub aplikacji HireeApp;
 
-16. **Strona internetowa Serwisu** – strona dostępna pod adesem: [<u>www.hiree.app</u>](http://www.hiree.com)
+16. **Strona internetowa Serwisu** – strona dostępna pod adesem: [<u>www.hiree.app</u>](https://hiree.app)
 
 17. **Usługi** - usługi mające charakter płatny lub bezpłatny świadczone drogą elektroniczną przez Hiree na rzecz Użytkowników, wskazane i opisane w niniejszym Regulaminie;
 
