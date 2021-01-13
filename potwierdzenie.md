@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hiree - Dziękujemy
+title: hiree - Dziękujemy
 articles:
   show: true
   title: Zobacz także

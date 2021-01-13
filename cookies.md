@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Hiree - Polityka Cookies
+title: hiree - Polityka Cookies
 ---
 ## POLITYKA PLIKÓW COOKIES SERWISU INTERNETOWEGO HIREE
 
 1. Serwis internetowy www.hiree.app, zwany dalej Serwisem, prowadzony przez Hiree Sp. z o.o. Sp. k. z siedzibą ul. Będzińska 5/8, 31-403 Kraków, zwaną dalej Hiree, podczas świadczenia Usług drogą elektroniczną za pośrednictwem Serwisu może wykorzystywać pliki cookies.
 
-2. Pliki cookies są plikami tekstowymi wysyłanymi na urządzenia końcowe (np. komputer stacjonarny, laptop, tablet, smartfon) z których korzysta Użytkownik zgodnie z definicją zawartą w Regulaminie Serwisu, którym jest Kandydat lub Pracownik. 
+2. Pliki cookies są plikami tekstowymi wysyłanymi na urządzenia końcowe (np. komputer stacjonarny, laptop, tablet, smartfon) z których korzysta Użytkownik zgodnie z definicją zawartą w Regulaminie Serwisu, którym jest Kandydat lub Pracownik.
 
 3. Wykorzystywanie plików cookies ma na celu umożliwienie lepszego dopasowania Serwisu, prezentowanych treści oraz kompatybilność z urządzeniami Użytkownika, jak również służy Hiree w celach statystycznych.
 
@@ -25,35 +25,35 @@ title: Hiree - Polityka Cookies
     1. [Edge](https://support.microsoft.com/pl-pl/help/17442/windows-internet-explorer-delete-manage-cookies)
 
     2. [Google Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=pl)
-    
+
     3. [Mozilla Firefox](https://support.mozilla.org/pl/kb/ciasteczka)
-    
+
     4. [Safari](https://support.apple.com/pl-pl/guide/safari/sfri11471/mac)
-    
+
     5. [iOS Safari (Safari Mobile)](https://support.apple.com/pl-pl/HT201265)
-    
+
     6. [Android Browser](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=en)
-    
+
     7. [Opera](https://help.opera.com/pl/latest/web-preferences/#cookies)
-    
+
 10. Serwis wykorzystuje następujące rodzaje plików cookies:
 
     1. cookies własne – przesyłane przez Stronę internetową Serwisu dla zapewnienia jego prawidłowego funkcjonowania oraz celem zastosowania odpowiednich funkcjonalności technicznych i bezpieczeństwa.
-    
+
     2. cookies stron trzecich – przesyłane przez inne podmioty współpracujące z Hiree lub świadczące na jego rzecz usługi, jak również dostosowujące wygląd strony internetowej oraz prezentowanych treści do preferencji Użytkownika.
 
 11. Serwis korzysta w szczególności z poniżej wymienionych narzędzi wykorzystujących pliki cookies:
 
     1. [Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) – narzędzie analizy ruchu na Stronie internetowej Serwisu odnoszące się do anonimowego wskazania typu Użytkowników oraz ich zachowań podczas korzystania z Serwisu.
-    
+
     2. [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821?hl=pl) – narzędzie zarządzania tagami usprawniające możliwość właściwej aktualizacji tagów i fragmentów kodu witryny lub aplikacji mobilnych. Może służyć także dodawaniu i aktualizacji niestandardowych tagów stron trzecich. Dodanie niewielkiego fragmentu kodu menedżera tagów umożliwia bezpiecznie wdrożenie ustawienia analityki i tagów pomiarowych, korzystając z internetowego interfejsu Użytkownika.
 
     3. [WordPress Cookies](www.wordpress.org/support/article/cookies) – narzędzia umożliwiające szybsze poruszanie się Użytkowników po Serwisie, zapamiętujące dane logowania na stronie internetowej Serwisu, lub służące do kontynuowania wpisów na blogu przez danego zindywidualizowanego Użytkownika.
-    
+
     4. [Hotjar Cookies Analytics](www.hotjar.com/privacy) – narzędzie analizujące w sposób anonimowy zachowania Użytkowników Serwisu przy wykorzystaniu mapy strony internetowej, analizy ścieżek konwersji, ankiet kontekstowych, czy też nagrań związanych z korzystaniem z witryny internetowej.
-    
+
     5. [Facebook Custom Audience](https://www.facebook.com/privacy/explanation) – narzędzie pozwalające na wykorzystywanie plików cookies w celu budowania grupy niestandardowych odbiorców do których adresowane będą spersonalizowane treści reklamowe, na podstawie uprzednio zaobserwowanych preferencji.
- 
+
     6. Pliki cookies stosowane przez portale społecznościowe (Facebook, Instagram, Twitter, YouTube, LinkedIn, itp.) – narzędzie dedykowane Użytkownikom portali społecznościowych umożliwiające tworzenie dla tych Użytkowników dedykowanych treści na podstawie zebranych informacji o ich aktywności na danym portalu oraz ich łączenia.
        Więcej informacji na temat wykorzystywania plików cookies przez portale społecznościowe można znaleźć na stronach internetowych poszczególnych portali, m.in.:
 

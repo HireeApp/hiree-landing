@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hiree - Regulamin serwisu internetowego
+title: hiree - Regulamin serwisu internetowego
 ---
 
 **<u>REGULAMIN SERWISU INTERNETOWEGO HIREE</u>**
