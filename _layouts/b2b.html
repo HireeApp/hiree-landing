@@ -58,12 +58,24 @@
                         <img class="animate fade-down img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/b2b/app.png" alt="">
                     </div>
 
-                    <label class="label mt3 mobile-ml3" for="form-input">{{ page.header.form.label }}</label>
-                    <div class="input-with-btn input-with-btn--negative-left self-start mt2 mobile-col-12">
-                        <input id="form-input" placeholder="{{ page.header.form.placeholder }}" type="text">
-                        <button class="input-with-btn__button">{{ page.header.form.button }}</button>
-                    </div>
-                    <label class="label mt2 mobile-ml3">{{ page.header.form.sublabel }}</label>
+                    <label class="label mt3 mobile-ml3" for="EMAIL">{{ page.header.form.label }}</label>
+
+<!--                    <form id="sib-form" method="POST" action="https://52d5b74d.sibforms.com/serve/MUIEAI8xILurH22naDBH8blmGJaOErYyPAmduPkotb65vNS56vezUqOETz7fojOYLC40vZ0qbiqe7xFfNqfqfd2P8HJv9qS5qEzobfAepnkyx1fuFKRy9BThoDt-YALkQrQyEWV777tatAIENWuXrLBr4dEisXe4piTMqD7g9YPdsgHNWW2Ly_JAt9ZLwxfXVqRHKk8J2fPbtOro" data-type="subscription">-->
+<!--                        <div class="input-with-btn input-with-btn&#45;&#45;negative-left self-start mt2 mobile-col-12">-->
+<!--                            <input required data-required="true" id="EMAIL" name="EMAIL" placeholder="{{ page.header.form.placeholder }}" type="text">-->
+<!--                            <button form="sib-form" type="submit" class="input-with-btn__button">{{ page.header.form.button }}<svg class="hide"></svg></button>-->
+<!--                        </div>-->
+
+<!--                        <label class="checkbox" for="OPT_IN">-->
+<!--                            <input type="checkbox" value="1" id="OPT_IN" name="OPT_IN" required />-->
+<!--                            <span></span>-->
+<!--                            Akceptuje <a href="https://blog.hiree.app/index.php/polityka-prywatnosci/" target="_self">politykę prywatności</a>.<label class="primary" data-required="*">*</label>-->
+<!--                        </label>-->
+<!--                    </form>-->
+
+                    {% include components/b2b-form.html %}
+
+                    <label class="label mb6 mt2 mobile-ml3">{{ page.header.form.sublabel }}</label>
                 </div>
             </div>
 
@@ -199,6 +211,21 @@
 <script src="{{ site.baseurl }}/assets/js/b2bSwitch.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
 <script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
+
+<script>
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
+    window.REQUIRED_ERROR_MESSAGE = "To pole nie może pozostać puste. ";
+    window.GENERIC_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
+    window.translation = {
+        common: {
+            selectedList: '{quantity} list selected',
+            selectedLists: '{quantity} lists selected'
+        }
+    };
+    let AUTOHIDE = Boolean(0);
+</script>
+<script src="https://sibforms.com/forms/end-form/build/main.js"></script>
 
 </body>
 </html>

@@ -48,3 +48,11 @@
     }
   }
 }
+
+.sib-form-message-panel {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}

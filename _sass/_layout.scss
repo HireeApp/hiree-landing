@@ -320,7 +320,7 @@ section {
 .splash-bg {
   position: absolute;
   right: 0;
-  top: -25%;
+  top: -10vh;
   z-index: -1;
   width: 52%;
 
@@ -330,7 +330,7 @@ section {
 
   @include mobile() {
     width: 200%;
-    top: -20%;
+    top: -25vh;
     right: -52%;
     height: 100%;
     transform: rotate(-80deg);

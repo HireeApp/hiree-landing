@@ -1,0 +1,121 @@
+.checkbox {
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: $checkbox-dimension;
+  height: $checkbox-dimension;
+  width: $checkbox-dimension;
+  clear: both;
+  padding-left: $checkbox-dimension + $space-2;
+  white-space: nowrap;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+
+    &:checked {
+      ~ span {
+        background-color: $primary;
+        border-radius: $radius-sm;
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+        border: 1px solid $primary;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.13);
+
+        &::after {
+          transform: rotate(45deg) scale(1);
+          opacity: 1;
+          left: 5px;
+          top: 2px;
+          width: 4px;
+          height: 9px;
+          border: solid $white;
+          border-width: 0 2px 2px 0;
+          background-color: transparent;
+          border-radius: 0;
+        }
+
+        &::before {
+          left: -3px;
+          top: -3px;
+          width: 18px;
+          height: 18px;
+          border-radius: $radius-sm;
+          transform: scale(3);
+          opacity: 0;
+          z-index: 999;
+          transition: all 0.3s ease-out;
+        }
+      }
+    }
+
+    &:disabled:not(:checked) {
+      ~ span {
+        background-color: $gray-lightest;
+        border-color: $gray-lighter;
+      }
+    }
+
+    &:disabled:checked {
+      ~ span {
+        background-color: $gray-lightest;
+        border-color: $gray-lighter;
+
+        &::after {
+          transform: rotate(45deg) scale(1);
+          opacity: 1;
+          left: 6px;
+          top: 3px;
+          width: 5px;
+          height: 8px;
+          border: solid $gray-light;
+          border-width: 0 2px 2px 0;
+          background-color: transparent;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $checkbox-dimension;
+    width: $checkbox-dimension;
+    background-color: transparent;
+    border-radius: $radius-sm;
+    transition: all 0.3s ease-out;
+    border: 1px solid $gray;
+    pointer-events: none;
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: 9px;
+      top: 9px;
+      height: 0;
+      width: 0;
+      border-radius: $radius-sm;
+      border: solid $white;
+      border-width: 0 3px 3px 0;
+      transform: rotate(0deg) scale(0);
+      opacity: 1;
+      transition: all 0.3s ease-out;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      left: 6px;
+      top: 6px;
+      width: 0;
+      height: 0;
+      border-radius: $radius-sm;
+      border: 1px solid $gray;
+      transform: scale(0);
+    }
+  }
+}
