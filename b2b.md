@@ -8,12 +8,12 @@ header:
         anchor: https://hiree.app
         text: dla pracowników
     title: Pracownicy na miarę Twoich wymagań
-    subtitle: Poznaj hiree - spójny ekosystem, który ułatwi i przyspieszy Twoje procesy rekrutacyjne oraz podniesie jakość otrzymywanych zgłoszeń. 
+    subtitle: Poznaj hiree - spójny ekosystem, który ułatwi i przyspieszy Twoje procesy rekrutacyjne oraz podniesie jakość otrzymywanych zgłoszeń.
     form:
         label: Zostaw nam maila, odezwiemy się!
         placeholder: Podaj swój adres email
         button: wyślij
-        sublabel: Albo <a href="mailto:m.stasica@hiree.app"><strong><em>napisz do nas</em></strong></a>
+        sublabel: Albo <a href="mailto:karol.hylinski@hiree.app"><strong><em>napisz do nas</em></strong></a>
 info:
     header: Na pewno znasz wiele narzędzi do rekrutacji. <br/> Czym my się wyróżniamy?
     usp_1:
