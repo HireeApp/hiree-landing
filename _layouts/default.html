@@ -81,7 +81,7 @@
     <div class="col-6 overlay-primary mobile-col-12 mobile-mb7">
       <img src="{{ site.baseurl }}{{ section.img }}" alt="" class="img-fit box-shadow-small">
       {% if section.joboffer_graphic %}
-        <span class="rectangle absolute mobile-hide" style="bottom: -200px; right: -175px;"></span>
+        <span class="rectangle absolute mobile-hide" style="bottom: -200px; right: -175px; z-index: -1;"></span>
         <div class="absolute col-9 animate fade-up mobile-hide" style="right: -36px; bottom: -150px;">
           <img src="{{ site.baseurl }}/assets/svg/offer.png" alt="" class="img-fit box-shadow-small radius">
         </div>
@@ -118,6 +118,15 @@
 </div>
 {% endif %}
 
+{% if page.team.show %}
+<!--  <div class="flex mobile-flex-column">-->
+<!--    <div class="col-6 mobile-col-6">-->
+<!--      <h2>{{ page.team.header }}</h2>-->
+<!--      <p></p>-->
+<!--    </div>-->
+<!--  </div>-->
+{% endif %}
+
 {% if page.about.show %}
 <section id="about" class="bg-primary-light relative flex-column">
   <div class="flex">
@@ -143,7 +152,7 @@
     </div>
   </div>
   <footer class="mt8 custom-width col-12 mobile-mt7 flex space-between mobile-flex-column-reverse mobile-p3">
-    <p class="font-p4 mobile-mt2">© hiree 2020</p>
+    <p class="font-p4 mobile-mt2">© hiree 2021</p>
     <div class="flex mobile-flex-column mobile-mt2">
       <a href="https://blog.hiree.app/kontakt-o-nas/" target="_blank" class="font-p4 white">Kontakt</a>
       <a href="{{ site.baseurl }}/cookies" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">Polityka Cookies</a>
