@@ -33,6 +33,10 @@ section {
 
   &:not(:first-of-type):not(:last-of-type):not(.section--sm):not(.section--lg):not(.section-xs) {
     padding: 196px 64px;
+
+    @include mobile() {
+      padding: $space-4;
+    }
   }
 
   &.section--sm {
@@ -71,6 +75,10 @@ section {
 
   &:last-of-type:not(.section--xs) {
     padding: 204px 64px $space-3;
+
+    @include mobile() {
+      padding: $space-4;
+    }
   }
 
   @include mobile() {

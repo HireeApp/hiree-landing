@@ -85,16 +85,19 @@
         <div class="absolute col-9 animate fade-up mobile-hide" style="right: -36px; bottom: -150px;">
           <img src="{{ site.baseurl }}/assets/svg/offer.png" alt="" class="img-fit box-shadow-small radius">
         </div>
+      <div class="absolute col-9 animate fade-up hide mobile-block" style="left: -20px; bottom: -30px;">
+        <img src="{{ site.baseurl }}/assets/svg/offer.png" alt="" class="img-fit box-shadow-small radius">
+      </div>
       {% endif %}
       {% if section.skills_graphic %}
         <span class="icon icon__skills absolute animate fade-up mobile-hide" style="bottom: -150px; left: -150px;"></span>
-        <span class="icon icon__skills absolute animate fade-up hide mobile-block" style="bottom: -100px; left: 50px;"></span>
+        <span class="icon icon__skills absolute animate fade-up hide mobile-block" style="bottom: -85px; left: 50px;"></span>
       {% endif %}
     </div>
 
     <div class="content-section__row">
       {% for row in section.row %}
-        <p class="font-p2 secondary {% if forloop.last %} mt7 {% endif %} animate fade-left"><span class="font-p1 fw-semi primary">{{ row.title }}</span>{{ row.text }}</p>
+        <p class="font-p2 secondary {% if forloop.last %} mt7 mb5 {% endif %} animate fade-left"><span class="font-p1 fw-semi primary">{{ row.title }}</span>{{ row.text }}</p>
       {% endfor %}
     </div>
   </div>
@@ -103,7 +106,7 @@
 {% endfor %}
 
 {% if page.features.show %}
-<div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width mt5">
+<div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width">
   <div class="mt4 custom-width flex flex-column items-center">
     <h2 class="white mb4 custom-width-col-12 mobile-center">{{ page.features.title }}</h2>
     <div class="flex mb5 mx3 custom-width features">
