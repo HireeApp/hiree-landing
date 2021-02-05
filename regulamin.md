@@ -499,7 +499,7 @@ szkody powstałej w wyniku tego naruszenia w stosunku do Hiree lub innej
 osoby trzeciej, której prawa lub wolności zostały naruszone w związku z
 działaniami lub zaniechaniami Użytkownika.
 
-**§ 9**
+**§ 7**
 
 **<u>OBOWIĄZKI, PRAWA I ODPOWIEDZIALNOŚĆ HIREE</u>**
 
@@ -567,7 +567,7 @@ odpowiedzialności za pominięcie lub nieprawdziwe przedstawienie przez
 Użytkownika, niedokładność lub brak prawdziwości jakichkolwiek
 informacji lub danych Użytkownika.
 
-**§ 10**
+**§ 8**
 
 **<u>ODPOWIEDZIALNOŚĆ STRON W PRZYPADKU WYSTĄPIENIA SIŁY WYŻSZEJ</u>**
 
@@ -590,7 +590,7 @@ zakresu realizacji obowiązków wynikających z zawartej Umowy na
 Umowy na uzgodnionych uprzednio warunkach, w szczególności w przypadku
 braku możności świadczenia Usługi przez Hiree.
 
-**§ 11**
+**§ 9**
 
 **<u>ZAKAZ UDOSTĘPNIANIA TREŚCI BEZPRAWNYCH</u>**
 
@@ -631,7 +631,7 @@ Przed zastosowaniem blokady Konta Pracodawcy lub Profilu Kandydata albo
 jego aktywności Hiree może wezwać Użytkownika do natychmiastowego
 usunięcia naruszeń oraz zaniechania ich w przyszłości.
 
-**§ 12**
+**§ 10**
 
 **<u>PRAWA AUTORSKIE I WŁASNOŚĆ INTELEKTUALNA</u>**
 
@@ -652,7 +652,7 @@ własności intelektualnej, w szczególności do nazwy, logotypu, domeny
 internetowej oraz zamieszczanych treści w Serwisie, Użytkownik podlegać
 będzie odpowiedzialności cywilnej i karnej.
 
-**§ 13**
+**§ 11**
 
 **<u>KORZYSTANIE Z PLIKÓW COOKIES</u>**
 
@@ -689,7 +689,7 @@ Hiree plików cookies, zgodnie z UŚUDE oraz PT.
 7\. Szczegółowe informacje na temat stosowania plików cookies oraz ich
 charakteru znajdują się w zakładce: „Polityka plików cookies”.
 
-**§ 14**
+**§ 12**
 
 **<u>PRZETWARZANIE DANYCH OSOBOWYCH</u>**
 
@@ -851,7 +851,7 @@ przetwarzanie danych przez Pracodawcę.
 8\. Szczegółowe informacje na temat przetwarzania danych znajdują się w
 Polityce prywatności.
 
-**§ 15**
+**§ 13**
 
 **<u>NARZĘDZIA I ODNOŚNIKI DO SERWISU ORAZ INNYCH STRON</u>**
 
@@ -893,7 +893,7 @@ spowodowane Hiree w związku z bezprawnym umieszczeniem odnośnika do
 Serwisu, jak również wynikające ze szkód wyrządzonych poprzez
 umieszczenie odnośnika na innej stronie internetowej.
 
-**§ 16**
+**§ 14**
 
 **<u>POSTĘPOWANIE REKLAMACYJNE</u>**
 
@@ -922,7 +922,7 @@ zakresie korzystania z danej Usługi.
 7\. Odpowiedź na reklamację zostanie przekazana za pośrednictwem Konta
 Pracodawcy lub na wskazany przez Użytkownika adres e-mail.
 
-**§ 17**
+**§ 15**
 
 **<u>ZASADY ZACHOWANIA POUFNOŚCI</u>**
 
@@ -947,7 +947,7 @@ handlowe przekazane z zastrzeżeniem poufności w jakiejkolwiek formie.
 4.  ujawnienie lub wykorzystanie informacji jest konieczne do
     prawidłowego wykonania świadczonej Usługi.
 
-**§ 18**
+**§ 16**
 
 **<u>ROZWIĄZANIE UMOWY I ZAKAZ CESJI</u>**
 
@@ -976,7 +976,7 @@ występuje.
 4\. Hiree ma prawo do rozwiązania Umowy na świadczenie Usługi na
 warunkach i z przyczyn wskazanych szczegółowo w niniejszym Regulaminie.
 
-**§ 19**
+**§ 17**
 
 **<u>ZMIANA REGULAMINU</u>**
 
@@ -1013,7 +1013,7 @@ Regulaminu przez Pracodawcę.
 7\. Aktualny Regulamin jest zawsze opublikowany na Stronie internetowej
 Serwisu.
 
-**§ 20**
+**§ 18**
 
 **<u>POSTANOWIENIA KOŃCOWE</u>**
 
