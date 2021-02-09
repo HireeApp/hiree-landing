@@ -319,7 +319,7 @@ rekrutacyjnych i nagrody.
 
 17. Hiree po upływie określonego czasu od zaakceptowania Profilu Kandydata przez Pracodawcę oraz przeprowadzenia procesu rekrutacyjnego, poprosi Kandydata o udzielenie informacji na temat ewentualnego zatrudnienia Kandydata. W przypadku braku zatrudnienia Kandydat zostanie poproszony o wskazanie przyczyny negatywnego efektu procesu rekrutacyjnego.
 
-18. W przypadku pozytywnego wyniku rekrutacji i zatrudnienia Kandydata u dopasowanego Pracodawcy, Hiree po upływie okresu 3 miesięcy od zatrudnienia wypłaci Kandydatowi nagrodę w wysokości 120 złotych brutto pomniejszonych o stosowny podatek.
+18. W przypadku pozytywnego wyniku rekrutacji i zatrudnienia Kandydata u dopasowanego Pracodawcy, Hiree po upływie okresu 3 miesięcy od zatrudnienia wypłaci Kandydatowi nagrodę w wysokości 100 złotych netto. Hiree odprowadzi stosowny podatek od wypłaconego bonusu.
 
 19. Umowa tworzenia Profilu Kandydata, prezentacji rekrutacyjnych i nagrody trwa do czasu zamknięcia lub usunięcia Profilu Kandydata bezpośrednio przez Kandydata lub poprzez przesłanie do Hiree stosownego żądania w tym zakresie lub też rozwiązania Umowy przez Hiree w przypadkach przewidzianych w niniejszym Regulaminie.
 
