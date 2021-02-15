@@ -27,7 +27,7 @@ section {
   overflow: hidden;
   max-height: 1200px;
 
-  *:not(.custom-width):not(.circle):not(.usp__outer) {
+  *:not(.custom-width):not(.circle):not(.usp__outer):not(.splash-bg) {
     max-width: 1210px;
   }
 
@@ -338,18 +338,11 @@ section {
   }
 
   @include mobile() {
-    width: 200%;
-    top: -25vh;
-    right: -52%;
+    width: 300%;
+    top: -50vh;
+    right: -105%;
     height: 100%;
-    transform: rotate(-80deg);
-    max-width: 1210px;
-  }
-
-  @include mobile-sm() {
-    width: 250%;
-    right: -80%;
-    max-width: 1210px;
+    transform: rotate(-78deg);
   }
 }
 
