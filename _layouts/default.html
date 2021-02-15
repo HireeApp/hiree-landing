@@ -240,26 +240,10 @@
 
 <script src="{{ site.baseurl }}/assets/js/usp.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
-<script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
 <script>
   {% for usp in page.usp.items %}
   previews.push('{{ usp.icon }}')
   {% endfor %}
-</script>
-
-<script>
-  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
-  window.REQUIRED_ERROR_MESSAGE = "To pole nie może pozostać puste. ";
-  window.GENERIC_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
-  window.translation = {
-    common: {
-      selectedList: '{quantity} list selected',
-      selectedLists: '{quantity} lists selected'
-    }
-  };
-</script>
-<script src="https://sibforms.com/forms/end-form/build/main.js">
 </script>
 
 <!-- Google Tag Manager (noscript) -->
