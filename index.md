@@ -5,7 +5,7 @@ form: true
 download_text: Pobierz za darmo
 header:
   title: To praca znajduje Ciebie.
-  subtitle: A do tego masz od nas bonus finansowy po zatrudnieniu. Brzmi dobrze? Ściągnij naszą aplikację, żeby samemu się przekonać jak prosta może być rekrutacja!
+  subtitle: A do tego masz od nas bonus finansowy po zatrudnieniu. Brzmi dobrze? Ściągnij aplikację i przekonaj się jak prosta może być rekrutacja!
   link:
     anchor: https://hiree.app/b2b
     text: dla pracodawców
