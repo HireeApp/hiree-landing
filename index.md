@@ -75,8 +75,7 @@ main_content:
 features:
   title: "<em>hiree</em> jest dla Ciebie, jeśli"
   cards:
-  - desc: pracujesz w IT lub korporacji i chcesz zarabiać tyle, ile Twoi znajomi z
-      branży
+  - desc: aktywnie szukasz pracy albo nigdzie się nie spieszysz i chcesz być na bieżąco
     icon: cash
   - desc: masz dość tworzenia wymyślnych CV i ciągłego dostosowania ich do ofert
     icon: cv
