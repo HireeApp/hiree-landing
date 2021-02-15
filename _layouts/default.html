@@ -74,7 +74,7 @@
 
 {% for section in page.main_content %}
 {% if section.show %}
-<section class="relative content-section">
+<section class="relative content-section {% if forloop.index0 == 1 %} bg-gray-lightest {% endif %}">
   {% if section.loup_graphic %}
   <span class="icon icon__loup-bg absolute mobile-hide" style="bottom: 0; right: -5%;"></span>
   <span class="icon icon__loup-bg absolute hide mobile-block" style="bottom: -8%; right: -20%;"></span>
