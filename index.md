@@ -101,8 +101,7 @@ about:
   - text: Co gorsza, zbyt wiele miejsc z ogłoszeniami o pracę i tak prosi o<strong>
       wypełnianie dokładnie tych samych danych w formularzach online. Dalej nie wiadomo
       w jakim momencie utknęło CV</strong>, nie ma informacji o wynagrodzeniu, a Ty
-      jesteś pozostawiony sam sobie.<br><strong>Brzmi znajomo? Już niedługo się to
-      zmieni!</strong>
+      jesteś pozostawiony sam sobie.<br><strong>Brzmi znajomo?</strong>
   - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
   show: true
 
