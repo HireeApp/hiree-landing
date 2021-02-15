@@ -5,8 +5,10 @@ form: true
 download_text: Pobierz za darmo
 header:
   title: To praca znajduje Ciebie.
-  subtitle: A do tego masz od nas bonus finansowy po zatrudnieniu. Brzmi dobrze? Zapisz
-    się do naszej listy, a my damy Ci znać o starcie aplikacji.
+  subtitle: A do tego masz od nas bonus finansowy po zatrudnieniu. Brzmi dobrze? Ściągnij naszą aplikację, żeby samemu się przekonać jak prosta może być rekrutacja!
+  link:
+    anchor: https://hiree.app/b2b
+    text: dla pracodawców
 usp:
   title: Znowu tracisz czas na przeszukiwanie ofert pracy, <br>które nie zbliżają
     Cię do pracy marzeń? <br><strong><em>hiree</em> zrobi to za Ciebie.</strong>
@@ -104,4 +106,10 @@ about:
       zmieni!</strong>
   - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
   show: true
+
+team:
+    show: true
+    label: Klika słów o nas
+    headline: Jesteśmy hiree - zespół zgranych osobowości, które zmieniają skostniałe podejście do rekrutacji
+    subline: Każde z nas zbierało i wciąż zbiera doświadczenia zarówno w korporacjach, jak i startupach, wśród polskich i zagranicznych klientów, w projektach dla lokalnych i globalnych marek. Zdążyliśmy się nauczyć, że narzekaniem nie pchniemy nic do przodu. Wiemy, że same marzenia nie wystarczą. Dzięki temu idealnie łączymy wizję z działaniem. Dorzucamy do tego nowe technologie, zorientowanie na użytkownika i… robimy rewolucję!
 ---
