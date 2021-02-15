@@ -5,41 +5,44 @@
 
 <body>
 
-<section class="bg-half-primary flex-column relative">
-  <span class="circle absolute mobile-hide" style="top: -500px; right: -500px;"></span>
-  <span class="circle absolute hide mobile-block" style="bottom: -100px; right: -150px;"></span>
-  <header class="col-12 mobile-flex justify-center mt7 mb-auto mobile-mb5 mobile-mt0">
-    <span class="icon icon__logo-white"></span>
-  </header>
-  <div class="flex items-center mobile-flex-column mnt7 mb-auto mobile-mb0 mobile-mt0">
-    <div class="col-7 animate fade-right flex flex-column justify-center mobile-col-12">
-      <h1 class="white mobile-center">{{ page.header.title }}</h1>
+<section>
+  <div class="flex flex-column col-12">
+    <header class="flex space-between relative mobile-items-center z-index-2 mb7">
+      <span class="icon icon__logo mobile-hide"></span>
+      <span class="icon icon__logo-white hide mobile-block"></span>
+      <a class="p3n underline white fw-medium" href="{{ page.header.link.anchor }}">{{ page.header.link.text }}</a>
+    </header>
 
-      <div class="col-12 animate fade-left hide mobile-block my5">
-        <img class="img-fit" src="{{ site.baseurl }}/assets/svg/header-side.png" alt="">
+    <div class="flex mobile-flex-column">
+      <div class="col-6 mobile-col-12 mt7 mobile-mt0">
+        <h1 class="animate fade-right h1n mobile-white">{{ page.header.title }}</h1>
+        <p class="col-10 animate fade-right p1n purple mt2 mobile-dark">{{ page.header.subtitle }}</p>
+        <div class="flex flex-column">
+
+          <div class="hide mobile-block col-6 mobile-col-12 mt4">
+            <img class="animate fade-down img-fit" src="{{ site.baseurl }}/assets/svg/header-side.png" alt="">
+          </div>
+
+          {% include components/storesButtons.html %}
+        </div>
       </div>
 
-      <p class="font-p1 mt2 mobile-center gray-dark">{{ page.header.subtitle }}</p>
+      <div class="mobile-hide col-6 mobile-col-12">
+        <img class="animate fade-down img-fit" src="{{ site.baseurl }}/assets/svg/header-side.png" alt="">
+      </div>
 
-      {% if page.form %}
-        <div class="mt6">
-          {% include components/form.html %}
-        </div>
-      {% endif %}
-    </div>
-
-    <div class="col-6 ml2 animate fade-left mobile-hide">
-      <img class="img-fit" src="{{ site.baseurl }}/assets/svg/header-side.png" alt="">
+      <img class="custom-width splash-bg" src="{{ site.baseurl }}/assets/svg/b2b/splash.svg" alt="">
     </div>
   </div>
 </section>
+
 
 <div class="scroll-button">
   <span class="scroll-button__down gray-40 flex items-center"><span class="icon icon__arrow-down mr3"></span></span>
 </div>
 
 {% if page.usp.show %}
-<section class="section--lg">
+<section class="section--lg bg-gray-lightest">
   <div class="flex col-12 flex-column">
     <p class="font-p1 secondary animate fade-right">{{ page.usp.title }}</p>
     <div class="flex col-12 relative">
@@ -108,7 +111,7 @@
 {% if page.features.show %}
 <div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width">
   <div class="mt4 custom-width flex flex-column items-center">
-    <h2 class="white mb4 custom-width-col-12 mobile-center">{{ page.features.title }}</h2>
+    <h2 class="white mb4 ml5 col-12 mobile-center">{{ page.features.title }}</h2>
     <div class="flex mb5 mx3 custom-width features">
       {% for card in page.features.cards %}
       <div class="radius bg-white flex flex-column items-center col-5 p6 mx2 box-shadow-small features__container animate fade-down mobile-col-8">
@@ -122,12 +125,31 @@
 {% endif %}
 
 {% if page.team.show %}
-<!--  <div class="flex mobile-flex-column">-->
-<!--    <div class="col-6 mobile-col-6">-->
-<!--      <h2>{{ page.team.header }}</h2>-->
-<!--      <p></p>-->
-<!--    </div>-->
-<!--  </div>-->
+<section>
+  <div class="flex mobile-flex-column-reverse team">
+    <div class="col-5 mobile-col-12 relative flex animate fade-up flex-column mobile-mt4">
+      <div class="col-12 mobile-col-9 overlay-primary team__top-image">
+        <img class="img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/team-lg.jpg" alt="Team photo">
+      </div>
+      <div class="col-12 mobile-col-9 overlay-primary self-start">
+        <img class="img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/team-sm.jpg" alt="Team photo">
+      </div>
+    </div>
+
+
+    <div class="col-7 animate fade-right mobile-col-12 flex flex-column pl3 mobile-pl0">
+      <p class="col-12 font-p4 secondary-light mt7">
+        {{ page.team.label }}
+      </p>
+      <h2 class="col-12 primary fw-semi mt2">
+        {{ page.team.headline }}
+      </h2>
+      <p class="col-7 mobile-col-12 self-end font-p3 mt4 mobile-mt2">
+        {{ page.team.subline }}
+      </p>
+    </div>
+  </div>
+</section>
 {% endif %}
 
 {% if page.about.show %}
@@ -148,9 +170,10 @@
         </div>
 
         {% for paragraph in page.about.paragraphs %}
-        <p class="font-p3 white mt3">{{ paragraph.text }}</p>
+          <p class="font-p3 white mt3">{{ paragraph.text }}</p>
         {% endfor %}
-        <button onclick="scrollToForm()" class="btn btn--gray-dark self-start mobile-self-center mt5">Zapisz się!</button>
+
+        {% include components/storesButtons.html %}
       </div>
     </div>
   </div>
