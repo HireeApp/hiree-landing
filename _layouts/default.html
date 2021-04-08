@@ -138,13 +138,13 @@
 
 
     <div class="col-7 animate fade-right mobile-col-12 flex flex-column pl3 mobile-pl0">
-      <p class="col-12 font-p4 secondary-light mt7">
+      <p class="col-12 font-p4 secondary-light mt3">
         {{ page.team.label }}
       </p>
       <h2 class="col-12 primary fw-semi mt2">
         {{ page.team.headline }}
       </h2>
-      <p class="col-7 mobile-col-12 self-end font-p3 mt4 mobile-mt2">
+      <p class="col-7 mobile-col-12 gray-dark self-end font-p3 mt5 mobile-mt2">
         {{ page.team.subline }}
       </p>
     </div>
@@ -203,46 +203,11 @@
 </section>
 {% endif %}
 
-
-{% if page.business_footer.show %}
-<section id="about" class="bg-primary-light relative flex-column">
-  <div class="flex">
-    <span class="circle absolute mobile-hide" style="bottom: -500px; left: -200px;"></span>
-    <span class="circle absolute hide mobile-block" style="top: 10%; left: -30%;"></span>
-
-    <div class="flex mobile-flex-column">
-      <div class="col-4 animate fade-right mobile-hide">
-        <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
-      </div>
-      <div class="col-7 pl5 fw-medium flex flex-column justify-center mobile-col-12 mobile-pl0 mobile-items-center">
-        <h1 class="animate fade-up mb5 gray-dark mobile-center">{{ page.business_footer.title }}</h1>
-
-        <div class="col-8 animate fade-right hide mobile-block mb2">
-          <img class="img-fit" src="{{ site.baseurl }}/assets/svg/app-preview.png" alt="">
-        </div>
-
-        {% for paragraph in page.business_footer.paragraphs %}
-        <p class="font-p3 white mt3">{{ paragraph.text }}</p>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  <footer class="mt8 custom-width col-12 mobile-mt7 flex space-between mobile-flex-column-reverse mobile-p3">
-    <p class="font-p4 mobile-mt2">© hiree sp. z o.o. sp. k. - ul. Będzińska 5/8, 31-403
-      Kraków<br>KRS: 0000844894, NIP: 6762581458, REGON: 386247313</p>
-    <div class="flex mobile-flex-column mobile-mt2">
-      <a href="{{ site.baseurl }}/cookies/" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">Polityka Cookies</a>
-      <a href="{{ site.baseurl }}/polityka-prywatnosci/" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">Polityka Prywatności</a>
-    </div>
-  </footer>
-</section>
-{% endif %}
-
 <script src="{{ site.baseurl }}/assets/js/usp.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
 <script>
   {% for usp in page.usp.items %}
-  previews.push('{{ usp.icon }}')
+    previews.push('{{ usp.icon }}')
   {% endfor %}
 </script>
 
