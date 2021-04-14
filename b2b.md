@@ -28,7 +28,7 @@ info:
         paragraph: Po założeniu oferty niemal natychmiast otrzymasz pierwsze dopasowania kandydatów. Ci, których wskaże hiree będą już po pierwszej selekcji i tylko od Ciebie zależy, jak będzie wyglądała dalsza część procesu. Jeśli chcesz, możesz od razu zaprosić ich do współpracy. Jeśli zostali połączeni z ofertą, to znaczy, że wstępnie są na nią gotowi.
         img: assets/svg/b2b/illu-5.svg
     -   title: Płatność za zatrudnienie
-        paragraph: Jako jedyni płacimy zatrudnionymi przez nasz system pracownikom! Wystarczy, że zostaną u Ciebie po okresie próbnym. Tym samym zyskujesz dodatkowo ich większą motywację, a jednocześnie nie ciążą na Tobie w związku z tym żadne niedogodności - tylko korzyści wizerunkowe.
+        paragraph: Jako jedyni płacimy zatrudnionym przez nasz system pracownikom! Wystarczy, że zostaną u Ciebie po okresie próbnym. Tym samym zyskujesz dodatkowo ich większą motywację, a jednocześnie nie ciążą na Tobie w związku z tym żadne niedogodności - tylko korzyści wizerunkowe.
         img: assets/svg/b2b/illu-1.svg
 stats:
     header: Kluczowe informacje w ogłoszeniach
