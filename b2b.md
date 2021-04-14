@@ -15,7 +15,7 @@ header:
         button: wyślij
         sublabel: Albo <a href="mailto:karol.hylinski@hiree.app"><strong><em>napisz do nas</em></strong></a>
 info:
-    header: Co zyskujesz, korzystając z hiree?
+    header: Co zyskujesz korzystając z hiree?
     usp_1:
     -   title: Darmowe ogłoszenia i nielimitowany dostęp do kandydatów
         paragraph: Założenie konta, publikacja ogłoszeń i przeglądanie kandydatów są w hiree w pełni darmowe. Nie zapłacisz też za pierwszą rekrutację zakończoną sukcesem dzięki hiree. Kolejne udane rekrutacje rozliczymy w modelu success fee - zapłacisz tylko za zatrudnionych pracowników.
