@@ -7,7 +7,7 @@ header:
     link:
         anchor: https://hiree.app
         text: dla pracowników
-    title: Dotrzyj do kandydatów gotowych na rozmowę
+    title: Pracownicy na miarę Twoich wymagań
     subtitle: Korzystając z hiree natychmiast otrzymasz <br/>darmowy dostęp do kandydatów spełniających wymagania Twoich ofert pracy. Możesz od razu zaprosić ich na rozmowę.
     form:
         label: Zostaw nam maila, odezwiemy się!
