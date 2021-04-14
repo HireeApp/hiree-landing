@@ -7,39 +7,32 @@ header:
     link:
         anchor: https://hiree.app
         text: dla pracowników
-    title: Pracownicy na miarę Twoich wymagań
-    subtitle: Poznaj hiree - spójny ekosystem, który ułatwi i przyspieszy Twoje procesy rekrutacyjne oraz podniesie jakość otrzymywanych zgłoszeń.
+    title: Dotrzyj do kandydatów gotowych na rozmowę
+    subtitle: Korzystając z hiree natychmiast otrzymasz <br/>darmowy dostęp do kandydatów spełniających wymagania Twoich ofert pracy. Możesz od razu zaprosić ich na rozmowę.
     form:
         label: Zostaw nam maila, odezwiemy się!
         placeholder: Podaj swój adres email
         button: wyślij
         sublabel: Albo <a href="mailto:karol.hylinski@hiree.app"><strong><em>napisz do nas</em></strong></a>
 info:
-    header: Na pewno znasz wiele narzędzi do rekrutacji. <br/> Czym my się wyróżniamy?
+    header: Co zyskujesz, korzystając z hiree?
     usp_1:
-    -   title: Płatność  za zatrudnienie
-        paragraph: Jako jedyni płacimy zatrudnionym przez nasz system pracownikom! Wystarczy, że zostaną u Ciebie po okresie próbnym. Tym samym zyskujesz dodatkowo ich większą motywację, a jednocześnie nie ciążą na Tobie w związku z tym żadne niedogodności - tylko korzyści wizerunkowe.
-        img: assets/svg/b2b/illu-1.svg
-    -   title: Oszczędność pieniędzy
-        paragraph: Działamy w modelu <strong><em>success fee</em></strong>, więc płacisz tylko za zatrudnionych pracowników. Oprócz pierwszego, bo tego zatrudniasz za darmo! · Nie płacisz za korzystanie z narzędzi · Nie płacisz za tworzenie ofert · Nie płacisz za przeglądanie zgłoszeń Dzięki temu, że korzystamy ze Sztucznej Inteligencji, oszczędzasz pieniądze i zmniejszasz koszty operacyjne - do przeglądania dostajesz bowiem tylko te osoby, które mają wymagane przez Ciebie umiejętności.
+    -   title: Darmowe ogłoszenia i nielimitowany dostęp do kandydatów
+        paragraph: Założenie konta, publikacja ogłoszeń i przeglądanie kandydatów są w hiree w pełni darmowe. Nie zapłacisz też za pierwszą rekrutację zakończoną sukcesem dzięki hiree. Kolejne udane rekrutacje rozliczymy w modelu success fee - zapłacisz tylko za zatrudnionych pracowników.
         img: assets/svg/b2b/illu-2.svg
-    usp_2:
-    -   title: Oszczędność czasu
-        paragraph: Sztuczna Inteligencja opracowana przez hiree przefiltruje za Ciebie zgłoszenia i pokaże Ci tylko te osoby, które spełniają Twoje wymagania. To ogromna oszczędność czasu dla Twojego zespołu, który będzie mógł się skupić na dalszych etapach wyboru przyszłego pracownika.
+    -   title: Oszczędność czasu dzięki dopasowaniu kandydatów
+        paragraph: Kandydaci, których dostarczy Ci hiree, są zawsze dopasowani do wymagań postawionych w ofercie. Nie zobaczysz więc aplikacji niedoświadczonych kandydatów na stanowiska specjalistyczne, chyba że zmienisz wymagania w ofercie. Do tego nie walczysz ze zbyt długimi CV - po obu stronach zbieramy tylko niezbędne informacje. A do tego Twoje widełki finansowe zna tylko AI, która dopasuje pod nie kandydatów.
         img: assets/svg/b2b/illu-3.svg
-    -   title: Employer Branding
-        paragraph: Nie daj się zwieść stereotypom czy podświadomym ocenianiem po wyglądzie czy płci. Nasz algorytm obiektywnie porówna umiejętności i doświadczenie, abyś następnie mógł osobiście poznać / zweryfikować najlepiej pasujących kandydatów. Dzięki temu budujesz pozytywną opinię o swojej firmie.
-        img: assets/svg/b2b/illu-4.svg
-    usp_3:
-    -   title: Najlepsi Kandydaci
-        paragraph: Kandydatom, których zobaczysz w systemie, przypiszemy <strong><em>fitness score</em></strong>. To wskaźnik, dzięki któremu od razu zobaczysz najbardziej dopasowane do Twojego ogłoszenia osoby. Obiektywnie uporządkujemy dla Ciebie kandydatów według ich umiejętności i doświadczenia, bez ingerencji człowieka.
+    usp_2:
+    -   title: Kandydaci gotowi na rozmowę
+        paragraph: Po założeniu oferty niemal natychmiast otrzymasz pierwsze dopasowania kandydatów. Ci, których wskaże hiree będą już po pierwszej selekcji i tylko od Ciebie zależy, jak będzie wyglądała dalsza część procesu. Jeśli chcesz, możesz od razu zaprosić ich do współpracy. Jeśli zostali połączeni z ofertą, to znaczy, że wstępnie są na nią gotowi.
         img: assets/svg/b2b/illu-5.svg
-    -   title: Szybki Feedback
-        paragraph: '<strong><em>77%</em></strong> kandydatów oczekuje informacji o tym, dlaczego zostali odrzuceni, a <strong><em>81%</em></strong>, mimo chęci, nie miało możliwości skomentowania procesu. U nas po każdej rekrutacji wymieniasz się z kandydatem feedbackiem. Zrobisz to szybko, od razu po podjęciu decyzji. Kandydat nie widzi Twojego feedbacku, dopóki sam nie oceni procesu rekrutacyjnego. Zyskujesz zatem podwójnie: dostajesz plus za feedback dla kandydata i informację na temat procesu rekrutacyjnego.'
-        img: assets/svg/b2b/illu-6.svg
+    -   title: Płatność za zatrudnienie
+        paragraph: Jako jedyni płacimy zatrudnionymi przez nasz system pracownikom! Wystarczy, że zostaną u Ciebie po okresie próbnym. Tym samym zyskujesz dodatkowo ich większą motywację, a jednocześnie nie ciążą na Tobie w związku z tym żadne niedogodności - tylko korzyści wizerunkowe.
+        img: assets/svg/b2b/illu-1.svg
 stats:
-    header: Konkrety w ogłoszeniach
-    paragraph: Oferty uwzględniają tylko istotne informacje, nie marnują czasu żadnej ze stron. Skupiasz się tylko na tym, czego naprawdę szukasz w pracowniku. A do tego Twoje widełki finansowe nie zawisną na słupie ogłoszeniowym - będzie je znać tylko AI, która dopasuje pod nie kandydata.
+    header: Kluczowe informacje w ogłoszeniach
+    paragraph: Oferty uwzględniają tylko istotne informacje, nie marnując czasu żadnej ze stron. Skupiasz się tylko na tym, czego naprawdę szukasz w pracowniku.
     lines:
     -   value: '74%'
         text:  kandydatów lekceważy ogłoszenie, gdy nie widzi informacji o zarobkach.
