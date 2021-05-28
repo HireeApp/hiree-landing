@@ -10,9 +10,8 @@ header:
     title: Pracownicy na miarę Twoich wymagań
     subtitle: Korzystając z hiree natychmiast otrzymasz <br/>darmowy dostęp do kandydatów spełniających wymagania Twoich ofert pracy. Możesz od razu zaprosić ich na rozmowę.
     form:
-        label: Zostaw nam maila, odezwiemy się!
-        placeholder: Podaj swój adres email
-        button: wyślij
+        label: Zostaw maila lub zadzwoń!
+        button: Skontaktuj się z nami
         sublabel: Albo <a href="mailto:karol.hylinski@hiree.app"><strong><em>napisz do nas</em></strong></a>
 info:
     header: Co zyskujesz korzystając z hiree?

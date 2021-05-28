@@ -58,23 +58,8 @@
                         <img class="animate fade-down img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/b2b/app.png" alt="">
                     </div>
 
-                    <label class="label mt3 mobile-ml3" for="EMAIL">{{ page.header.form.label }}</label>
-
-<!--                    <form id="sib-form" method="POST" action="https://52d5b74d.sibforms.com/serve/MUIEAI8xILurH22naDBH8blmGJaOErYyPAmduPkotb65vNS56vezUqOETz7fojOYLC40vZ0qbiqe7xFfNqfqfd2P8HJv9qS5qEzobfAepnkyx1fuFKRy9BThoDt-YALkQrQyEWV777tatAIENWuXrLBr4dEisXe4piTMqD7g9YPdsgHNWW2Ly_JAt9ZLwxfXVqRHKk8J2fPbtOro" data-type="subscription">-->
-<!--                        <div class="input-with-btn input-with-btn&#45;&#45;negative-left self-start mt2 mobile-col-12">-->
-<!--                            <input required data-required="true" id="EMAIL" name="EMAIL" placeholder="{{ page.header.form.placeholder }}" type="text">-->
-<!--                            <button form="sib-form" type="submit" class="input-with-btn__button">{{ page.header.form.button }}<svg class="hide"></svg></button>-->
-<!--                        </div>-->
-
-<!--                        <label class="checkbox" for="OPT_IN">-->
-<!--                            <input type="checkbox" value="1" id="OPT_IN" name="OPT_IN" required />-->
-<!--                            <span></span>-->
-<!--                            Akceptuję <a href="https://hiree.app/polityka-prywatnosci" target="_self">politykę prywatności</a><label class="primary" data-required="*">*</label>-->
-<!--                        </label>-->
-<!--                    </form>-->
-
-                    {% include components/b2b-form.html %}
-
+                    <label class="label mt3 mobile-ml3">{{ page.header.form.label }}</label>
+                    <a href="#cp-widget" class="self-start mt2 btn btn--primary">{{ page.header.form.button }}</a>
                     <label class="label mb6 mt2 mobile-ml3">{{ page.header.form.sublabel }}</label>
                 </div>
             </div>
@@ -190,25 +175,11 @@
     </div>
 </section>
 
+<script src="{{ site.baseurl }}/assets/js/callpage.js"></script>
+<script src="{{ site.baseurl }}/assets/js/callpageCallbacks.js"></script>
 <script src="{{ site.baseurl }}/assets/js/b2bSwitch.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
 <script src="{{ site.baseurl }}/assets/js/smoothscroll.min.js" async defer></script>
-
-<script>
-    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
-    window.REQUIRED_ERROR_MESSAGE = "To pole nie może pozostać puste. ";
-    window.GENERIC_INVALID_MESSAGE = "Podane informacje są nieprawidłowe. Sprawdź format pola i spróbuj ponownie.";
-    window.translation = {
-        common: {
-            selectedList: '{quantity} list selected',
-            selectedLists: '{quantity} lists selected'
-        }
-    };
-    let AUTOHIDE = Boolean(0);
-</script>
-<script src="https://sibforms.com/forms/end-form/build/main.js"></script>
-<script>(function () {var script = document.createElement('script');script.src = 'https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js';script.async = false;document.head.appendChild(script);}())</script><script>var __cp = {"id":"XtW6lFHWqp1KmFsLKANksJDuiHF6r50HkfFzLjEY25s","version":"1.1"};(function (window, document) {var cp = document.createElement('script');cp.type = 'text/javascript';cp.async = false;cp.src = "++cdn-widget.callpage.io+build+js+callpage.js".replace(/[+]/g, '/').replace(/[=]/g, '.');var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(cp, s);if (window.callpage) {alert('You could have only 1 CallPage code on your website!');} else {window.callpage = function (method) {if (method == '__getQueue') {return this.methods;}else if (method) {if (typeof window.callpage.execute === 'function') {return window.callpage.execute.apply(this, arguments);}else {(this.methods = this.methods || []).push({arguments: arguments});}}};window.callpage.__cp = __cp;window.callpage('api.button.autoshow');}})(window, document);</script>
 
 </body>
 </html>
