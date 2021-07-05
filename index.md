@@ -35,7 +35,7 @@ usp:
     id: usp-3
   - button: Eliminujesz rekrutacyjny bełkot
     desc: Z <strong>hiree</strong> omija Cię długotrwałe skanowanie ofert - rekruter
-      weryfikuje Twoje skille, a nie estetykę CV.
+      weryfikuje Twoje umiejętności, a nie estetykę CV.
     icon: recrutation.png
     id: usp-5
   show: true
