@@ -111,7 +111,7 @@
 {% if page.features.show %}
 <div class="flex flex-column items-center justify-center bg-gray-dark custom-width full-width">
   <div class="mt4 custom-width flex flex-column items-center">
-    <h2 class="white mb4 ml5 col-12 mobile-center">{{ page.features.title }}</h2>
+    <h2 class="white mb4 ml5 mobile-ml0 col-12 mobile-center">{{ page.features.title }}</h2>
     <div class="flex mb5 mx3 custom-width features">
       {% for card in page.features.cards %}
       <div class="radius bg-white flex flex-column items-center col-5 p6 mx2 box-shadow-small features__container animate fade-down mobile-col-8">
@@ -126,27 +126,38 @@
 
 {% if page.team.show %}
 <section>
-  <div class="flex mobile-flex-column-reverse team">
-    <div class="col-5 mobile-col-12 relative flex animate fade-up flex-column mobile-mt4">
-      <div class="col-12 mobile-col-9 overlay-primary team__top-image">
-        <img class="img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/team-lg.jpg" alt="Team photo">
-      </div>
-      <div class="col-12 mobile-col-9 overlay-primary self-start">
-        <img class="img-fit box-shadow-stronger" src="{{ site.baseurl }}/assets/img/team-sm.jpg" alt="Team photo">
-      </div>
-    </div>
-
-
-    <div class="col-7 animate fade-right mobile-col-12 flex flex-column pl3 mobile-pl0">
+  <div class="flex flex-column team">
+    <div class="self-end col-8 mobile-col-12 mb4 animate fade-up">
       <p class="col-12 font-p4 secondary-light mt3">
         {{ page.team.label }}
       </p>
+
       <h2 class="col-12 primary fw-semi mt2">
         {{ page.team.headline }}
       </h2>
-      <p class="col-7 mobile-col-12 gray-dark self-end font-p3 mt5 mobile-mt2">
-        {{ page.team.subline }}
-      </p>
+    </div>
+
+    <div class="flex mobile-flex-column">
+      <div class="col-7 overlay-primary overlay-primary--light mobile-col-12 relative flex animate fade-up mr4 mobile-mr0 mobile-mb6 relative">
+        <span class="rectangle rectangle--primary absolute team__rectangle"></span>
+        <img
+            class="img-cover box-shadow-stronger z-index-0"
+            onmouseover="mouseEnter(this)"
+            onmouseleave="mouseLeave(this)"
+            src="{{ site.baseurl }}/assets/img/team-lg.jpg"
+            alt="Team photo"
+            data-defaultsrc="{{ site.baseurl }}/assets/img/team-lg.jpg"
+            data-hoversrc="{{ site.baseurl }}/assets/img/team-lg-hover.jpg"
+        >
+      </div>
+
+      <div class="col-5 mobile-col-12 animate fade-left">
+        {% for subline in page.team.sublines %}
+          <p class="gray-dark font-p3 mt2 pb2 mobile-mt2">
+            {{ subline }}
+          </p>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
@@ -204,6 +215,7 @@
 {% endif %}
 
 <script src="{{ site.baseurl }}/assets/js/usp.js"></script>
+<script src="{{ site.baseurl }}/assets/js/imgHover.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scrollingAnimations.js"></script>
 <script>
   {% for usp in page.usp.items %}

@@ -104,4 +104,13 @@
   width: 424px;
   height: 424px;
   background-color: rgba($tertiary, 0.15);
+
+  @include mobile() {
+    width: 200px;
+    height: 200px;
+  }
+
+  &--primary {
+    background-color: rgba($primary, 0.15);
+  }
 }

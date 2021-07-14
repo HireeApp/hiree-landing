@@ -55,7 +55,14 @@
     height: 100%;
     left: 0;
     top: 0;
+    pointer-events: none;
     background-color: rgba($primary, 0.05);
+  }
+
+  &--light {
+    &:after {
+      background-color: rgba($primary, 0.025);
+    }
   }
 }
 
