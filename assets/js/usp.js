@@ -41,6 +41,7 @@ window.onload = () => {
     originalHeights = accordions.map(accordion => ({ id: accordion.id, accordionHeight: accordion.offsetHeight }));
     accordions.forEach((accordion, index) => {
       if (index) accordion.style.height = '0';
+      else accordion.style.height = `${accordion.offsetHeight}px`
     });
   }
 }
@@ -48,6 +49,7 @@ window.onload = () => {
 const toggleAccordion = (id) => {
   const accordion = document.getElementById(id);
   const accordionData = originalHeights.find(el => el.id === id);
+
   accordions.forEach(el => {
     if (el.id !== id && el.offsetHeight) {
       el.style.height = '0';
