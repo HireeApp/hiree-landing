@@ -51,4 +51,7 @@ summary:
 footer:
     title: Masz pytania? Chcesz dołączyć do rekrutacyjnej rewolucji?
     subtitle: Omówmy, jak możemy pomóc Ci w usprawnieniu rekrutacji.
+    cta_1: zostaw maila
+    cta_2: napisz do nas
+    cta_divider: lub
 ---

@@ -7,7 +7,7 @@ header:
   title: The job finds YOU.
   subtitle: And once you’re hired you receive a bonus from us. Sounds good? Download the app and see how easy recruitment can be!
   link:
-    anchor: https://hiree.app/b2b
+    anchor: https://hiree.app/en/b2b
     text: for employers
 usp:
   title: Are you wasting your time again looking through job ads, <br>that don't get you any closer to your dream job? <br><strong><em>hiree</em> will do it for you.</strong>
@@ -66,7 +66,7 @@ main_content:
   loup_graphic: true
   skills_graphic: true
 features:
-  title: "<em>hiree</em> if for you if"
+  title: "<em>hiree</em> is for you if"
   cards:
   - desc: you are actively looking for a job or simply want to stay up-to-date with the job market
     icon: cash
