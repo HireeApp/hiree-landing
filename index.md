@@ -104,7 +104,6 @@ about:
       jesteś pozostawiony sam sobie.<br><strong>Brzmi znajomo?</strong>
   - text: "<strong>Sprawdź nowy poziom rekrutacji</strong>"
   show: true
-
 team:
     show: true
     label: Klika słów o nas
@@ -114,4 +113,12 @@ team:
         - Każde z nas zbierało i wciąż zbiera doświadczenia zarówno w korporacjach, jak i startupach, wśród polskich i zagranicznych klientów, w projektach dla lokalnych i globalnych marek.
         - Zdążyliśmy się nauczyć, że narzekaniem nie pchniemy nic do przodu. Wiemy, że same marzenia nie wystarczą.
         - Dzięki temu idealnie łączymy wizję z działaniem. Dorzucamy do tego nowe technologie, zorientowanie na użytkownika i… robimy rewolucję!
+footer:
+  contact:
+    anchor: "mailto:karol.hylinski@hiree.app"
+    text: Kontakt
+  cookies:
+    text: Polityka Cookies
+  privacy:
+    text: Polityka Prywatności
 ---

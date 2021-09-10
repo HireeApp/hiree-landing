@@ -98,4 +98,12 @@ team:
         - Each of us has been gaining experience in both corporate environments and startups, among Polish and foreign clients, in projects for local and global brands.
         - We have learned that complaining doesn’t solve anything. We know that dreams alone are not enough.
         - All of the above allows us to perfectly combine vision with action. We add new technologies and user-centered approach to the mix and… we are starting a revolution!
+footer:
+  contact:
+    anchor: "mailto:karol.hylinski@hiree.app"
+    text: Contact
+  cookies:
+    text: Cookies
+  privacy:
+    text: Privacy Policy
 ---

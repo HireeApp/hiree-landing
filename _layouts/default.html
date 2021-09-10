@@ -36,7 +36,6 @@
   </div>
 </section>
 
-
 <div class="scroll-button">
   <span class="scroll-button__down gray-40 flex items-center"><span class="icon icon__arrow-down mr3"></span></span>
 </div>
@@ -191,9 +190,9 @@
   <footer class="mt8 custom-width col-12 mobile-mt7 flex space-between mobile-flex-column-reverse mobile-p3">
     <p class="font-p4 mobile-mt2">© hiree 2021</p>
     <div class="flex mobile-flex-column mobile-mt2">
-      <a href="mailto:contact@hiree.app" target="_blank" class="font-p4 white">Kontakt</a>
-      <a href="{{ site.baseurl }}/cookies" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">Polityka Cookies</a>
-      <a href="{{ site.baseurl }}/polityka-prywatnosci" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">Polityka Prywatności</a>
+      <a href="{{ page.footer.contact.anchor }}" target="_blank" class="font-p4 white">{{ page.footer.contact.text }}</a>
+      <a href="{{ site.baseurl }}/cookies" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">{{ page.footer.cookies.text }}</a>
+      <a href="{{ site.baseurl }}/polityka-prywatnosci" target="_blank" class="font-p4 white ml3 mobile-ml0 mobile-mt2">{{ page.footer.privacy.text }}</a>
     </div>
   </footer>
 </section>
