@@ -3,6 +3,9 @@ layout: default
 title: hiree - praca znajduje Ciebie
 form: true
 download_text: Pobierz za darmo
+icons:
+  google_play: icon__google-play
+  app_store: icon__app-store
 header:
   title: To praca znajduje Ciebie.
   subtitle: A do tego masz od nas bonus finansowy po zatrudnieniu. Brzmi dobrze? Ściągnij aplikację i przekonaj się jak prosta może być rekrutacja!

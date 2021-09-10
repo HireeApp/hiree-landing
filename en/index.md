@@ -3,6 +3,9 @@ layout: default
 title: hiree - the job finds YOU
 form: true
 download_text: Download for free
+icons:
+  google_play: icon__google-play-en
+  app_store: icon__app-store-en
 header:
   title: The job finds YOU.
   subtitle: And once you’re hired you receive a bonus from us. Sounds good? Download the app and see how easy recruitment can be!
