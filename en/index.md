@@ -2,13 +2,13 @@
 layout: default
 title: hiree - the job finds YOU
 form: true
-download_text: Download for free
+download_text: Get for free
 icons:
   google_play: icon__google-play-en
   app_store: icon__app-store-en
 header:
   title: The job finds YOU.
-  subtitle: And once you’re hired you receive a bonus from us. Sounds good? Download the app and see how easy recruitment can be!
+  subtitle: And once you’re hired you receive a bonus from us. Sounds good? Get the app and see how easy recruitment can be!
   link:
     anchor: https://hiree.app/en/b2b
     text: for employers
@@ -84,7 +84,7 @@ features:
     icon: fruits
   show: true
 about:
-  title: By downloading hiree you support the recruitment revolution
+  title: By using hiree you support the recruitment revolution
   paragraphs:
   - text: When creating hiree, we came to the conclusion that nothing has changed <strong>in recruitment in the past 100 years</strong>. We have entered the digital age, but we are still dealing with advertising columns and newspaper-style job ads – the only difference is it’s online.
   - text: "<strong>The recruitment methods tend to favor quantity over quality</strong> and the job interview experience is rough and unpleasant. Nobody pays you for the time spent in the recruitment process. <strong>You are often judged by the looks of your resume</strong> rather than by your qualifications, skills and experience. <strong>Resumes have become colorful gimmicks</strong> showcasing creativity and ingenuity."
