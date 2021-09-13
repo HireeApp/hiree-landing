@@ -12,6 +12,14 @@ header:
   link:
     anchor: https://hiree.app/b2b
     text: dla pracodawców
+  lang_1:
+    anchor: ""
+    class: ""
+    text: "pl"
+  lang_2:
+    anchor: https://hiree.app/en
+    class: "underline"
+    text: "en"
 usp:
   title: Znowu tracisz czas na przeszukiwanie ofert pracy, <br>które nie zbliżają
     Cię do pracy marzeń? <br><strong><em>hiree</em> zrobi to za Ciebie.</strong>

@@ -7,6 +7,14 @@ header:
     link:
         anchor: https://hiree.app
         text: dla pracowników
+    lang_1:
+      anchor: ""
+      class: ""
+      text: "pl"
+    lang_2:
+      anchor: https://hiree.app/en/b2b
+      class: "underline"
+      text: "en"
     title: Pracownicy na miarę Twoich wymagań
     subtitle: Korzystając z hiree natychmiast otrzymasz <br/>darmowy dostęp do kandydatów spełniających wymagania Twoich ofert pracy. Możesz od razu zaprosić ich na rozmowę.
     form:

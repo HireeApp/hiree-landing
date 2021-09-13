@@ -7,6 +7,14 @@ header:
     link:
         anchor: https://hiree.app/en
         text: for candidates
+    lang_1:
+      anchor: https://hiree.app/b2b
+      class: "underline"
+      text: "pl"
+    lang_2:
+      anchor: ""
+      class: ""
+      text: "en"
     title: Employees who meet your requirements
     subtitle: With hiree you instantly get <br/>free access to candidates who fit your job descriptions. You can invite them to <br/>an interview right away.
     form:
