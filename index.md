@@ -9,6 +9,9 @@ icons:
 header:
   title: To praca znajduje Ciebie.
   subtitle: A do tego masz od nas bonus finansowy po zatrudnieniu. Brzmi dobrze? Ściągnij aplikację i przekonaj się jak prosta może być rekrutacja!
+  blog:
+    anchor: https://blog.hiree.app
+    text: blog
   link:
     anchor: https://hiree.app/b2b
     text: dla pracodawców

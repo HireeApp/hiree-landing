@@ -9,6 +9,12 @@ icons:
 header:
   title: The job finds YOU.
   subtitle: And once you’re hired you receive a bonus from us. Sounds good? Get the app and see how easy recruitment can be!
+  blog:
+    anchor: https://blog.hiree.app
+    text: blog
+  link:
+    anchor: https://hiree.app/en/b2b
+    text: for employers
   lang_1:
     anchor: "https://hiree.app/"
     class: "underline"
@@ -17,10 +23,6 @@ header:
     anchor: ""
     class: ""
     text: "en"
-  link:
-    anchor: https://hiree.app/en/b2b
-    text: for employers
-
 usp:
   title: Are you wasting your time again looking through job ads, <br>that don't get you any closer to your dream job? <br><strong><em>hiree</em> will do it for you.</strong>
   items:

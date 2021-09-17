@@ -4,9 +4,12 @@ title: hiree - the job finds YOU
 description: Czy to w ogóle jest wyświetlane??? To praca znajduje Ciebie - bez CV, bez przeglądania setek ofert. Hiree rozumie Twoje potrzeby i dobiera idealne stanowiska - szybko i z korzyścią dla Twoich zarobków.
 
 header:
+    blog:
+      anchor: https://blog.hiree.app
+      text: blog
     link:
-        anchor: https://hiree.app/en
-        text: for candidates
+      anchor: https://hiree.app/en
+      text: for candidates
     lang_1:
       anchor: https://hiree.app/b2b
       class: "underline"
